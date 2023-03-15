@@ -1,0 +1,573 @@
+#!/usr/local/flair/flair
+# FLUKA Project file
+Version: 2
+Title: one_gird with watertank
+Input: watertank_one_layer_grid.inp
+Submit: *Default
+Tabs: 0.1 0.32 0.56 0.81 1.0
+Page: Plot
+DefMain: True
+LinkPrg: lfluka
+F77bound: True
+F77dline: False
+
+# Run information
+Run: <default>
+	Prev:     0
+	Last:     5
+	Status:   3
+	Pid:      0
+	StartRun: 1678097336
+
+	# USRxxx data file: watertank_one_layer_grid_25.bnn
+	Data: \I_\U.\e
+		Unit: 25
+		Type: b
+		Rule: +,\I\d\d\d_fort\.\U
+		Rule: +,\I\d\d\d_ftn\.\U
+	End
+
+	# USRxxx data file: watertank_one_layer_grid_26.bnn
+	Data: \I_\U.\e
+		Unit: 26
+		Type: b
+		Rule: +,\I\d\d\d_fort\.\U
+		Rule: +,\I\d\d\d_ftn\.\U
+	End
+
+	# USRxxx data file: watertank_one_layer_grid_27.bnn
+	Data: \I_\U.\e
+		Unit: 27
+		Type: b
+		Rule: +,\I\d\d\d_fort\.\U
+		Rule: +,\I\d\d\d_ftn\.\U
+	End
+
+	# USRxxx data file: watertank_one_layer_grid_28.bnn
+	Data: \I_\U.\e
+		Unit: 28
+		Type: b
+		Rule: +,\I\d\d\d_fort\.\U
+		Rule: +,\I\d\d\d_ftn\.\U
+	End
+
+	# USRxxx data file: watertank_one_layer_grid_29.bnn
+	Data: \I_\U.\e
+		Unit: 29
+		Type: b
+		Rule: +,\I\d\d\d_fort\.\U
+		Rule: +,\I\d\d\d_ftn\.\U
+	End
+End
+
+# Geometry Information
+Geometry:
+	Frame.bsplit: 0.5
+	Frame.tsplit: 0.5
+	Frame.vsplit: 0.5
+End
+
+# Geometry plot "GeoViewer Red plot"
+Plot: Red
+	Format: .eps
+	Type:   Geometry
+	basisu: 1 0 0
+	basisv: 0 1 0
+	boundaries: 1
+	cbcolors: 0
+	cblog: False
+	cbpalette: FLUKA
+	cbround: 0
+	cbtics: 0
+	coord: X-Y
+	cpd: 0
+	extends: 100 44.4008
+	grid: 0
+	index: 0
+	labels: 1
+	layer: Media
+	origin: 0 0 0
+	subtype: Material
+	title: GeoViewer Red plot
+	x2log: False
+	x2tics: 0
+	xlog: False
+	y2log: False
+	y2tics: 0
+	ylog: False
+	zlog: False
+	ztics: 0
+End
+
+# Geometry plot "GeoViewer Green plot"
+Plot: Green
+	Format: .eps
+	Type:   Geometry
+	basisu: 0 0 1
+	basisv: 1 0 0
+	boundaries: 1
+	coord: Z-X
+	extends: 69.4444 30.8339
+	labels: 1
+	layer: Media
+	origin: -2.37591 0 1.90128
+	subtype: Material
+	title: GeoViewer Green plot
+End
+
+# Geometry plot "GeoViewer Blue plot"
+Plot: Blue
+	Format: .eps
+	Type:   Geometry
+	basisu: 0 0 1
+	basisv: 0 1 0
+	boundaries: 1
+	coord: Z-Y
+	extends: 6.49055 2.88186
+	labels: 1
+	layer: Media
+	origin: 0 -2.45142 -4.09918
+	subtype: Material
+	title: GeoViewer Blue plot
+End
+
+# Geometry plot "GeoViewer Magenta plot"
+Plot: Magenta
+	Format: .eps
+	Type:   Geometry
+	basisu: 0 0 1
+	basisv: 1 0 0
+	boundaries: 1
+	coord: Z-X
+	extends: 144 57.7132
+	labels: 1
+	layer: Media
+	origin: -23.2066 -18.0618 -12.5208
+	subtype: Material
+	title: GeoViewer Magenta plot
+End
+
+# RESNUCLE plot "RESNUCLE watertank one layer grid 21"
+Plot: watertank_one_layer_grid_21_plot
+	Format: .eps
+	Type:   RESNUCLE
+	datafile: watertank_one_layer_grid_21.rnc
+	title: RESNUCLE watertank one layer grid 21
+End
+
+# RESNUCLE plot "RESNUCLE watertank one layer grid 22"
+Plot: watertank_one_layer_grid_22_plot
+	Format: .eps
+	Type:   RESNUCLE
+	datafile: watertank_one_layer_grid_22.rnc
+	title: RESNUCLE watertank one layer grid 22
+End
+
+# RESNUCLE plot "RESNUCLE watertank one layer grid 23"
+Plot: watertank_one_layer_grid_23_plot
+	Format: .eps
+	Type:   RESNUCLE
+	datafile: watertank_one_layer_grid_23.rnc
+	title: RESNUCLE watertank one layer grid 23
+End
+
+# RESNUCLE plot "RESNUCLE watertank one layer grid 24"
+Plot: watertank_one_layer_grid_24_plot
+	Format: .eps
+	Type:   RESNUCLE
+	datafile: watertank_one_layer_grid_24.rnc
+	title: RESNUCLE watertank one layer grid 24
+End
+
+# USRBIN plot "USRBIN watertank one layer grid 25"
+Plot: watertank_one_layer_grid_25_plot
+	Format: .eps
+	Type:   USRBIN
+	axes: Auto
+	cbcolors: 30
+	cblog: True
+	cbpalette: FLUKA
+	cbround: 0
+	cbtics: 1
+	cpd: 0
+	datafile: watertank_one_layer_grid_25.bnn
+	det: 1
+	errors: 0
+	geo: -Auto-
+	grid: 0
+	hist: 2D Projection
+	index: 0
+	int: 8.9152464354960964E-002
+	lw.0: 0
+	max: 9.27422298E-06
+	min: 1.32964000E-18
+	proj: X
+	ps.0: 0
+	pt.0: 0
+	swap: 0
+	title: USRBIN watertank one layer grid 25
+	with.0: errorbars
+	x2log: False
+	x2tics: 0
+	xlog: False
+	xrebin: 1
+	y2log: False
+	y2tics: 0
+	ylog: False
+	yrebin: 1
+	zlog: False
+	zrebin: 1
+	ztics: 0
+End
+
+# USRBIN plot "USRBIN watertank one layer grid 25"
+Plot: watertank_one_layer_grid_25_plot
+	Format: .eps
+	Type:   USRBIN
+	axes: Auto
+	cbcolors: 30
+	cblog: True
+	cbpalette: FLUKA
+	cbround: 0
+	cbtics: 1
+	cpd: 0
+	datafile: watertank_one_layer_grid_25.bnn
+	det: 1
+	errors: 0
+	geo: -Auto-
+	grid: 0
+	hist: 2D Projection
+	index: 0
+	int: 1.8106777244559377E-002
+	lw.0: 0
+	max: 1.94347056E-04
+	min: 1.89240464E-11
+	proj: X
+	ps.0: 0
+	pt.0: 0
+	swap: 0
+	title: USRBIN watertank one layer grid 25
+	with.0: errorbars
+	x2log: False
+	x2tics: 0
+	xlog: False
+	xrebin: 1
+	y2log: False
+	y2tics: 0
+	ylog: False
+	yrebin: 1
+	zlog: False
+	zrebin: 1
+	ztics: 0
+End
+
+# USRBIN plot "USRBIN watertank one layer grid 26"
+Plot: watertank_one_layer_grid_26_plot
+	Format: .eps
+	Type:   USRBIN
+	axes: Auto
+	cbcolors: 30
+	cblog: True
+	cbpalette: FLUKA
+	cbround: 0
+	cbtics: 1
+	cpd: 0
+	datafile: watertank_one_layer_grid_26.bnn
+	det: 1
+	errors: 0
+	geo: -Auto-
+	grid: 0
+	hist: 2D Projection
+	index: 0
+	int: 1.8106777836566869E-002
+	lw.0: 0
+	max: 1.51874335E-03
+	min: 1.50456658E-09
+	proj: Z
+	ps.0: 0
+	pt.0: 0
+	swap: 0
+	title: USRBIN watertank one layer grid 26
+	with.0: errorbars
+	x2log: False
+	x2tics: 0
+	xlog: False
+	xrebin: 1
+	y2log: False
+	y2tics: 0
+	ylog: False
+	yrebin: 1
+	zlog: False
+	zrebin: 1
+	ztics: 0
+End
+
+# USRBIN plot "USRBIN watertank one layer grid 27"
+Plot: watertank_one_layer_grid_27_plot
+	Format: .eps
+	Type:   USRBIN
+	axes: Auto
+	cbcolors: 30
+	cblog: True
+	cbpalette: FLUKA
+	cbround: 0
+	cbtics: 1
+	cpd: 0
+	datafile: watertank_one_layer_grid_27.bnn
+	det: 1
+	errors: 0
+	geo: -Auto-
+	grid: 0
+	hist: 2D Projection
+	index: 0
+	int: 5.6701024275775096E-003
+	lw.0: 0
+	max: 2.33889819E-04
+	min: 1.65450247E-15
+	proj: Z
+	ps.0: 0
+	pt.0: 0
+	swap: 0
+	title: USRBIN watertank one layer grid 27
+	with.0: errorbars
+	x2log: False
+	x2tics: 0
+	xlog: False
+	xrebin: 1
+	y2log: False
+	y2tics: 0
+	ylog: False
+	yrebin: 1
+	zlog: False
+	zrebin: 1
+	ztics: 0
+End
+
+# USRBIN plot "USRBIN watertank one layer grid 28"
+Plot: watertank_one_layer_grid_28_plot
+	Format: .eps
+	Type:   USRBIN
+	axes: Auto
+	cbcolors: 30
+	cblog: True
+	cbpalette: FLUKA
+	cbround: 0
+	cbtics: 1
+	cpd: 0
+	datafile: watertank_one_layer_grid_28.bnn
+	det: 1
+	errors: 0
+	geo: -Auto-
+	grid: 0
+	hist: 2D Projection
+	index: 0
+	int: 1.8028898100928344E-002
+	lw.0: 0
+	max: 5.14852873E-04
+	min: 2.49488070E-15
+	proj: Z
+	ps.0: 0
+	pt.0: 0
+	swap: 0
+	title: USRBIN watertank one layer grid 28
+	with.0: errorbars
+	x2log: False
+	x2tics: 0
+	xlog: False
+	xrebin: 1
+	y2log: False
+	y2tics: 0
+	ylog: False
+	yrebin: 1
+	zlog: False
+	zrebin: 1
+	ztics: 0
+End
+
+# USRBIN plot "USRBIN watertank one layer grid 29"
+Plot: watertank_one_layer_grid_29_plot
+	Format: .eps
+	Type:   USRBIN
+	axes: Auto
+	cbcolors: 30
+	cblog: True
+	cbpalette: FLUKA
+	cbround: 0
+	cbtics: 1
+	cpd: 0
+	datafile: watertank_one_layer_grid_29.bnn
+	det: 1
+	errors: 0
+	geo: -Auto-
+	grid: 0
+	hist: 1D Projection
+	index: 0
+	int: 8.7764348501782941E-002
+	lw.0: 0
+	max: 1.29208740E-04
+	min: 2.68306222E-09
+	proj: Z
+	ps.0: 0
+	pt.0: 0
+	swap: 0
+	title: USRBIN watertank one layer grid 29
+	with.0: lines
+	x2log: False
+	x2tics: 0
+	xlog: False
+	xrebin: 1
+	y2log: False
+	y2tics: 0
+	ylog: False
+	yrebin: 1
+	zlog: False
+	zrebin: 1
+	ztics: 0
+End
+
+# USRBIN plot "USRBIN watertank one layer grid 25"
+Plot: watertank_one_layer_grid_25_plot
+	Format: .eps
+	Type:   USRBIN
+	cbcolors: 30
+	cblog: 1
+	cbtics: 1
+	datafile: watertank_one_layer_grid_25.bnn
+	geo: -Auto-
+	title: USRBIN watertank one layer grid 25
+End
+
+# USRBIN plot "USRBIN watertank one layer grid 26"
+Plot: watertank_one_layer_grid_26_plot
+	Format: .eps
+	Type:   USRBIN
+	axes: Auto
+	cbcolors: 30
+	cblog: True
+	cbpalette: FLUKA
+	cbround: 0
+	cbtics: 1
+	cpd: 0
+	datafile: watertank_one_layer_grid_26.bnn
+	det: 1
+	errors: 0
+	geo: -Auto-
+	grid: 0
+	hist: 2D Projection
+	index: 0
+	int: 7.5377417470767630E-003
+	lw.0: 0
+	max: 8.20991758E-04
+	min: 1.56612417E-10
+	proj: Z
+	ps.0: 0
+	pt.0: 0
+	swap: 0
+	title: USRBIN watertank one layer grid 26
+	with.0: errorbars
+	x2log: False
+	x2tics: 0
+	xlog: False
+	xrebin: 1
+	y2log: False
+	y2tics: 0
+	ylog: False
+	yrebin: 1
+	zlog: False
+	zrebin: 1
+	ztics: 0
+End
+
+# USRBIN plot "USRBIN watertank one layer grid 27"
+Plot: watertank_one_layer_grid_27_plot
+	Format: .eps
+	Type:   USRBIN
+	cbcolors: 30
+	cblog: 1
+	cbtics: 1
+	datafile: watertank_one_layer_grid_27.bnn
+	geo: -Auto-
+	title: USRBIN watertank one layer grid 27
+End
+
+# USRBIN plot "USRBIN watertank one layer grid 28"
+Plot: watertank_one_layer_grid_28_plot
+	Format: .eps
+	Type:   USRBIN
+	axes: Auto
+	cbcolors: 30
+	cblog: True
+	cbpalette: FLUKA
+	cbround: 0
+	cbtics: 1
+	cpd: 0
+	datafile: watertank_one_layer_grid_28.bnn
+	det: 1
+	errors: 0
+	geo: -Auto-
+	grid: 0
+	hist: 2D Projection
+	index: 0
+	int: 6.9004113481063757E-003
+	lw.0: 0
+	max: 2.64759059E-04
+	min: 1.09734315E-15
+	proj: Z
+	ps.0: 0
+	pt.0: 0
+	swap: 0
+	title: USRBIN watertank one layer grid 28
+	with.0: errorbars
+	x2log: False
+	x2tics: 0
+	xlog: False
+	xrebin: 1
+	y2log: False
+	y2tics: 0
+	ylog: False
+	yrebin: 1
+	zlog: False
+	zrebin: 1
+	ztics: 0
+End
+
+# USRBIN plot "USRBIN watertank one layer grid 29"
+Plot: watertank_one_layer_grid_29_plot
+	Format: .eps
+	Type:   USRBIN
+	axes: Auto
+	cbcolors: 30
+	cblog: True
+	cbpalette: FLUKA
+	cbround: 0
+	cbtics: 1
+	cpd: 0
+	datafile: watertank_one_layer_grid_29.bnn
+	det: 1
+	errors: 0
+	geo: -Auto-
+	grid: 0
+	hist: 1D Projection
+	index: 0
+	int: 3.4262800680296301E-002
+	lw.0: 0
+	max: 4.74662702E-05
+	min: 1.31417321E-09
+	proj: Z
+	ps.0: 0
+	pt.0: 0
+	swap: 0
+	title: USRBIN watertank one layer grid 29
+	with.0: lines
+	x2log: False
+	x2tics: 0
+	xlog: False
+	xrebin: 1
+	y2log: False
+	y2tics: 0
+	ylog: False
+	yrebin: 1
+	zlog: False
+	zrebin: 1
+	ztics: 0
+End

@@ -1,0 +1,407 @@
+#!/usr/local/flair/flair
+# FLUKA Project file
+Version: 2
+Title: Online_ex
+Input: online_test.inp
+Submit: *Default
+Notes:
+jeg tester
+Tabs: 0.1 0.32 0.56 0.81 1.0
+Page: Input
+DefMain: True
+LinkPrg: lfluka
+F77bound: True
+F77dline: False
+
+# Run information
+Run: <default>
+	Prev:     0
+	Last:     4
+	Status:   3
+	Pid:      0
+	StartRun: 1676907594
+
+	# USRxxx data file: online_test_21.bnn
+	Data: \I_\U.\e
+		Unit: 21
+		Type: b
+		Rule: +,\I\d\d\d_fort\.\U
+		Rule: +,\I\d\d\d_ftn\.\U
+	End
+
+	# USRxxx data file: online_test_22.rnc
+	Data: \I_\U.\e
+		Unit: 22
+		Type: r
+		Rule: +,\I\d\d\d_fort\.\U
+		Rule: +,\I\d\d\d_ftn\.\U
+	End
+
+	# USRxxx data file: online_test_23.rnc
+	Data: \I_\U.\e
+		Unit: 23
+		Type: r
+		Rule: +,\I\d\d\d_fort\.\U
+		Rule: +,\I\d\d\d_ftn\.\U
+	End
+End
+
+# Geometry Information
+Geometry:
+	Frame.bsplit: 0.5
+	Frame.tsplit: 0.5
+	Frame.vsplit: 0.5
+End
+
+# Geometry plot "GeoViewer Red plot"
+Plot: Red
+	Format: .eps
+	Type:   Geometry
+	basisu: 1 0 0
+	basisv: 0 1 0
+	boundaries: 1
+	cbcolors: 0
+	cblog: False
+	cbpalette: FLUKA
+	cbround: 0
+	cbtics: 0
+	coord: X-Y
+	cpd: 0
+	extends: 100 44.4008
+	grid: 0
+	index: 0
+	labels: 1
+	layer: Media
+	origin: 0 0 0
+	subtype: Material
+	title: GeoViewer Red plot
+	x2log: False
+	x2tics: 0
+	xlog: False
+	y2log: False
+	y2tics: 0
+	ylog: False
+	zlog: False
+	ztics: 0
+End
+
+# Geometry plot "GeoViewer Green plot"
+Plot: Green
+	Format: .eps
+	Type:   Geometry
+	basisu: 0 0 1
+	basisv: 1 0 0
+	boundaries: 1
+	coord: Z-X
+	extends: 100 44.4008
+	labels: 1
+	layer: 3D
+	origin: 0 0 0
+	subtype: Material
+	title: GeoViewer Green plot
+End
+
+# Geometry plot "GeoViewer Blue plot"
+Plot: Blue
+	Format: .eps
+	Type:   Geometry
+	basisu: 0 0 1
+	basisv: 0 1 0
+	boundaries: 1
+	coord: Z-Y
+	extends: 358.318 159.096
+	labels: 1
+	layer: Media
+	origin: 0 -72.2991 -1.25915
+	subtype: Material
+	title: GeoViewer Blue plot
+End
+
+# Geometry plot "GeoViewer Magenta plot"
+Plot: Magenta
+	Format: .eps
+	Type:   Geometry
+	basisu: -1 0 0
+	basisv: 0 1 0
+	boundaries: 1
+	coord: X-Y
+	extends: 100 44.4008
+	labels: 1
+	layer: Media
+	origin: 0 0 0
+	subtype: Material
+	title: GeoViewer Magenta plot
+End
+
+# USRBIN plot "USRBIN online test 21"
+Plot: online_test_21_plot
+	Format: .eps
+	Type:   USRBIN
+	axes: Auto
+	cbcolors: 30
+	cblog: True
+	cbpalette: FLUKA
+	cbround: 0
+	cbtics: 1
+	cpd: 0
+	datafile: online_test_21.bnn
+	det: 1
+	errors: 0
+	geo: -Auto-
+	grid: 0
+	hist: 2D Projection
+	index: 0
+	int: 25349.523606900380
+	lw.0: 0
+	max: 5.67162484E-02
+	min: 2.60728750E-09
+	proj: Z
+	ps.0: 0
+	pt.0: 0
+	swap: 0
+	title: USRBIN online test 21
+	with.0: errorbars
+	x2log: False
+	x2tics: 0
+	xlog: False
+	xrebin: 1
+	y2log: False
+	y2tics: 0
+	ylog: False
+	yrebin: 1
+	zlog: False
+	zrebin: 1
+	ztics: 0
+End
+
+# RESNUCLE plot "RESNUCLE online test 22"
+Plot: online_test_22_plot
+	Format: .eps
+	Type:   RESNUCLE
+	cbcolors: 0
+	cblog: False
+	cbpalette: FLUKA
+	cbround: 0
+	cbtics: 0
+	cpd: 0
+	datafile: online_test_22.rnc
+	det: 1
+	grid: 0
+	index: 0
+	lw.0: 0
+	plot: Z
+	ps.0: 0
+	title: RESNUCLE online test 22
+	with.0: errorbars
+	x2log: False
+	x2tics: 0
+	xlog: False
+	y2log: False
+	y2tics: 0
+	ylog: False
+	zlog: False
+	ztics: 0
+End
+
+# RESNUCLE plot "RESNUCLE online test 23"
+Plot: online_test_23_plot
+	Format: .eps
+	Type:   RESNUCLE
+	cbcolors: 0
+	cblog: False
+	cbpalette: FLUKA
+	cbround: 0
+	cbtics: 0
+	cpd: 0
+	datafile: online_test_23.rnc
+	det: 1
+	grid: 0
+	index: 0
+	lw.0: 0
+	plot: Z
+	ps.0: 0
+	title: RESNUCLE online test 23
+	with.0: errorbars
+	x2log: False
+	x2tics: 0
+	xlog: False
+	y2log: False
+	y2tics: 0
+	ylog: False
+	zlog: False
+	ztics: 0
+End
+
+# USRBIN plot "USRBIN online test 21"
+Plot: online_test_21_plot
+	Format: .eps
+	Type:   USRBIN
+	axes: Auto
+	cbcolors: 30
+	cblog: True
+	cbpalette: FLUKA
+	cbround: 0
+	cbtics: 1
+	cpd: 0
+	datafile: online_test_21.bnn
+	det: 1
+	errors: 0
+	geo: -Auto-
+	grid: 0
+	hist: 2D Projection
+	index: 0
+	int: 25349.523606900380
+	lw.0: 0
+	max: 5.67162484E-02
+	min: 2.60728750E-09
+	proj: Z
+	ps.0: 0
+	pt.0: 0
+	swap: 0
+	title: USRBIN online test 21
+	with.0: errorbars
+	x2log: False
+	x2tics: 0
+	xlog: False
+	xrebin: 1
+	y2log: False
+	y2tics: 0
+	ylog: False
+	yrebin: 1
+	zlog: False
+	zrebin: 1
+	ztics: 0
+End
+
+# RESNUCLE plot "RESNUCLE online test 22"
+Plot: online_test_22_plot
+	Format: .eps
+	Type:   RESNUCLE
+	datafile: online_test_22.rnc
+	title: RESNUCLE online test 22
+End
+
+# RESNUCLE plot "RESNUCLE online test 23"
+Plot: online_test_23_plot
+	Format: .eps
+	Type:   RESNUCLE
+	datafile: online_test_23.rnc
+	title: RESNUCLE online test 23
+End
+
+# USRBIN plot "USRBIN online test 21"
+Plot: online_test_21_plot
+	Format: .eps
+	Type:   USRBIN
+	axes: Auto
+	cbcolors: 30
+	cblog: True
+	cbpalette: FLUKA
+	cbround: 0
+	cbtics: 1
+	cpd: 0
+	datafile: online_test_21.bnn
+	det: 1
+	errors: 0
+	geo: -Auto-
+	grid: 0
+	hist: 2D Projection
+	index: 0
+	int: 25349.523606900380
+	lw.0: 0
+	max: 5.67162484E-02
+	min: 2.60728750E-09
+	proj: Z
+	ps.0: 0
+	pt.0: 0
+	swap: 0
+	title: USRBIN online test 21
+	with.0: errorbars
+	x2log: False
+	x2tics: 0
+	xlog: False
+	xrebin: 1
+	y2log: False
+	y2tics: 0
+	ylog: False
+	yrebin: 1
+	zlog: False
+	zrebin: 1
+	ztics: 0
+End
+
+# RESNUCLE plot "RESNUCLE online test 22"
+Plot: online_test_22_plot
+	Format: .eps
+	Type:   RESNUCLE
+	cbcolors: 0
+	cblog: False
+	cbpalette: FLUKA
+	cbround: 0
+	cbtics: 0
+	cpd: 0
+	datafile: online_test_22.rnc
+	det: 1
+	grid: 0
+	index: 0
+	lw.0: 0
+	plot: Z
+	ps.0: 0
+	title: RESNUCLE online test 22
+	with.0: errorbars
+	x2log: False
+	x2tics: 0
+	xlog: False
+	y2log: False
+	y2tics: 0
+	ylog: False
+	zlog: False
+	ztics: 0
+End
+
+# RESNUCLE plot "RESNUCLE online test 23"
+Plot: online_test_23_plot
+	Format: .eps
+	Type:   RESNUCLE
+	cbcolors: 0
+	cblog: False
+	cbpalette: FLUKA
+	cbround: 0
+	cbtics: 0
+	cpd: 0
+	datafile: online_test_23.rnc
+	det: 1
+	grid: 0
+	index: 0
+	lw.0: 0
+	plot: Z
+	ps.0: 0
+	title: RESNUCLE online test 23
+	with.0: errorbars
+	x2log: False
+	x2tics: 0
+	xlog: False
+	y2log: False
+	y2tics: 0
+	ylog: False
+	zlog: False
+	ztics: 0
+End
+
+# USR-1D plot "USR-1D online test 0"
+Plot: online_test_0_plot
+	Format: .eps
+	Type:   USR-1D
+	det.0: 0
+	file.0: online_test_0_tab.lis
+	lc.0: red
+	lw.0: 2
+	name.0: Detector 1
+	ndetectors: 1
+	title: USR-1D online test 0
+	with.0: histerror
+	x.0: 2
+	xlog: 1
+	y.0: 0
+	ylog: 1
+End

@@ -1,0 +1,47 @@
+TITLE
+
+* Set the defaults for precision simulations
+DEFAULTS                                                              HADROTHE
+* Define the beam characteristics
+BEAM          -0.201                                                  NEUTRON
+* Define the beam position
+BEAMPOS                              -2.
+GEOBEGIN                                                              COMBNAME
+    0    0          
+* Black body
+SPH blkbody    0.0 0.0 0.0 100000.
+* Void sphere
+SPH void       0.0 0.0 0.0 10000.
+* Cylindrical target
+RCC target     0.0 0.0 0.0 0.0 0.0 10. 5.
+END
+* Black hole
+BLKBODY      5 +blkbody -void
+* Void around
+VOID         5 +void -target
+* Target
+TARGET       5 +target
+END
+GEOEND
+* ..+....1....+....2....+....3....+....4....+....5....+....6....+....7..
+ASSIGNMA    BLCKHOLE   BLKBODY
+ASSIGNMA      VACUUM      VOID
+ASSIGNMA      COPPER    TARGET
+RADDECAY          1.                 3.0               99999
+IRRPROFI     1.552E7       1E5   1.552E7       0.0   1.552E7       1E5
+DCYSCORE          1.                     Shielding                    USRBIN
+USRBIN           10.  ALL-PART      -21.      150.      200.       20.Shielding
+USRBIN         -250.     -200.       0.0       80.       80.        1. &
+DCYSCORE          2.                        Target    Target          USRBIN
+AUXSCORE      USRBIN                        Target                    EWT74
+USRBIN           10.  ALL-PART      -22.      150.      200.       20.Target
+USRBIN         -250.     -200.       0.0       80.       80.        1. &
+RESNUCLE          3.      -23.                        TARGET          cylinder
+DCYSCORE          1.                          Void      Void          RESNUCLE
+RESNUCLE          3.      -24.                          VOID          Void
+DCYTIMES       3600.    28800.    8.64E4   6.046E5   2.592E6  1.0368E7
+* Set the random number seed
+RANDOMIZ          1.
+* Set the number of primary histories to be simulated in the run
+START         10000.
+STOP

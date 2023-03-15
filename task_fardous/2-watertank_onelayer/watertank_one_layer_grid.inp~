@@ -1,0 +1,170 @@
+TITLE
+My title
+DEFAULTS                                                              HADROTHE
+BEAM          -0.100                          20.0      10.0        1.PROTON
+BEAMPOS          0.0       0.0       -5.       0.0       0.0
+GEOBEGIN                                                              COMBNAME
+    0    0
+SPH blkbody   0.0 0.0 0.0 10000.
+SPH void      0.0 0.0 0.0 9900.
+RPP target1   -50 50 -50 50 0.0 20
+RPP target2   -10.0 10.0 -6.7 -6.5 -6.0 -3.0
+RPP target3   -10.0 10.0 -6.4 -6.2 -6.0 -3.0
+RPP target4   -10.0 10.0 -6.1 -5.9 -6.0 -3.0
+RPP target5   -10.0 10.0 -5.8 -5.6 -6.0 -3.0
+RPP target6   -10.0 10.0 -5.5 -5.3 -6.0 -3.0
+RPP target7   -10.0 10.0 -5.2 -5.0 -6.0 -3.0
+RPP target8   -10.0 10.0 -4.9 -4.7 -6.0 -3.0
+RPP target9   -10.0 10.0 -4.6 -4.4 -6.0 -3.0
+RPP target10   -10.0 10.0 -4.3 -4.1 -6.0 -3.0
+RPP target11   -10.0 10.0 -4.0 -3.8 -6.0 -3.0
+RPP target12   -10.0 10.0 -3.7 -3.5 -6.0 -3.0
+RPP target13   -10.0 10.0 -3.4 -3.2 -6.0 -3.0
+RPP target14   -10.0 10.0 -3.1 -2.9 -6.0 -3.0
+RPP target15   -10.0 10.0 -2.8 -2.6 -6.0 -3.0
+RPP target16   -10.0 10.0 -2.5 -2.3 -6.0 -3.0
+RPP target17   -10.0 10.0 -2.2 -2.0 -6.0 -3.0
+RPP target18   -10.0 10.0 -1.9 -1.7 -6.0 -3.0
+RPP target19   -10.0 10.0 -1.6 -1.4 -6.0 -3.0
+RPP target20   -10.0 10.0 -1.3 -1.1 -6.0 -3.0
+RPP target21   -10.0 10.0 -1.0 -0.8 -6.0 -3.0
+RPP target22   -10.0 10.0 -0.7 -0.5 -6.0 -3.0
+RPP target23   -10.0 10.0 -0.4 -0.2 -6.0 -3.0
+RPP target24   -10.0 10.0 -0.1 0.1 -6.0 -3.0
+RPP target25   -10.0 10.0 0.2 0.4 -6.0 -3.0
+RPP target26   -10.0 10.0 0.5 0.7 -6.0 -3.0
+RPP target27   -10.0 10.0 0.8 1.0 -6.0 -3.0
+RPP target28   -10.0 10.0 1.1 1.3 -6.0 -3.0
+RPP target29   -10.0 10.0 1.4 1.6 -6.0 -3.0
+RPP target30   -10.0 10.0 1.7 1.9 -6.0 -3.0
+RPP target31   -10.0 10.0 2.0 2.2 -6.0 -3.0
+RPP target32   -10.0 10.0 2.3 2.5 -6.0 -3.0
+RPP target33   -10.0 10.0 2.6 2.8 -6.0 -3.0
+RPP target34   -10.0 10.0 2.9 3.1 -6.0 -3.0
+RPP target35   -10.0 10.0 3.2 3.4 -6.0 -3.0
+RPP target36   -10.0 10.0 3.5 3.7 -6.0 -3.0
+RPP target37   -10.0 10.0 3.8 4.0 -6.0 -3.0
+RPP target38   -10.0 10.0 4.1 4.3 -6.0 -3.0
+RPP target39   -10.0 10.0 4.4 4.6 -6.0 -3.0
+RPP target40   -10.0 10.0 4.7 4.9 -6.0 -3.0
+RPP target41   -10.0 10.0 5.0 5.2 -6.0 -3.0
+RPP target42   -10.0 10.0 5.3 5.5 -6.0 -3.0
+RPP target43   -10.0 10.0 5.6 5.8 -6.0 -3.0
+RPP target44   -10.0 10.0 5.9 6.1 -6.0 -3.0
+RPP target45   -10.0 10.0 6.2 6.4 -6.0 -3.0
+RPP target46   -10.0 10.0 6.5 6.7 -6.0 -3.0
+END
+BLKBODY     46 +blkbody -void
+VOID        46 +void -target1 -target2 -target3 -target4 -target5 -target6 -target7 -target8 -target9 -target10 -target11 -target12 -target13 -target14 -target15 -target16 -target17 -target18 -target19 -target20 -target21 -target22 -target23 -target24 -target25 -target26 -target27 -target28 -target29 -target30 -target31 -target32 -target33 -target34 -target35 -target36 -target37 -target38 -target39 -target40 -target41 -target42 -target43 -target44 -target45 -target46
+TARGET1     46 +target1
+TARGET2     46 +target2
+TARGET3     46 +target3
+TARGET4     46 +target4
+TARGET5     46 +target5
+TARGET6     46 +target6
+TARGET7     46 +target7
+TARGET8     46 +target8
+TARGET9     46 +target9
+TARGET10     46 +target10
+TARGET11     46 +target11
+TARGET12     46 +target12
+TARGET13     46 +target13
+TARGET14     46 +target14
+TARGET15     46 +target15
+TARGET16     46 +target16
+TARGET17     46 +target17
+TARGET18     46 +target18
+TARGET19     46 +target19
+TARGET20     46 +target20
+TARGET21     46 +target21
+TARGET22     46 +target22
+TARGET23     46 +target23
+TARGET24     46 +target24
+TARGET25     46 +target25
+TARGET26     46 +target26
+TARGET27     46 +target27
+TARGET28     46 +target28
+TARGET29     46 +target29
+TARGET30     46 +target30
+TARGET31     46 +target31
+TARGET32     46 +target32
+TARGET33     46 +target33
+TARGET34     46 +target34
+TARGET35     46 +target35
+TARGET36     46 +target36
+TARGET37     46 +target37
+TARGET38     46 +target38
+TARGET39     46 +target39
+TARGET40     46 +target40
+TARGET41     46 +target41
+TARGET42     46 +target42
+TARGET43     46 +target43
+TARGET44     46 +target44
+TARGET45     46 +target45
+TARGET46     46 +target46
+END
+GEOEND
+ASSIGNMA    BLCKHOLE   BLKBODY
+ASSIGNMA         AIR      VOID
+ASSIGNMA       WATER   TARGET1
+ASSIGNMA    TUNGSTEN   TARGET2
+ASSIGNMA    TUNGSTEN   TARGET3
+ASSIGNMA    TUNGSTEN   TARGET4
+ASSIGNMA    TUNGSTEN   TARGET5
+ASSIGNMA    TUNGSTEN   TARGET6
+ASSIGNMA    TUNGSTEN   TARGET7
+ASSIGNMA    TUNGSTEN   TARGET8
+ASSIGNMA    TUNGSTEN   TARGET9
+ASSIGNMA    TUNGSTEN  TARGET10
+ASSIGNMA    TUNGSTEN  TARGET11
+ASSIGNMA    TUNGSTEN  TARGET12
+ASSIGNMA    TUNGSTEN  TARGET13
+ASSIGNMA    TUNGSTEN  TARGET14
+ASSIGNMA    TUNGSTEN  TARGET15
+ASSIGNMA    TUNGSTEN  TARGET16
+ASSIGNMA    TUNGSTEN  TARGET17
+ASSIGNMA    TUNGSTEN  TARGET18
+ASSIGNMA    TUNGSTEN  TARGET19
+ASSIGNMA    TUNGSTEN  TARGET20
+ASSIGNMA    TUNGSTEN  TARGET21
+ASSIGNMA    TUNGSTEN  TARGET22
+ASSIGNMA    TUNGSTEN  TARGET23
+ASSIGNMA    TUNGSTEN  TARGET24
+ASSIGNMA    TUNGSTEN  TARGET25
+ASSIGNMA    TUNGSTEN  TARGET26
+ASSIGNMA    TUNGSTEN  TARGET27
+ASSIGNMA    TUNGSTEN  TARGET28
+ASSIGNMA    TUNGSTEN  TARGET29
+ASSIGNMA    TUNGSTEN  TARGET30
+ASSIGNMA    TUNGSTEN  TARGET31
+ASSIGNMA    TUNGSTEN  TARGET32
+ASSIGNMA    TUNGSTEN  TARGET33
+ASSIGNMA    TUNGSTEN  TARGET34
+ASSIGNMA    TUNGSTEN  TARGET35
+ASSIGNMA    TUNGSTEN  TARGET36
+ASSIGNMA    TUNGSTEN  TARGET37
+ASSIGNMA    TUNGSTEN  TARGET38
+ASSIGNMA    TUNGSTEN  TARGET39
+ASSIGNMA    TUNGSTEN  TARGET40
+ASSIGNMA    TUNGSTEN  TARGET41
+ASSIGNMA    TUNGSTEN  TARGET42
+ASSIGNMA    TUNGSTEN  TARGET43
+ASSIGNMA    TUNGSTEN  TARGET44
+ASSIGNMA    TUNGSTEN  TARGET45
+ASSIGNMA    TUNGSTEN  TARGET46
+PHYSICS           1.                                                  COALESCE
+PHYSICS           3.                                                  EVAPORAT
+PHYSICS        1000.     1000.     1000.     1000.     1000.     1000.PEATHRES
+USRBIN           10.      DOSE      -25.       10.        7.       0.0bq_gZY
+USRBIN          -10.       -7.       -3.        1.      100.       30. &
+USRBIN           10.      DOSE      -26.       10.        7.       0.0bq_gXY
+USRBIN          -10.       -7.       -3.      200.      140.        1. &
+USRBIN           10.      DOSE      -27.       10.        7.       0.8start_XY
+USRBIN          -10.       -7.       0.0      200.      140.        1. &
+USRBIN           10.      DOSE      -28.       10.        7.       7.6end_XY
+USRBIN          -10.       -7.       6.8      200.      140.        1. &
+USRBIN           10.      DOSE      -29.       10.        7.       20.dd_Z
+USRBIN          -10.       -7.       0.0        1.        1.      200. &
+RANDOMIZ          1.
+START         10000.
+STOP

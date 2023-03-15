@@ -1,0 +1,320 @@
+TITLE
+My title
+DEFAULTS                                                              HADROTHE
+BEAM          -0.100                           20.       10.        1.PROTON
+BEAMPOS          0.0       0.0      -15.       0.0       0.0
+GEOBEGIN                                                              COMBNAME
+    0    0          
+SPH blkbody    0.0 0.0 0.0 10000.
+SPH void       0.0 0.0 0.0 9900.
+RPP target1    -50. 50. -50. 50. 0.0 20.
+RPP target2    -10. 10. -6.7 -6.5 -6. -3.
+RPP target3    -10. 10. -6.4 -6.2 -6. -3.
+RPP target4    -10. 10. -6.1 -5.9 -6. -3.
+RPP target5    -10. 10. -5.8 -5.6 -6. -3.
+RPP target6    -10. 10. -5.5 -5.3 -6. -3.
+RPP target7    -10. 10. -5.2 -5. -6. -3.
+RPP target8    -10. 10. -4.9 -4.7 -6. -3.
+RPP target9    -10. 10. -4.6 -4.4 -6. -3.
+RPP target10   -10. 10. -4.3 -4.1 -6. -3.
+RPP target11   -10. 10. -4. -3.8 -6. -3.
+RPP target12   -10. 10. -3.7 -3.5 -6. -3.
+RPP target13   -10. 10. -3.4 -3.2 -6. -3.
+RPP target14   -10. 10. -3.1 -2.9 -6. -3.
+RPP target15   -10. 10. -2.8 -2.6 -6. -3.
+RPP target16   -10. 10. -2.5 -2.3 -6. -3.
+RPP target17   -10. 10. -2.2 -2. -6. -3.
+RPP target18   -10. 10. -1.9 -1.7 -6. -3.
+RPP target19   -10. 10. -1.6 -1.4 -6. -3.
+RPP target20   -10. 10. -1.3 -1.1 -6. -3.
+RPP target21   -10. 10. -1. -0.8 -6. -3.
+RPP target22   -10. 10. -0.7 -0.5 -6. -3.
+RPP target23   -10. 10. -0.4 -0.2 -6. -3.
+RPP target24   -10. 10. -0.1 0.1 -6. -3.
+RPP target25   -10. 10. 0.2 0.4 -6. -3.
+RPP target26   -10. 10. 0.5 0.7 -6. -3.
+RPP target27   -10. 10. 0.8 1. -6. -3.
+RPP target28   -10. 10. 1.1 1.3 -6. -3.
+RPP target29   -10. 10. 1.4 1.6 -6. -3.
+RPP target30   -10. 10. 1.7 1.9 -6. -3.
+RPP target31   -10. 10. 2. 2.2 -6. -3.
+RPP target32   -10. 10. 2.3 2.5 -6. -3.
+RPP target33   -10. 10. 2.6 2.8 -6. -3.
+RPP target34   -10. 10. 2.9 3.1 -6. -3.
+RPP target35   -10. 10. 3.2 3.4 -6. -3.
+RPP target36   -10. 10. 3.5 3.7 -6. -3.
+RPP target37   -10. 10. 3.8 4. -6. -3.
+RPP target38   -10. 10. 4.1 4.3 -6. -3.
+RPP target39   -10. 10. 4.4 4.6 -6. -3.
+RPP target40   -10. 10. 4.7 4.9 -6. -3.
+RPP target41   -10. 10. 5. 5.2 -6. -3.
+RPP target42   -10. 10. 5.3 5.5 -6. -3.
+RPP target43   -10. 10. 5.6 5.8 -6. -3.
+RPP target44   -10. 10. 5.9 6.1 -6. -3.
+RPP target45   -10. 10. 6.2 6.4 -6. -3.
+RPP target46   -10. 10. 6.5 6.7 -6. -3.
+RPP target47   -10. 10. -6.7 -6.5 -11. -8.
+RPP target48   -10. 10. -6.4 -6.2 -11. -8.
+RPP target49   -10. 10. -6.1 -5.9 -11. -8.
+RPP target50   -10. 10. -5.8 -5.6 -11. -8.
+RPP target51   -10. 10. -5.5 -5.3 -11. -8.
+RPP target52   -10. 10. -5.2 -5. -11. -8.
+RPP target53   -10. 10. -4.9 -4.7 -11. -8.
+RPP target54   -10. 10. -4.6 -4.4 -11. -8.
+RPP target55   -10. 10. -4.3 -4.1 -11. -8.
+RPP target56   -10. 10. -4. -3.8 -11. -8.
+RPP target57   -10. 10. -3.7 -3.5 -11. -8.
+RPP target58   -10. 10. -3.4 -3.2 -11. -8.
+RPP target59   -10. 10. -3.1 -2.9 -11. -8.
+RPP target60   -10. 10. -2.8 -2.6 -11. -8.
+RPP target61   -10. 10. -2.5 -2.3 -11. -8.
+RPP target62   -10. 10. -2.2 -2. -11. -8.
+RPP target63   -10. 10. -1.9 -1.7 -11. -8.
+RPP target64   -10. 10. -1.6 -1.4 -11. -8.
+RPP target65   -10. 10. -1.3 -1.1 -11. -8.
+RPP target66   -10. 10. -1. -0.8 -11. -8.
+RPP target67   -10. 10. -0.7 -0.5 -11. -8.
+RPP target68   -10. 10. -0.4 -0.2 -11. -8.
+RPP target69   -10. 10. -0.1 0.1 -11. -8.
+RPP target70   -10. 10. 0.2 0.4 -11. -8.
+RPP target71   -10. 10. 0.5 0.7 -11. -8.
+RPP target72   -10. 10. 0.8 1. -11. -8.
+RPP target73   -10. 10. 1.1 1.3 -11. -8.
+RPP target74   -10. 10. 1.4 1.6 -11. -8.
+RPP target75   -10. 10. 1.7 1.9 -11. -8.
+RPP target76   -10. 10. 2. 2.2 -11. -8.
+RPP target77   -10. 10. 2.3 2.5 -11. -8.
+RPP target78   -10. 10. 2.6 2.8 -11. -8.
+RPP target79   -10. 10. 2.9 3.1 -11. -8.
+RPP target80   -10. 10. 3.2 3.4 -11. -8.
+RPP target81   -10. 10. 3.5 3.7 -11. -8.
+RPP target82   -10. 10. 3.8 4. -11. -8.
+RPP target83   -10. 10. 4.1 4.3 -11. -8.
+RPP target84   -10. 10. 4.4 4.6 -11. -8.
+RPP target85   -10. 10. 4.7 4.9 -11. -8.
+RPP target86   -10. 10. 5. 5.2 -11. -8.
+RPP target87   -10. 10. 5.3 5.5 -11. -8.
+RPP target88   -10. 10. 5.6 5.8 -11. -8.
+RPP target89   -10. 10. 5.9 6.1 -11. -8.
+RPP target90   -10. 10. 6.2 6.4 -11. -8.
+RPP target91   -10. 10. 6.5 6.7 -11. -8.
+END
+BLKBODY     91 +blkbody -void
+VOID        91 +void -target1 -target2 -target3 -target4 -target5 -target6 -target7 -target8 -target9 -target10
+               -target11 -target12 -target13 -target14 -target15 -target16 -target17 -target18 -target19
+               -target20 -target21 -target22 -target23 -target24 -target25 -target26 -target27 -target28
+               -target29 -target30 -target31 -target32 -target33 -target34 -target35 -target36 -target37
+               -target38 -target39 -target40 -target41 -target42 -target43 -target44 -target45 -target46
+               -target47 -target48 -target49 -target50 -target51 -target52 -target53 -target54 -target55
+               -target56 -target57 -target58 -target59 -target60 -target61 -target62 -target63 -target64
+               -target65 -target66 -target67 -target68 -target69 -target70 -target71 -target72 -target73
+               -target74 -target75 -target76 -target77 -target78 -target79 -target80 -target81 -target82
+               -target83 -target84 -target85 -target86 -target87 -target88 -target89 -target90 -target91
+TARGET1     91 +target1
+TARGET2     91 +target2
+TARGET3     91 +target3
+TARGET4     91 +target4
+TARGET5     91 +target5
+TARGET6     91 +target6
+TARGET7     91 +target7
+TARGET8     91 +target8
+TARGET9     91 +target9
+TARGET10    91 +target10
+TARGET11    91 +target11
+TARGET12    91 +target12
+TARGET13    91 +target13
+TARGET14    91 +target14
+TARGET15    91 +target15
+TARGET16    91 +target16
+TARGET17    91 +target17
+TARGET18    91 +target18
+TARGET19    91 +target19
+TARGET20    91 +target20
+TARGET21    91 +target21
+TARGET22    91 +target22
+TARGET23    91 +target23
+TARGET24    91 +target24
+TARGET25    91 +target25
+TARGET26    91 +target26
+TARGET27    91 +target27
+TARGET28    91 +target28
+TARGET29    91 +target29
+TARGET30    91 +target30
+TARGET31    91 +target31
+TARGET32    91 +target32
+TARGET33    91 +target33
+TARGET34    91 +target34
+TARGET35    91 +target35
+TARGET36    91 +target36
+TARGET37    91 +target37
+TARGET38    91 +target38
+TARGET39    91 +target39
+TARGET40    91 +target40
+TARGET41    91 +target41
+TARGET42    91 +target42
+TARGET43    91 +target43
+TARGET44    91 +target44
+TARGET45    91 +target45
+TARGET46    91 +target46
+TARGET47    91 +target47
+TARGET48    91 +target48
+TARGET49    91 +target49
+TARGET50    91 +target50
+TARGET51    91 +target51
+TARGET52    91 +target52
+TARGET53    91 +target53
+TARGET54    91 +target54
+TARGET55    91 +target55
+TARGET56    91 +target56
+TARGET57    91 +target57
+TARGET58    91 +target58
+TARGET59    91 +target59
+TARGET60    91 +target60
+TARGET61    91 +target61
+TARGET62    91 +target62
+TARGET63    91 +target63
+TARGET64    91 +target64
+TARGET65    91 +target65
+TARGET66    91 +target66
+TARGET67    91 +target67
+TARGET68    91 +target68
+TARGET69    91 +target69
+TARGET70    91 +target70
+TARGET71    91 +target71
+TARGET72    91 +target72
+TARGET73    91 +target73
+TARGET74    91 +target74
+TARGET75    91 +target75
+TARGET76    91 +target76
+TARGET77    91 +target77
+TARGET78    91 +target78
+TARGET79    91 +target79
+TARGET80    91 +target80
+TARGET81    91 +target81
+TARGET82    91 +target82
+TARGET83    91 +target83
+TARGET84    91 +target84
+TARGET85    91 +target85
+TARGET86    91 +target86
+TARGET87    91 +target87
+TARGET88    91 +target88
+TARGET89    91 +target89
+TARGET90    91 +target90
+TARGET91    91 +target91
+END
+GEOEND
+ASSIGNMA    BLCKHOLE   BLKBODY
+ASSIGNMA         AIR      VOID
+ASSIGNMA       WATER   TARGET1
+ASSIGNMA    TUNGSTEN   TARGET2
+ASSIGNMA    TUNGSTEN   TARGET3
+ASSIGNMA    TUNGSTEN   TARGET4
+ASSIGNMA    TUNGSTEN   TARGET5
+ASSIGNMA    TUNGSTEN   TARGET6
+ASSIGNMA    TUNGSTEN   TARGET7
+ASSIGNMA    TUNGSTEN   TARGET8
+ASSIGNMA    TUNGSTEN   TARGET9
+ASSIGNMA    TUNGSTEN  TARGET10
+ASSIGNMA    TUNGSTEN  TARGET11
+ASSIGNMA    TUNGSTEN  TARGET12
+ASSIGNMA    TUNGSTEN  TARGET13
+ASSIGNMA    TUNGSTEN  TARGET14
+ASSIGNMA    TUNGSTEN  TARGET15
+ASSIGNMA    TUNGSTEN  TARGET16
+ASSIGNMA    TUNGSTEN  TARGET17
+ASSIGNMA    TUNGSTEN  TARGET18
+ASSIGNMA    TUNGSTEN  TARGET19
+ASSIGNMA    TUNGSTEN  TARGET20
+ASSIGNMA    TUNGSTEN  TARGET21
+ASSIGNMA    TUNGSTEN  TARGET22
+ASSIGNMA    TUNGSTEN  TARGET23
+ASSIGNMA    TUNGSTEN  TARGET24
+ASSIGNMA    TUNGSTEN  TARGET25
+ASSIGNMA    TUNGSTEN  TARGET26
+ASSIGNMA    TUNGSTEN  TARGET27
+ASSIGNMA    TUNGSTEN  TARGET28
+ASSIGNMA    TUNGSTEN  TARGET29
+ASSIGNMA    TUNGSTEN  TARGET30
+ASSIGNMA    TUNGSTEN  TARGET31
+ASSIGNMA    TUNGSTEN  TARGET32
+ASSIGNMA    TUNGSTEN  TARGET33
+ASSIGNMA    TUNGSTEN  TARGET34
+ASSIGNMA    TUNGSTEN  TARGET35
+ASSIGNMA    TUNGSTEN  TARGET36
+ASSIGNMA    TUNGSTEN  TARGET37
+ASSIGNMA    TUNGSTEN  TARGET38
+ASSIGNMA    TUNGSTEN  TARGET39
+ASSIGNMA    TUNGSTEN  TARGET40
+ASSIGNMA    TUNGSTEN  TARGET41
+ASSIGNMA    TUNGSTEN  TARGET42
+ASSIGNMA    TUNGSTEN  TARGET43
+ASSIGNMA    TUNGSTEN  TARGET44
+ASSIGNMA    TUNGSTEN  TARGET45
+ASSIGNMA    TUNGSTEN  TARGET46
+ASSIGNMA    TUNGSTEN  TARGET47
+ASSIGNMA    TUNGSTEN  TARGET48
+ASSIGNMA    TUNGSTEN  TARGET49
+ASSIGNMA    TUNGSTEN  TARGET50
+ASSIGNMA    TUNGSTEN  TARGET51
+ASSIGNMA    TUNGSTEN  TARGET52
+ASSIGNMA    TUNGSTEN  TARGET53
+ASSIGNMA    TUNGSTEN  TARGET54
+ASSIGNMA    TUNGSTEN  TARGET55
+ASSIGNMA    TUNGSTEN  TARGET56
+ASSIGNMA    TUNGSTEN  TARGET57
+ASSIGNMA    TUNGSTEN  TARGET58
+ASSIGNMA    TUNGSTEN  TARGET59
+ASSIGNMA    TUNGSTEN  TARGET60
+ASSIGNMA    TUNGSTEN  TARGET61
+ASSIGNMA    TUNGSTEN  TARGET62
+ASSIGNMA    TUNGSTEN  TARGET63
+ASSIGNMA    TUNGSTEN  TARGET64
+ASSIGNMA    TUNGSTEN  TARGET65
+ASSIGNMA    TUNGSTEN  TARGET66
+ASSIGNMA    TUNGSTEN  TARGET67
+ASSIGNMA    TUNGSTEN  TARGET68
+ASSIGNMA    TUNGSTEN  TARGET69
+ASSIGNMA    TUNGSTEN  TARGET70
+ASSIGNMA    TUNGSTEN  TARGET71
+ASSIGNMA    TUNGSTEN  TARGET72
+ASSIGNMA    TUNGSTEN  TARGET73
+ASSIGNMA    TUNGSTEN  TARGET74
+ASSIGNMA    TUNGSTEN  TARGET75
+ASSIGNMA    TUNGSTEN  TARGET76
+ASSIGNMA    TUNGSTEN  TARGET77
+ASSIGNMA    TUNGSTEN  TARGET78
+ASSIGNMA    TUNGSTEN  TARGET79
+ASSIGNMA    TUNGSTEN  TARGET80
+ASSIGNMA    TUNGSTEN  TARGET81
+ASSIGNMA    TUNGSTEN  TARGET82
+ASSIGNMA    TUNGSTEN  TARGET83
+ASSIGNMA    TUNGSTEN  TARGET84
+ASSIGNMA    TUNGSTEN  TARGET85
+ASSIGNMA    TUNGSTEN  TARGET86
+ASSIGNMA    TUNGSTEN  TARGET87
+ASSIGNMA    TUNGSTEN  TARGET88
+ASSIGNMA    TUNGSTEN  TARGET89
+ASSIGNMA    TUNGSTEN  TARGET90
+ASSIGNMA    TUNGSTEN  TARGET91
+PHYSICS           1.                                                  COALESCE
+PHYSICS           3.                                                  EVAPORAT
+PHYSICS        1000.     1000.     1000.     1000.     1000.     1000.PEATHRES
+IRRPROFI   15000000.      1E10
+RADDECAY          1.                  3.333333303.
+DCYTIMES      86400.
+RESNUCLE          3.      -21.                      @ALLREGS          cool
+DCYSCORE          1.                          cool      cool          RESNUCLE
+RESNUCLE          3.      -22.                      @ALLREGS          no_cool
+USRBIN           10.      DOSE      -25.       10.        7.       0.0bq_gZY
+USRBIN          -10.       -7.       -3.        1.      100.       30. &
+USRBIN           10.      DOSE      -26.       10.        7.       0.0bq_gXY
+USRBIN          -10.       -7.       -3.      200.      140.        1. &
+USRBIN           10.      DOSE      -27.       10.        7.       0.8start_XY
+USRBIN          -10.       -7.       0.0      200.      140.        1. &
+USRBIN           10.      DOSE      -28.       10.        7.       7.6end_XY
+USRBIN          -10.       -7.       6.8      200.      140.        1. &
+USRBIN           10.      DOSE      -29.       10.        7.       20.dd_Z
+USRBIN          -10.       -7.       0.0        1.        1.      200. &
+RANDOMIZ          1.
+START         20000.
+STOP

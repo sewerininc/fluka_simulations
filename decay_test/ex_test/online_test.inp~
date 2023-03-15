@@ -1,0 +1,50 @@
+TITLE
+
+* Set the defaults for precision simulations
+DEFAULTS                                                              PRECISIO
+PHYSICS           3.                                                  EVAPORAT
+PHYSICS           1.                                                  COALESCE
+PHYSICS        1000.     1000.     1000.     1000.     1000.     1000.PEATHRES
+PHYSICS           1.     0.001     0.150        2.        2.        3.IONSPLIT
+* Define the beam characteristics
+BEAM          -0.107                                                  PROTON
+* Define the beam position
+BEAMPOS                              -1.
+GEOBEGIN                                                              COMBNAME
+    0    0          
+* Black body
+SPH blkbody    0.0 0.0 0.0 100000.
+* Void sphere
+SPH void       0.0 0.0 0.0 10000.
+* Cylindrical target
+RCC target     0.0 0.0 0.0 0.0 0.0 30. 5.
+END
+* Black hole
+BLKBODY      5 +blkbody -void
+* Void around
+VOID         5 +void -target
+* Target
+TARGET       5 +target
+END
+GEOEND
+* ..+....1....+....2....+....3....+....4....+....5....+....6....+....7..
+ASSIGNMA    BLCKHOLE   BLKBODY
+ASSIGNMA         AIR      VOID
+ASSIGNMA      COPPER    TARGET
+* Define an irradiation profile for radioactive decay calculations
+IRRPROFI   15552000.      1E10
+USRBIN           10.   DOSE-EQ      -21.      200.      200.      200.xyz_dose
+USRBIN         -200.     -200.     -200.       40.       40.       40. &
+USRBIN           11.   DOSE-EQ      -24.      200.       0.0      200.xz_dos1
+USRBIN           0.0       0.0     -200.       20.        1.       40. &
+USRBIN           11.   DOSE-EQ      -25.      200.       0.0      200.xz_dos2
+USRBIN           0.0       0.0     -200.       20.        1.       40. &
+DCYSCORE         -1.                       xz_dos2                    USRBIN
+RESNUCLE          3.      -22.                          VOID    13511.resnucle
+RESNUCLE          3.      -23.                        TARGET    13511.resnucle2
+DCYSCORE         -1.                     resnucle2                    RESNUCLE
+* Set the random number seed
+RANDOMIZ          1.
+* Set the number of primary histories to be simulated in the run
+START         10000.                                     0.0
+STOP

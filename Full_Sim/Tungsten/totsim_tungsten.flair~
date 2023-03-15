@@ -1,0 +1,514 @@
+#!/usr/local/flair/flair
+# FLUKA Project file
+Version: 2
+Title: full simulation tungsten
+Input: tungsten_totsim.inp
+Submit: *Default
+Tabs: 0.1 0.32 0.56 0.81 1.0
+Page: Run
+DefMain: True
+LinkPrg: lfluka
+F77bound: True
+F77dline: False
+
+# Run information
+Run: <default>
+	Prev:     0
+	Last:     5
+	Status:   3
+	Pid:      0
+	StartRun: 1678817116
+
+	# USRxxx data file: tungsten_totsim_21.rnc
+	Data: \I_\U.\e
+		Unit: 21
+		Type: r
+		Rule: +,\I\d\d\d_fort\.\U
+		Rule: +,\I\d\d\d_ftn\.\U
+	End
+
+	# USRxxx data file: tungsten_totsim_22.rnc
+	Data: \I_\U.\e
+		Unit: 22
+		Type: r
+		Rule: +,\I\d\d\d_fort\.\U
+		Rule: +,\I\d\d\d_ftn\.\U
+	End
+
+	# USRxxx data file: tungsten_totsim_23.rnc
+	Data: \I_\U.\e
+		Unit: 23
+		Type: r
+		Rule: +,\I\d\d\d_fort\.\U
+		Rule: +,\I\d\d\d_ftn\.\U
+	End
+
+	# USRxxx data file: tungsten_totsim_24.rnc
+	Data: \I_\U.\e
+		Unit: 24
+		Type: r
+		Rule: +,\I\d\d\d_fort\.\U
+		Rule: +,\I\d\d\d_ftn\.\U
+	End
+
+	# USRxxx data file: tungsten_totsim_25.rnc
+	Data: \I_\U.\e
+		Unit: 25
+		Type: r
+		Rule: +,\I\d\d\d_fort\.\U
+		Rule: +,\I\d\d\d_ftn\.\U
+	End
+
+	# USRxxx data file: tungsten_totsim_26.rnc
+	Data: \I_\U.\e
+		Unit: 26
+		Type: r
+		Rule: +,\I\d\d\d_fort\.\U
+		Rule: +,\I\d\d\d_ftn\.\U
+	End
+
+	# USRxxx data file: tungsten_totsim_27.rnc
+	Data: \I_\U.\e
+		Unit: 27
+		Type: r
+		Rule: +,\I\d\d\d_fort\.\U
+		Rule: +,\I\d\d\d_ftn\.\U
+	End
+
+	# USRxxx data file: tungsten_totsim_28.rnc
+	Data: \I_\U.\e
+		Unit: 28
+		Type: r
+		Rule: +,\I\d\d\d_fort\.\U
+		Rule: +,\I\d\d\d_ftn\.\U
+	End
+
+	# USRxxx data file: tungsten_totsim_29.rnc
+	Data: \I_\U.\e
+		Unit: 29
+		Type: r
+		Rule: +,\I\d\d\d_fort\.\U
+		Rule: +,\I\d\d\d_ftn\.\U
+	End
+
+	# USRxxx data file: tungsten_totsim_30.rnc
+	Data: \I_\U.\e
+		Unit: 30
+		Type: r
+		Rule: +,\I\d\d\d_fort\.\U
+		Rule: +,\I\d\d\d_ftn\.\U
+	End
+
+	# USRxxx data file: tungsten_totsim_31.rnc
+	Data: \I_\U.\e
+		Unit: 31
+		Type: r
+		Rule: +,\I\d\d\d_fort\.\U
+		Rule: +,\I\d\d\d_ftn\.\U
+	End
+
+	# USRxxx data file: tungsten_totsim_32.rnc
+	Data: \I_\U.\e
+		Unit: 32
+		Type: r
+		Rule: +,\I\d\d\d_fort\.\U
+		Rule: +,\I\d\d\d_ftn\.\U
+	End
+
+	# USRxxx data file: tungsten_totsim_33.rnc
+	Data: \I_\U.\e
+		Unit: 33
+		Type: r
+		Rule: +,\I\d\d\d_fort\.\U
+		Rule: +,\I\d\d\d_ftn\.\U
+	End
+
+	# USRxxx data file: tungsten_totsim_34.rnc
+	Data: \I_\U.\e
+		Unit: 34
+		Type: r
+		Rule: +,\I\d\d\d_fort\.\U
+		Rule: +,\I\d\d\d_ftn\.\U
+	End
+
+	# USRxxx data file: tungsten_totsim_35.rnc
+	Data: \I_\U.\e
+		Unit: 35
+		Type: r
+		Rule: +,\I\d\d\d_fort\.\U
+		Rule: +,\I\d\d\d_ftn\.\U
+	End
+
+	# USRxxx data file: tungsten_totsim_36.rnc
+	Data: \I_\U.\e
+		Unit: 36
+		Type: r
+		Rule: +,\I\d\d\d_fort\.\U
+		Rule: +,\I\d\d\d_ftn\.\U
+	End
+
+	# USRxxx data file: tungsten_totsim_37.rnc
+	Data: \I_\U.\e
+		Unit: 37
+		Type: r
+		Rule: +,\I\d\d\d_fort\.\U
+		Rule: +,\I\d\d\d_ftn\.\U
+	End
+
+	# USRxxx data file: tungsten_totsim_38.rnc
+	Data: \I_\U.\e
+		Unit: 38
+		Type: r
+		Rule: +,\I\d\d\d_fort\.\U
+		Rule: +,\I\d\d\d_ftn\.\U
+	End
+
+	# USRxxx data file: tungsten_totsim_39.rnc
+	Data: \I_\U.\e
+		Unit: 39
+		Type: r
+		Rule: +,\I\d\d\d_fort\.\U
+		Rule: +,\I\d\d\d_ftn\.\U
+	End
+
+	# USRxxx data file: tungsten_totsim_40.rnc
+	Data: \I_\U.\e
+		Unit: 40
+		Type: r
+		Rule: +,\I\d\d\d_fort\.\U
+		Rule: +,\I\d\d\d_ftn\.\U
+	End
+
+	# USRxxx data file: tungsten_totsim_50.rnc
+	Data: \I_\U.\e
+		Unit: 50
+		Type: r
+		Rule: +,\I\d\d\d_fort\.\U
+		Rule: +,\I\d\d\d_ftn\.\U
+	End
+
+	# USRxxx data file: tungsten_totsim_81.bnn
+	Data: \I_\U.\e
+		Unit: 81
+		Type: b
+		Rule: +,\I\d\d\d_fort\.\U
+		Rule: +,\I\d\d\d_ftn\.\U
+	End
+
+	# USRxxx data file: tungsten_totsim_82.bnn
+	Data: \I_\U.\e
+		Unit: 82
+		Type: b
+		Rule: +,\I\d\d\d_fort\.\U
+		Rule: +,\I\d\d\d_ftn\.\U
+	End
+
+	# USRxxx data file: tungsten_totsim_83.bnn
+	Data: \I_\U.\e
+		Unit: 83
+		Type: b
+		Rule: +,\I\d\d\d_fort\.\U
+		Rule: +,\I\d\d\d_ftn\.\U
+	End
+
+	# USRxxx data file: tungsten_totsim_84.bnn
+	Data: \I_\U.\e
+		Unit: 84
+		Type: b
+		Rule: +,\I\d\d\d_fort\.\U
+		Rule: +,\I\d\d\d_ftn\.\U
+	End
+End
+
+# Geometry Information
+Geometry:
+End
+
+# Geometry plot "Geometry full simulation tungsten"
+Plot: totsim_tungsten_geometry
+	Format: .eps
+	Type:   Geometry
+	basisu: 1 0 0
+	basisv: 0 1 0
+	boundaries: 0
+	cbcolors: 0
+	cblog: False
+	cbpalette: FLUKA
+	cbround: 0
+	cbtics: 0
+	coord: U-V
+	cpd: 0
+	extends: 100 100
+	grid: 0
+	index: 0
+	labels: 0
+	origin: 0 0 0
+	subtype: Geometry
+	title: Geometry full simulation tungsten
+	x2log: False
+	x2tics: 0
+	xlog: False
+	y2log: False
+	y2tics: 0
+	ylog: False
+	zlog: False
+	ztics: 0
+End
+
+# RESNUCLE plot "RESNUCLE tungsten totsim 21"
+Plot: tungsten_totsim_21_plot
+	Format: .eps
+	Type:   RESNUCLE
+	cbcolors: 0
+	cblog: True
+	cbpalette: FLUKA
+	cbround: 0
+	cbtics: 1
+	cpd: 0
+	datafile: tungsten_totsim_21.rnc
+	det: 1
+	grid: 0
+	index: 0
+	lw.0: 0
+	plot: Z/A
+	ps.0: 0
+	title: RESNUCLE tungsten totsim 21
+	with.0: errorbars
+	x2log: False
+	x2tics: 0
+	xlog: False
+	y2log: False
+	y2tics: 0
+	ylog: False
+	zlog: False
+	ztics: 0
+End
+
+# RESNUCLE plot "RESNUCLE tungsten totsim 22"
+Plot: tungsten_totsim_22_plot
+	Format: .eps
+	Type:   RESNUCLE
+	datafile: tungsten_totsim_22.rnc
+	title: RESNUCLE tungsten totsim 22
+End
+
+# RESNUCLE plot "RESNUCLE tungsten totsim 23"
+Plot: tungsten_totsim_23_plot
+	Format: .eps
+	Type:   RESNUCLE
+	datafile: tungsten_totsim_23.rnc
+	title: RESNUCLE tungsten totsim 23
+End
+
+# RESNUCLE plot "RESNUCLE tungsten totsim 24"
+Plot: tungsten_totsim_24_plot
+	Format: .eps
+	Type:   RESNUCLE
+	datafile: tungsten_totsim_24.rnc
+	title: RESNUCLE tungsten totsim 24
+End
+
+# RESNUCLE plot "RESNUCLE tungsten totsim 25"
+Plot: tungsten_totsim_25_plot
+	Format: .eps
+	Type:   RESNUCLE
+	datafile: tungsten_totsim_25.rnc
+	title: RESNUCLE tungsten totsim 25
+End
+
+# RESNUCLE plot "RESNUCLE tungsten totsim 26"
+Plot: tungsten_totsim_26_plot
+	Format: .eps
+	Type:   RESNUCLE
+	datafile: tungsten_totsim_26.rnc
+	title: RESNUCLE tungsten totsim 26
+End
+
+# RESNUCLE plot "RESNUCLE tungsten totsim 27"
+Plot: tungsten_totsim_27_plot
+	Format: .eps
+	Type:   RESNUCLE
+	datafile: tungsten_totsim_27.rnc
+	title: RESNUCLE tungsten totsim 27
+End
+
+# RESNUCLE plot "RESNUCLE tungsten totsim 28"
+Plot: tungsten_totsim_28_plot
+	Format: .eps
+	Type:   RESNUCLE
+	datafile: tungsten_totsim_28.rnc
+	title: RESNUCLE tungsten totsim 28
+End
+
+# RESNUCLE plot "RESNUCLE tungsten totsim 29"
+Plot: tungsten_totsim_29_plot
+	Format: .eps
+	Type:   RESNUCLE
+	datafile: tungsten_totsim_29.rnc
+	title: RESNUCLE tungsten totsim 29
+End
+
+# RESNUCLE plot "RESNUCLE tungsten totsim 30"
+Plot: tungsten_totsim_30_plot
+	Format: .eps
+	Type:   RESNUCLE
+	datafile: tungsten_totsim_30.rnc
+	title: RESNUCLE tungsten totsim 30
+End
+
+# RESNUCLE plot "RESNUCLE tungsten totsim 31"
+Plot: tungsten_totsim_31_plot
+	Format: .eps
+	Type:   RESNUCLE
+	datafile: tungsten_totsim_31.rnc
+	title: RESNUCLE tungsten totsim 31
+End
+
+# RESNUCLE plot "RESNUCLE tungsten totsim 32"
+Plot: tungsten_totsim_32_plot
+	Format: .eps
+	Type:   RESNUCLE
+	datafile: tungsten_totsim_32.rnc
+	title: RESNUCLE tungsten totsim 32
+End
+
+# RESNUCLE plot "RESNUCLE tungsten totsim 33"
+Plot: tungsten_totsim_33_plot
+	Format: .eps
+	Type:   RESNUCLE
+	datafile: tungsten_totsim_33.rnc
+	title: RESNUCLE tungsten totsim 33
+End
+
+# RESNUCLE plot "RESNUCLE tungsten totsim 34"
+Plot: tungsten_totsim_34_plot
+	Format: .eps
+	Type:   RESNUCLE
+	datafile: tungsten_totsim_34.rnc
+	title: RESNUCLE tungsten totsim 34
+End
+
+# RESNUCLE plot "RESNUCLE tungsten totsim 35"
+Plot: tungsten_totsim_35_plot
+	Format: .eps
+	Type:   RESNUCLE
+	datafile: tungsten_totsim_35.rnc
+	title: RESNUCLE tungsten totsim 35
+End
+
+# RESNUCLE plot "RESNUCLE tungsten totsim 36"
+Plot: tungsten_totsim_36_plot
+	Format: .eps
+	Type:   RESNUCLE
+	cbcolors: 0
+	cblog: True
+	cbpalette: FLUKA
+	cbround: 0
+	cbtics: 1
+	cpd: 0
+	datafile: tungsten_totsim_36.rnc
+	det: 1
+	grid: 0
+	index: 0
+	lw.0: 0
+	plot: Z/A
+	ps.0: 0
+	title: RESNUCLE tungsten totsim 36
+	with.0: errorbars
+	x2log: False
+	x2tics: 0
+	xlog: False
+	y2log: False
+	y2tics: 0
+	ylog: False
+	zlog: False
+	ztics: 0
+End
+
+# RESNUCLE plot "RESNUCLE tungsten totsim 37"
+Plot: tungsten_totsim_37_plot
+	Format: .eps
+	Type:   RESNUCLE
+	datafile: tungsten_totsim_37.rnc
+	title: RESNUCLE tungsten totsim 37
+End
+
+# RESNUCLE plot "RESNUCLE tungsten totsim 38"
+Plot: tungsten_totsim_38_plot
+	Format: .eps
+	Type:   RESNUCLE
+	datafile: tungsten_totsim_38.rnc
+	title: RESNUCLE tungsten totsim 38
+End
+
+# RESNUCLE plot "RESNUCLE tungsten totsim 39"
+Plot: tungsten_totsim_39_plot
+	Format: .eps
+	Type:   RESNUCLE
+	datafile: tungsten_totsim_39.rnc
+	title: RESNUCLE tungsten totsim 39
+End
+
+# RESNUCLE plot "RESNUCLE tungsten totsim 40"
+Plot: tungsten_totsim_40_plot
+	Format: .eps
+	Type:   RESNUCLE
+	datafile: tungsten_totsim_40.rnc
+	title: RESNUCLE tungsten totsim 40
+End
+
+# RESNUCLE plot "RESNUCLE tungsten totsim 50"
+Plot: tungsten_totsim_50_plot
+	Format: .eps
+	Type:   RESNUCLE
+	datafile: tungsten_totsim_50.rnc
+	title: RESNUCLE tungsten totsim 50
+End
+
+# USRBIN plot "USRBIN tungsten totsim 81"
+Plot: tungsten_totsim_81_plot
+	Format: .eps
+	Type:   USRBIN
+	cbcolors: 30
+	cblog: 1
+	cbtics: 1
+	datafile: tungsten_totsim_81.bnn
+	geo: -Auto-
+	title: USRBIN tungsten totsim 81
+End
+
+# USRBIN plot "USRBIN tungsten totsim 82"
+Plot: tungsten_totsim_82_plot
+	Format: .eps
+	Type:   USRBIN
+	cbcolors: 30
+	cblog: 1
+	cbtics: 1
+	datafile: tungsten_totsim_82.bnn
+	geo: -Auto-
+	title: USRBIN tungsten totsim 82
+End
+
+# USRBIN plot "USRBIN tungsten totsim 83"
+Plot: tungsten_totsim_83_plot
+	Format: .eps
+	Type:   USRBIN
+	cbcolors: 30
+	cblog: 1
+	cbtics: 1
+	datafile: tungsten_totsim_83.bnn
+	geo: -Auto-
+	title: USRBIN tungsten totsim 83
+End
+
+# USRBIN plot "USRBIN tungsten totsim 84"
+Plot: tungsten_totsim_84_plot
+	Format: .eps
+	Type:   USRBIN
+	cbcolors: 30
+	cblog: 1
+	cbtics: 1
+	datafile: tungsten_totsim_84.bnn
+	geo: -Auto-
+	title: USRBIN tungsten totsim 84
+End

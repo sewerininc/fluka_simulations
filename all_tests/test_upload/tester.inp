@@ -1,0 +1,60 @@
+TITLE
+My title
+* Set the defaults for precision simulations
+DEFAULTS                                                              HADROTHE
+* Define the beam characteristics
+BEAM          -0.211                           0.0       0.0       1.0PROTON
+* Define the beam position
+BEAMPOS          0.0       0.0       -5.       0.0       0.0
+GEOBEGIN                                                              COMBNAME
+    0    0          
+* Black body
+SPH blkbody    0.0 0.0 0.0 10000.
+* Void sphere
+SPH void       0.0 0.0 0.0 9900.
+* Cylindrical target
+RPP target     -50. 50. -50. 50. 0.0 20.
+* Cylindrical target
+RPP target1    -50. 50. -50. 50. 0.0 5.
+* Cylindrical target
+RPP target2    -50. 50. -50. 50. 5. 10.
+* Cylindrical target
+RPP target3    -50. 50. -50. 50. 10. 15.
+* Cylindrical target
+RPP target4    -50. 50. -50. 50. 15. 20.
+END
+* Black hole
+BLKBODY      5 +blkbody -void
+* Void around
+VOID         5 +void -target
+* Target
+TARGET1      5 +target1
+* Target
+TARGET2      5 +target2
+* Target
+TARGET3      5 +target3
+* Target
+TARGET4      5 +target4
+END
+GEOEND
+* ..+....1....+....2....+....3....+....4....+....5....+....6....+....7..
+ASSIGNMA    BLCKHOLE   BLKBODY
+ASSIGNMA      VACUUM      VOID
+ASSIGNMA        IRON   TARGET1
+ASSIGNMA        IRON   TARGET2
+ASSIGNMA        IRON   TARGET3
+ASSIGNMA        IRON   TARGET4
+PHYSICS           1.                                                  COALESCE
+PHYSICS           3.                                                  EVAPORAT
+PHYSICS        1000.     1000.     1000.     1000.     1000.     1000.PEATHRES
+USRBIN           10.  ACTOMASS      -25.       50.       50.       20.bq_g
+USRBIN          -50.      -50.       0.0      100.      100.       20. &
+RESNUCLE          3.      -21.                       TARGET1          t1
+RESNUCLE          3.      -22.                       TARGET2          t2
+RESNUCLE          3.      -23.                       TARGET3          t3
+RESNUCLE          3.      -24.                       TARGET4          t4
+* Set the random number seed
+RANDOMIZ          1.
+* Set the number of primary histories to be simulated in the run
+START         10000.
+STOP

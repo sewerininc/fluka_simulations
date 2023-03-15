@@ -1,0 +1,78 @@
+TITLE
+	FLUKA School Exercise RP stduy
+DEFAULTS PRECISIO
+*Physics settings
+PHYSICS EVAPORAT 3.0
+PHYSICS COALESCE 1.0
+PHYSICS PEATHRES 1000.0 1000.0 1000.0 1000.0 1000.0 1000.0
+PHYSICS IONSPLIT 1.0 0.001 0.150 2.0 2.0 3.0
+*
+*beam definitions
+BEAM PROTON -3.5 -0.5 -10.0 1.0 0.0 -1.0
+BEAMPOS , 0. 0. -1.
+*
+*Geometry
+GEOBEGIN COMBNAME
+	Cylindrical Target
+*
+*Bodies
+*
+*Blackhole to include geometry
+SPH blckbody 0.0 0.0 0.0 10000.0
+*Atmosphere sphere
+SPH void 0.0 0.0 0.0 1000.0
+RCC target 0. 0. 0. 0. 0. 30. 4.
+*
+END
+*
+*Regions
+*
+*Blackhole
+REGION BLKHOLE 5
+	+blckbody -void
+*Target segment 1
+REGION targetR 5
+	+target
+*Air around target
+REGION Air 5
+	+void -target
+END
+*
+GEOEND
+*
+*Assign materials
+ASSIGNMA , BLCKHOLE BLKHOLE
+ASSIGNMA , COPPER targetR
+ASSIGNMA , AIR Air
+*TO BE REMOVED FOR EXERCISE - Irradiation profile: 180 days nominal beam intensity of 1e10 protons/s
+IRRPROFI , '=180 * day' 1E10
+*
+*TO BE REMOVED FOR EXERCISE - Cooling times: t_0=EoI ; 12 hours
+DCYTIMES , =12.*hour
+*TO BE REMOVED FOR EXERCISE - Transport thresholds for prompt and decay radiation (use PRECISION defaults (100 keV for photons and electrons in decay mode; switch off EMF prompt part)
+RADDECAY , 1.0,, 3.0,, 1099999.
+*Scoring for the prompt ambient dose equivalent (AMB) rate
+*Prompt AMB rate with Cartesian binning : 10cm cubes
+USRBIN PrDR 10. DOSE-EQ -21. 200. 200. 200. -200. -200. -200. =400/10 =400/10 =400/10
+*Prompt AMB rate with R-Phi-Z binning: 10 cm binning
+USRBIN PrDR-rz 11. DOSE-EQ -21. 200. 0. 200. 0. 0. -200. =200/10 1. =400/10
+**
+**
+*Scoring for the induced activation
+*TO BE REMOVED FOR EXERCISE - Residual AMB rate with R-Phi-Z binning: 10 cm binning
+USRBIN ResDR-rz 11. DOSE-EQ -21. 200. 0. 200. 0. 0. -200. =200/10 1. =400/10
+*TO BE REMOVED FOR EXERCISE - Associate the corresponding cooling time
+DCYSCORE USRBIN 1.,,, ResDR-rz
+*TO BE REMOVED FOR EXERCISE - production yield in the target;normalized per gram [density = 8.96 g cm^-3]
+RESNUCLE ProdTarg 3. -22.,,, targetR =pi*4.*4.*30*8.96
+*TO BE REMOVED FOR EXERCISE - Activity in the target;normalized per gram [density = 8.96 g cm^-3]
+RESNUCLE ActTarg 3. -23.,,, targetR =pi*4.*4.*30*8.96
+*TO BE REMOVED FOR EXERCISE - Associate the corresponding cooling time
+DCYSCORE RESNUCLE 1.,,, ActTarg ActTarg
+**
+**
+*Randomize card
+RANDOMIZ , 1.0
+START , 100.0,,,, 0.0
+STOP
+

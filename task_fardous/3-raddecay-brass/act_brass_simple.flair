@@ -1,0 +1,130 @@
+#!/usr/local/flair/flair
+# FLUKA Project file
+Version: 2
+Title: activation tungsten simple
+Input: act_brass_simple.inp
+Submit: *Default
+Tabs: 0.1 0.32 0.56 0.81 1.0
+Page: Plot
+DefMain: True
+LinkPrg: lfluka
+F77bound: True
+F77dline: False
+
+# Run information
+Run: <default>
+	Prev:     0
+	Last:     5
+	Status:   3
+	Pid:      0
+	StartRun: 1678108556
+
+	# USRxxx data file: act_brass_simple_21.rnc
+	Data: \I_\U.\e
+		Unit: 21
+		Type: r
+		Rule: +,\I\d\d\d_fort\.\U
+		Rule: +,\I\d\d\d_ftn\.\U
+	End
+
+	# USRxxx data file: act_brass_simple_22.rnc
+	Data: \I_\U.\e
+		Unit: 22
+		Type: r
+		Rule: +,\I\d\d\d_fort\.\U
+		Rule: +,\I\d\d\d_ftn\.\U
+	End
+End
+
+# Geometry Information
+Geometry:
+End
+
+# Geometry plot "Geometry activation tungsten simple"
+Plot: act_brass_simple_geometry
+	Format: .eps
+	Type:   Geometry
+	basisu: 1 0 0
+	basisv: 0 1 0
+	boundaries: 0
+	cbcolors: 0
+	cblog: False
+	cbpalette: FLUKA
+	cbround: 0
+	cbtics: 0
+	coord: U-V
+	cpd: 0
+	extends: 100 100
+	grid: 0
+	index: 0
+	labels: 0
+	origin: 0 0 0
+	subtype: Geometry
+	title: Geometry activation tungsten simple
+	x2log: False
+	x2tics: 0
+	xlog: False
+	y2log: False
+	y2tics: 0
+	ylog: False
+	zlog: False
+	ztics: 0
+End
+
+# RESNUCLE plot "RESNUCLE act brass simple 21"
+Plot: act_brass_simple_21_plot
+	Format: .eps
+	Type:   RESNUCLE
+	cbcolors: 0
+	cblog: True
+	cbpalette: FLUKA
+	cbround: 0
+	cbtics: 1
+	cpd: 0
+	datafile: act_brass_simple_21.rnc
+	det: 1
+	grid: 0
+	index: 0
+	lw.0: 0
+	plot: Z/A
+	ps.0: 0
+	title: RESNUCLE act brass simple 21
+	with.0: errorbars
+	x2log: False
+	x2tics: 0
+	xlog: False
+	y2log: False
+	y2tics: 0
+	ylog: False
+	zlog: False
+	ztics: 0
+End
+
+# RESNUCLE plot "RESNUCLE act brass simple 22"
+Plot: act_brass_simple_22_plot
+	Format: .eps
+	Type:   RESNUCLE
+	cbcolors: 0
+	cblog: True
+	cbpalette: FLUKA
+	cbround: 0
+	cbtics: 1
+	cpd: 0
+	datafile: act_brass_simple_22.rnc
+	det: 1
+	grid: 0
+	index: 0
+	lw.0: 0
+	plot: Z/A
+	ps.0: 0
+	title: RESNUCLE act brass simple 22
+	with.0: errorbars
+	x2log: False
+	x2tics: 0
+	xlog: False
+	y2log: False
+	y2tics: 0
+	ylog: False
+	zlog: False
+	ztics: 1
+End

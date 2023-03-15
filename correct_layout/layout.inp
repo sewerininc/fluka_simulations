@@ -1,0 +1,69 @@
+TITLE
+My title
+* Set the defaults for precision simulations
+DEFAULTS                                                              HADROTHE
+* Define the beam characteristics
+BEAM          -0.211                           20.       10.        1.PROTON
+* Define the beam position
+BEAMPOS          0.0       0.0       -5.       0.0       0.0
+GEOBEGIN                                                              COMBNAME
+    0    0          
+* Black body
+SPH blkbody    0.0 0.0 0.0 10000.
+* Void sphere
+SPH void       0.0 0.0 0.0 9900.
+* Cylindrical target
+RPP target1    -10. 10. -5. -3. 0.0 2.
+* Cylindrical target
+RPP target2    -10. 10. -2. -1. 0.0 2.
+* Cylindrical target
+RPP target3    -10. 10. 0.0 2. 0.0 2.
+* Cylindrical target
+RPP target4    -10. 10. 3. 5. 0.0 2.
+* Cylindrical target
+RPP target5    -20. 20. -20. 20. 5. 40.
+END
+* Black hole
+BLKBODY      5 +blkbody -void
+* Void around
+VOID         5 +void -target1 -target2 -target3 -target4 -target5
+* Target
+TARGET1      5 +target1
+* Target
+TARGET2      5 +target2
+* Target
+TARGET3      5 +target3
+* Target
+TARGET4      5 +target4
+* Target
+TARGET5      5 +target5
+END
+GEOEND
+* ..+....1....+....2....+....3....+....4....+....5....+....6....+....7..
+ASSIGNMA    BLCKHOLE   BLKBODY
+ASSIGNMA         AIR      VOID
+ASSIGNMA      COPPER   TARGET1
+ASSIGNMA    TUNGSTEN   TARGET2
+ASSIGNMA        LEAD   TARGET3
+ASSIGNMA      NICKEL   TARGET4
+ASSIGNMA       WATER   TARGET5
+PHYSICS           1.                                                  COALESCE
+PHYSICS           3.                                                  EVAPORAT
+PHYSICS        1000.     1000.     1000.     1000.     1000.     1000.PEATHRES
+USRBIN           10.      DOSE      -25.       50.       50.       50.bq_gXY
+USRBIN          -50.      -50.       0.0      100.        1.       25. &
+RESNUCLE          3.      -21.       84.             TARGET1          t1
+DCYSCORE         -1.                            t1                    RESNUCLE
+IRRPROFI       1000.        5.     1000.       0.0     1000.        5.
+RESNUCLE          3.      -22.       84.             TARGET2          t2
+DCYSCORE         -1.                            t2        t2          RESNUCLE
+DCYSCORE         -1.                            t1        t1          RESNUCLE
+RADDECAY          2.                  3.333333303.     99999        1.
+DCYTIMES        1E10100000000.
+RESNUCLE          3.      -23.       84.             TARGET3          t3
+RESNUCLE          3.      -24.       84.             TARGET4    50000.t4
+* Set the random number seed
+RANDOMIZ          1.
+* Set the number of primary histories to be simulated in the run
+START         10000.
+STOP
