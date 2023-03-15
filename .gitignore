@@ -1,4 +1,5 @@
 # Fluka
+*.bnn
 *.err
 *.log
 *.out
