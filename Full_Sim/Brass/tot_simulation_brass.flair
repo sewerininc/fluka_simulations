@@ -5,7 +5,7 @@ Title: brass simulation
 Input: brass_totsim.inp
 Submit: *Default
 Tabs: 0.1 0.32 0.56 0.81 1.0
-Page: Plot
+Page: Geometry
 DefMain: True
 LinkPrg: lfluka
 F77bound: True
@@ -261,7 +261,7 @@ Plot: Red
 	cbtics: 0
 	coord: X-Y
 	cpd: 0
-	extends: 100 44.4008
+	extends: 100 75
 	grid: 0
 	index: 0
 	labels: 1
@@ -287,7 +287,7 @@ Plot: Green
 	basisv: 1 0 0
 	boundaries: 1
 	coord: Z-X
-	extends: 172.8 76.7246
+	extends: 172.8 129.6
 	labels: 1
 	layer: Media
 	origin: 9.91321 0 18.5704
@@ -303,10 +303,10 @@ Plot: Blue
 	basisv: 0 1 0
 	boundaries: 1
 	coord: Z-Y
-	extends: 40.1878 17.8437
+	extends: 33.4898 14.8697
 	labels: 1
 	layer: Media
-	origin: 0 1.10697 -2.12175
+	origin: 0 -4.03461 -7.00458
 	subtype: Material
 	title: GeoViewer Blue plot
 End
@@ -325,7 +325,7 @@ Plot: Magenta
 	cbtics: 0
 	coord: X-Y
 	cpd: 0
-	extends: 100 44.4008
+	extends: 100 75
 	grid: 0
 	index: 0
 	labels: 1
