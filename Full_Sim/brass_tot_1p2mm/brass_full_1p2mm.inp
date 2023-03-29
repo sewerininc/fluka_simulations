@@ -1,0 +1,213 @@
+TITLE
+My title
+DEFAULTS                                                              HADROTHE
+BEAM          -0.100                           20.       10.        1.PROTON
+BEAMPOS          0.0       0.0      -15.       0.0       0.0
+GEOBEGIN                                                              COMBNAME
+    0    0          
+SPH blkbody    0.0 0.0 0.0 10000.
+SPH void       0.0 0.0 0.0 9900.
+RPP target1    -10. 10. -4.46 -4.34 -6. -1.
+RPP target2    -10. 10. -4.26 -4.14 -6. -1.
+RPP target3    -10. 10. -4.06 -3.94 -6. -1.
+RPP target4    -10. 10. -3.86 -3.74 -6. -1.
+RPP target5    -10. 10. -3.66 -3.54 -6. -1.
+RPP target6    -10. 10. -3.46 -3.34 -6. -1.
+RPP target7    -10. 10. -3.26 -3.14 -6. -1.
+RPP target8    -10. 10. -3.06 -2.94 -6. -1.
+RPP target9    -10. 10. -2.86 -2.74 -6. -1.
+RPP target10   -10. 10. -2.66 -2.54 -6. -1.
+RPP target11   -10. 10. -2.46 -2.34 -6. -1.
+RPP target12   -10. 10. -2.26 -2.14 -6. -1.
+RPP target13   -10. 10. -2.06 -1.94 -6. -1.
+RPP target14   -10. 10. -1.86 -1.74 -6. -1.
+RPP target15   -10. 10. -1.66 -1.54 -6. -1.
+RPP target16   -10. 10. -1.46 -1.34 -6. -1.
+RPP target17   -10. 10. -1.26 -1.14 -6. -1.
+RPP target18   -10. 10. -1.06 -0.94 -6. -1.
+RPP target19   -10. 10. -0.86 -0.74 -6. -1.
+RPP target20   -10. 10. -0.66 -0.54 -6. -1.
+RPP target21   -10. 10. -0.46 -0.34 -6. -1.
+RPP target22   -10. 10. -0.26 -0.14 -6. -1.
+RPP target23   -10. 10. -0.06 0.06 -6. -1.
+RPP target24   -10. 10. 0.14 0.26 -6. -1.
+RPP target25   -10. 10. 0.34 0.46 -6. -1.
+RPP target26   -10. 10. 0.54 0.66 -6. -1.
+RPP target27   -10. 10. 0.74 0.86 -6. -1.
+RPP target28   -10. 10. 0.94 1.06 -6. -1.
+RPP target29   -10. 10. 1.14 1.26 -6. -1.
+RPP target30   -10. 10. 1.34 1.46 -6. -1.
+RPP target31   -10. 10. 1.54 1.66 -6. -1.
+RPP target32   -10. 10. 1.74 1.86 -6. -1.
+RPP target33   -10. 10. 1.94 2.06 -6. -1.
+RPP target34   -10. 10. 2.14 2.26 -6. -1.
+RPP target35   -10. 10. 2.34 2.46 -6. -1.
+RPP target36   -10. 10. 2.54 2.66 -6. -1.
+RPP target37   -10. 10. 2.74 2.86 -6. -1.
+RPP target38   -10. 10. 2.94 3.06 -6. -1.
+RPP target39   -10. 10. 3.14 3.26 -6. -1.
+RPP target40   -10. 10. 3.34 3.46 -6. -1.
+RPP target41   -10. 10. 3.54 3.66 -6. -1.
+RPP target42   -10. 10. 3.74 3.86 -6. -1.
+RPP target43   -10. 10. 3.94 4.06 -6. -1.
+RPP target44   -10. 10. 4.14 4.26 -6. -1.
+RPP target45   -10. 10. 4.34 4.46 -6. -1.
+END
+BLKBODY     45 +blkbody -void
+VOID        45 +void -target1 -target2 -target3 -target4 -target5 -target6 -target7 -target8 -target9 -target10
+               -target11 -target12 -target13 -target14 -target15 -target16 -target17 -target18 -target19 
+               -target20 -target21 -target22 -target23 -target24 -target25 -target26 -target27 -target28 
+               -target29 -target30 -target31 -target32 -target33 -target34 -target35 -target36 -target37 
+               -target38 -target39 -target40 -target41 -target42 -target43 -target44 -target45
+TARGET1     45 +target1
+TARGET2     45 +target2
+TARGET3     45 +target3
+TARGET4     45 +target4
+TARGET5     45 +target5
+TARGET6     45 +target6
+TARGET7     45 +target7
+TARGET8     45 +target8
+TARGET9     45 +target9
+TARGET10    45 +target10
+TARGET11    45 +target11
+TARGET12    45 +target12
+TARGET13    45 +target13
+TARGET14    45 +target14
+TARGET15    45 +target15
+TARGET16    45 +target16
+TARGET17    45 +target17
+TARGET18    45 +target18
+TARGET19    45 +target19
+TARGET20    45 +target20
+TARGET21    45 +target21
+TARGET22    45 +target22
+TARGET23    45 +target23
+TARGET24    45 +target24
+TARGET25    45 +target25
+TARGET26    45 +target26
+TARGET27    45 +target27
+TARGET28    45 +target28
+TARGET29    45 +target29
+TARGET30    45 +target30
+TARGET31    45 +target31
+TARGET32    45 +target32
+TARGET33    45 +target33
+TARGET34    45 +target34
+TARGET35    45 +target35
+TARGET36    45 +target36
+TARGET37    45 +target37
+TARGET38    45 +target38
+TARGET39    45 +target39
+TARGET40    45 +target40
+TARGET41    45 +target41
+TARGET42    45 +target42
+TARGET43    45 +target43
+TARGET44    45 +target44
+TARGET45    45 +target45
+END
+GEOEND
+MATERIAL         30.     65.38      7.13                              Zink
+LOW-MAT         Zink       30.       -2.      296.                    ZINC
+MATERIAL                            8.73                              Brass
+COMPOUND        0.58    COPPER      0.39      Zink      0.03      LEADBrass
+ASSIGNMA    BLCKHOLE   BLKBODY
+ASSIGNMA         AIR      VOID
+ASSIGNMA       Brass   TARGET1
+ASSIGNMA       Brass   TARGET2
+ASSIGNMA       Brass   TARGET3
+ASSIGNMA       Brass   TARGET4
+ASSIGNMA       Brass   TARGET5
+ASSIGNMA       Brass   TARGET6
+ASSIGNMA       Brass   TARGET7
+ASSIGNMA       Brass   TARGET8
+ASSIGNMA       Brass   TARGET9
+ASSIGNMA       Brass  TARGET10
+ASSIGNMA       Brass  TARGET11
+ASSIGNMA       Brass  TARGET12
+ASSIGNMA       Brass  TARGET13
+ASSIGNMA       Brass  TARGET14
+ASSIGNMA       Brass  TARGET15
+ASSIGNMA       Brass  TARGET16
+ASSIGNMA       Brass  TARGET17
+ASSIGNMA       Brass  TARGET18
+ASSIGNMA       Brass  TARGET19
+ASSIGNMA       Brass  TARGET20
+ASSIGNMA       Brass  TARGET21
+ASSIGNMA       Brass  TARGET22
+ASSIGNMA       Brass  TARGET23
+ASSIGNMA       Brass  TARGET24
+ASSIGNMA       Brass  TARGET25
+ASSIGNMA       Brass  TARGET26
+ASSIGNMA       Brass  TARGET27
+ASSIGNMA       Brass  TARGET28
+ASSIGNMA       Brass  TARGET29
+ASSIGNMA       Brass  TARGET30
+ASSIGNMA       Brass  TARGET31
+ASSIGNMA       Brass  TARGET32
+ASSIGNMA       Brass  TARGET33
+ASSIGNMA       Brass  TARGET34
+ASSIGNMA       Brass  TARGET35
+ASSIGNMA       Brass  TARGET36
+ASSIGNMA       Brass  TARGET37
+ASSIGNMA       Brass  TARGET38
+ASSIGNMA       Brass  TARGET39
+ASSIGNMA       Brass  TARGET40
+ASSIGNMA       Brass  TARGET41
+ASSIGNMA       Brass  TARGET42
+ASSIGNMA       Brass  TARGET43
+ASSIGNMA       Brass  TARGET44
+ASSIGNMA       Brass  TARGET45
+PHYSICS           1.                                                  COALESCE
+PHYSICS           3.                                                  EVAPORAT
+PHYSICS        1000.     1000.     1000.     1000.     1000.     1000.PEATHRES
+IRRPROFI   15000000.      1E10
+RADDECAY          1.                  3.333333303.
+USRBIN           10.  ALL-PART      -41.       10.      0.06       -1.xz_mid
+USRBIN          -10.     -0.06       -6.      400.        1.      100. &
+DCYTIMES        300.      900.     3600.     7200.    14400.    28800.
+DCYTIMES      57600.    86400.   115200.   259200.      450.     1400.
+DCYTIMES       2500.     5400.    10800.   360000.    21600.    43200.
+DCYTIMES        150.      600.
+RESNUCLE          3.      -21.                      @ALLREGS      540.cool1
+RESNUCLE          3.      -22.                      @ALLREGS      540.cool2
+RESNUCLE          3.      -23.                      @ALLREGS      540.cool3
+RESNUCLE          3.      -24.                      @ALLREGS      540.cool4
+RESNUCLE          3.      -25.                      @ALLREGS      540.cool5
+RESNUCLE          3.      -26.                      @ALLREGS      540.cool6
+RESNUCLE          3.      -27.                      @ALLREGS      540.cool7
+RESNUCLE          3.      -28.                      @ALLREGS      540.cool8
+RESNUCLE          3.      -29.                      @ALLREGS      540.cool9
+RESNUCLE          3.      -30.                      @ALLREGS      540.cool10
+RESNUCLE          3.      -31.                      @ALLREGS      540.cool11
+RESNUCLE          3.      -32.                      @ALLREGS      540.cool12
+RESNUCLE          3.      -33.                      @ALLREGS      540.cool13
+RESNUCLE          3.      -34.                      @ALLREGS      540.cool14
+RESNUCLE          3.      -35.                      @ALLREGS      540.cool15
+RESNUCLE          3.      -36.                      @ALLREGS      540.cool16
+RESNUCLE          3.      -37.                      @ALLREGS      540.cool17
+RESNUCLE          3.      -38.                      @ALLREGS      540.cool18
+RESNUCLE          3.      -39.                      @ALLREGS      540.cool19
+RESNUCLE          3.      -40.                      @ALLREGS      540.cool20
+DCYSCORE          1.                         cool1     cool1          RESNUCLE
+DCYSCORE          2.                         cool2     cool2          RESNUCLE
+DCYSCORE          3.                         cool3     cool3          RESNUCLE
+DCYSCORE          4.                         cool4     cool4          RESNUCLE
+DCYSCORE          5.                         cool5     cool5          RESNUCLE
+DCYSCORE          6.                         cool6     cool6          RESNUCLE
+DCYSCORE          7.                         cool7     cool7          RESNUCLE
+DCYSCORE          8.                         cool8     cool8          RESNUCLE
+DCYSCORE          9.                         cool9     cool9          RESNUCLE
+DCYSCORE         10.                        cool10    cool10          RESNUCLE
+DCYSCORE         11.                        cool11    cool11          RESNUCLE
+DCYSCORE         12.                        cool12    cool12          RESNUCLE
+DCYSCORE         13.                        cool13    cool13          RESNUCLE
+DCYSCORE         14.                        cool14    cool14          RESNUCLE
+DCYSCORE         15.                        cool15    cool15          RESNUCLE
+DCYSCORE         16.                        cool16    cool16          RESNUCLE
+DCYSCORE         17.                        cool17    cool17          RESNUCLE
+DCYSCORE         18.                        cool18    cool18          RESNUCLE
+DCYSCORE         19.                        cool19    cool19          RESNUCLE
+DCYSCORE         20.                        cool20    cool20          RESNUCLE
+RANDOMIZ          1.
+START       2000000.
+STOP
