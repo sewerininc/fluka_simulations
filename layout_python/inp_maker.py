@@ -16,6 +16,9 @@ tot_layers = 1
 cube_pr_layer = 45
 dist_bet_layer = 2  
 layers = 1
+tot_vol = x_len*width*depth*cube_pr_layer
+tot_vol = round(tot_vol, 1)
+
 
 add_water_tank = False
 
@@ -28,35 +31,37 @@ BEAM          -0.100                          20.0      10.0        1.PROTON
 BEAMPOS          0.0       0.0      -15.       0.0       0.0
 """
 
-end_str = """PHYSICS           1.                                                  COALESCE
+end_str = f"""PHYSICS           1.                                                  COALESCE
 PHYSICS           3.                                                  EVAPORAT
 PHYSICS        1000.     1000.     1000.     1000.     1000.     1000.PEATHRES
 IRRPROFI   15000000.      1E10
 RADDECAY          1.                  3.333333303.
+USRBIN          {round(x_len-x_len/2, 0)}   ALL-PART      -41.       10.    {width-width/2}        -1.xz_mid
+USRBIN         -{round(x_len-x_len/2, 0)}   -{width-width/2}        -{depth+1}      400.        1.      100. &
 DCYTIMES        300.      900.     3600.     7200.    14400.    28800.
 DCYTIMES      57600.    86400.   115200.   259200.      450.     1400.
 DCYTIMES       2500.     5400.    10800.   360000.    21600.    43200.
 DCYTIMES        150.      600.
-RESNUCLE          3.      -21.                      @ALLREGS          cool1
-RESNUCLE          3.      -22.                      @ALLREGS          cool2
-RESNUCLE          3.      -23.                      @ALLREGS          cool3
-RESNUCLE          3.      -24.                      @ALLREGS          cool4
-RESNUCLE          3.      -25.                      @ALLREGS          cool5
-RESNUCLE          3.      -26.                      @ALLREGS          cool6
-RESNUCLE          3.      -27.                      @ALLREGS          cool7
-RESNUCLE          3.      -28.                      @ALLREGS          cool8
-RESNUCLE          3.      -29.                      @ALLREGS          cool9
-RESNUCLE          3.      -30.                      @ALLREGS          cool10
-RESNUCLE          3.      -31.                      @ALLREGS          cool11
-RESNUCLE          3.      -32.                      @ALLREGS          cool12
-RESNUCLE          3.      -33.                      @ALLREGS          cool13
-RESNUCLE          3.      -34.                      @ALLREGS          cool14
-RESNUCLE          3.      -35.                      @ALLREGS          cool15
-RESNUCLE          3.      -36.                      @ALLREGS          cool16
-RESNUCLE          3.      -37.                      @ALLREGS          cool17
-RESNUCLE          3.      -38.                      @ALLREGS          cool18
-RESNUCLE          3.      -39.                      @ALLREGS          cool19
-RESNUCLE          3.      -40.                      @ALLREGS          cool20
+RESNUCLE          3.      -21.                      @ALLREGS     {tot_vol}cool1
+RESNUCLE          3.      -22.                      @ALLREGS     {tot_vol}cool2
+RESNUCLE          3.      -23.                      @ALLREGS     {tot_vol}cool3
+RESNUCLE          3.      -24.                      @ALLREGS     {tot_vol}cool4
+RESNUCLE          3.      -25.                      @ALLREGS     {tot_vol}cool5
+RESNUCLE          3.      -26.                      @ALLREGS     {tot_vol}cool6
+RESNUCLE          3.      -27.                      @ALLREGS     {tot_vol}cool7
+RESNUCLE          3.      -28.                      @ALLREGS     {tot_vol}cool8
+RESNUCLE          3.      -29.                      @ALLREGS     {tot_vol}cool9
+RESNUCLE          3.      -30.                      @ALLREGS     {tot_vol}cool10
+RESNUCLE          3.      -31.                      @ALLREGS     {tot_vol}cool11
+RESNUCLE          3.      -32.                      @ALLREGS     {tot_vol}cool12
+RESNUCLE          3.      -33.                      @ALLREGS     {tot_vol}cool13
+RESNUCLE          3.      -34.                      @ALLREGS     {tot_vol}cool14
+RESNUCLE          3.      -35.                      @ALLREGS     {tot_vol}cool15
+RESNUCLE          3.      -36.                      @ALLREGS     {tot_vol}cool16
+RESNUCLE          3.      -37.                      @ALLREGS     {tot_vol}cool17
+RESNUCLE          3.      -38.                      @ALLREGS     {tot_vol}cool18
+RESNUCLE          3.      -39.                      @ALLREGS     {tot_vol}cool19
+RESNUCLE          3.      -40.                      @ALLREGS     {tot_vol}cool20
 DCYSCORE          1.                         cool1     cool1          RESNUCLE
 DCYSCORE          2.                         cool2     cool2          RESNUCLE
 DCYSCORE          3.                         cool3     cool3          RESNUCLE
