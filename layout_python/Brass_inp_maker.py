@@ -5,15 +5,15 @@ Get the start and end of the scrip to input only geometry is created here.
 
 everything is centered arround 0 so x_len = 20 means it goes from x=-10 to x=10
 """
-output_name = "brass_full_1p2mm"
+output_name = "brass_full_0p8mm"
 
-x_len = 20  # X
-width = 0.12  # Y
+x_len = 30  # X
+width = 0.08  # Y
 depth = 5.0  # Z
 btw = 0.2 - width  # Y - room between each line and material
 room_layer = 1  # Z
 tot_layers = 1
-cube_pr_layer = 45
+cube_pr_layer = 65
 dist_bet_layer = 2  
 layers = 1
 tot_vol = x_len*width*depth*cube_pr_layer
@@ -27,7 +27,7 @@ material = "Brass"
 start_str = """TITLE
 My title
 DEFAULTS                                                              HADROTHE
-BEAM          -0.100                          20.0      10.0        1.PROTON
+BEAM          -0.100     0.001                 10.        5.        1.PROTON
 BEAMPOS          0.0       0.0      -15.       0.0       0.0
 """
 
@@ -36,7 +36,7 @@ PHYSICS           3.                                                  EVAPORAT
 PHYSICS        1000.     1000.     1000.     1000.     1000.     1000.PEATHRES
 IRRPROFI   15000000.      1E10
 RADDECAY          1.                  3.333333303.
-USRBIN         {round(x_len-x_len/2, 0)}   ALL-PART      -41.       10.    {width-width/2}         -1.xz_mid
+USRBIN         10.   ALL-PART      -41.       {round(x_len-x_len/2, 0)}    {width-width/2}         -1.xz_mid
 USRBIN         -{round(x_len-x_len/2, 0)}   -{width-width/2}        -{depth+1}      400.        1.      100. &
 DCYTIMES        300.      900.     3600.     7200.    14400.    28800.
 DCYTIMES      57600.    86400.   115200.   259200.      450.     1400.
