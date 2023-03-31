@@ -5,29 +5,29 @@ Get the start and end of the scrip to input only geometry is created here.
 
 everything is centered arround 0 so x_len = 20 means it goes from x=-10 to x=10
 """
-output_name = "brass_full_0p8mm"
+output_name = "watertank"
 
-x_len = 30  # X
-width = 0.08  # Y
+x_len = 20  # X
+width = 0.125  # Y
 depth = 5.0  # Z
 btw = 0.2 - width  # Y - room between each line and material
 room_layer = 1  # Z
 tot_layers = 1
-cube_pr_layer = 65
+cube_pr_layer = 17
 dist_bet_layer = 2  
 layers = 1
 tot_vol = x_len*width*depth*cube_pr_layer
 tot_vol = round(tot_vol, 1)
 
 
-add_water_tank = False
+add_water_tank = True
 
 material = "Brass"
 
 start_str = """TITLE
 My title
 DEFAULTS                                                              HADROTHE
-BEAM          -0.100     0.001                 10.        5.        1.PROTON
+BEAM          -0.100    -0.001                10.0       2.5        1.PROTON
 BEAMPOS          0.0       0.0      -15.       0.0       0.0
 """
 

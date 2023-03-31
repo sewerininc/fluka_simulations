@@ -5,7 +5,7 @@ Title: 1mm_brass
 Input: brass_full_1mm.inp
 Submit: *Default
 Tabs: 0.1 0.32 0.56 0.81 1.0
-Page: Run
+Page: Input
 DefMain: True
 LinkPrg: lfluka
 F77bound: True
@@ -15,9 +15,9 @@ F77dline: False
 Run: <default>
 	Prev:     0
 	Last:     5
-	Status:   4
+	Status:   3
 	Pid:      0
-	StartRun: 1680081656
+	StartRun: 1680082597
 
 	# USRxxx data file: brass_full_1mm_21.rnc
 	Data: \I_\U.\e
@@ -315,8 +315,29 @@ End
 Plot: brass_full_1mm_21_plot
 	Format: .eps
 	Type:   RESNUCLE
+	cbcolors: 0
+	cblog: True
+	cbpalette: FLUKA
+	cbround: 0
+	cbtics: 1
+	cpd: 0
 	datafile: brass_full_1mm_21.rnc
+	det: 1
+	grid: 0
+	index: 0
+	lw.0: 0
+	plot: Z/A
+	ps.0: 0
 	title: RESNUCLE brass full 1mm 21
+	with.0: errorbars
+	x2log: False
+	x2tics: 0
+	xlog: False
+	y2log: False
+	y2tics: 0
+	ylog: False
+	zlog: False
+	ztics: 0
 End
 
 # RESNUCLE plot "RESNUCLE brass full 1mm 22"
@@ -467,8 +488,29 @@ End
 Plot: brass_full_1mm_40_plot
 	Format: .eps
 	Type:   RESNUCLE
+	cbcolors: 0
+	cblog: False
+	cbpalette: FLUKA
+	cbround: 0
+	cbtics: 0
+	cpd: 0
 	datafile: brass_full_1mm_40.rnc
+	det: 1
+	grid: 0
+	index: 0
+	lw.0: 0
+	plot: Z
+	ps.0: 0
 	title: RESNUCLE brass full 1mm 40
+	with.0: errorbars
+	x2log: False
+	x2tics: 0
+	xlog: False
+	y2log: False
+	y2tics: 0
+	ylog: False
+	zlog: False
+	ztics: 0
 End
 
 # USRBIN plot "USRBIN brass full 1mm 41"
@@ -489,10 +531,10 @@ Plot: brass_full_1mm_41_plot
 	grid: 0
 	hist: 2D Projection
 	index: 0
-	int: 1.5749103840458412E-002
+	int: 1.5819594893831449E-002
 	lw.0: 0
-	max: 2.34248303E-02
-	min: 5.59585033E-07
+	max: 5.56725496E-03
+	min: 5.10550344E-05
 	proj: Y
 	ps.0: 0
 	pt.0: 0
@@ -501,12 +543,10 @@ Plot: brass_full_1mm_41_plot
 	with.0: errorbars
 	x2log: False
 	x2tics: 0
-	xlabel: Z
 	xlog: False
 	xrebin: 1
 	y2log: False
 	y2tics: 0
-	ylabel: X
 	ylog: False
 	yrebin: 1
 	zlog: False

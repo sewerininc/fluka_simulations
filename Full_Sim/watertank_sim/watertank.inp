@@ -1,0 +1,87 @@
+TITLE
+My title
+DEFAULTS                                                              HADROTHE
+BEAM          -0.100    -0.001                 10.       2.5        1.PROTON
+BEAMPOS          0.0       0.0      -15.       0.0       0.0
+GEOBEGIN                                                              COMBNAME
+    0    0          
+SPH blkbody    0.0 0.0 0.0 10000.
+SPH void       0.0 0.0 0.0 9900.
+RPP target1    -50. 50. -50. 50. 0.0 20.
+RPP target2    -10. 10. -1.663 -1.538 -6. -1.
+RPP target3    -10. 10. -1.463 -1.338 -6. -1.
+RPP target4    -10. 10. -1.263 -1.138 -6. -1.
+RPP target5    -10. 10. -1.062 -0.938 -6. -1.
+RPP target6    -10. 10. -0.863 -0.738 -6. -1.
+RPP target7    -10. 10. -0.663 -0.538 -6. -1.
+RPP target8    -10. 10. -0.463 -0.338 -6. -1.
+RPP target9    -10. 10. -0.263 -0.138 -6. -1.
+RPP target10   -10. 10. -0.063 0.062 -6. -1.
+RPP target11   -10. 10. 0.137 0.262 -6. -1.
+RPP target12   -10. 10. 0.337 0.462 -6. -1.
+RPP target13   -10. 10. 0.537 0.662 -6. -1.
+RPP target14   -10. 10. 0.737 0.862 -6. -1.
+RPP target15   -10. 10. 0.937 1.062 -6. -1.
+RPP target16   -10. 10. 1.138 1.263 -6. -1.
+RPP target17   -10. 10. 1.338 1.463 -6. -1.
+RPP target18   -10. 10. 1.538 1.663 -6. -1.
+END
+BLKBODY     18 +blkbody -void
+VOID        18 +void -target1 -target2 -target3 -target4 -target5 -target6 -target7 -target8 -target9 -target10
+               -target11 -target12 -target13 -target14 -target15 -target16 -target17 -target18
+TARGET1     18 +target1
+TARGET2     18 +target2
+TARGET3     18 +target3
+TARGET4     18 +target4
+TARGET5     18 +target5
+TARGET6     18 +target6
+TARGET7     18 +target7
+TARGET8     18 +target8
+TARGET9     18 +target9
+TARGET10    18 +target10
+TARGET11    18 +target11
+TARGET12    18 +target12
+TARGET13    18 +target13
+TARGET14    18 +target14
+TARGET15    18 +target15
+TARGET16    18 +target16
+TARGET17    18 +target17
+TARGET18    18 +target18
+END
+GEOEND
+MATERIAL         30.     65.38      7.13                              Zink
+LOW-MAT         Zink       30.       -2.      296.                    ZINC
+MATERIAL                            8.73                              Brass
+COMPOUND        0.58    COPPER      0.39      Zink      0.03      LEADBrass
+ASSIGNMA    BLCKHOLE   BLKBODY
+ASSIGNMA         AIR      VOID
+ASSIGNMA       WATER   TARGET1
+ASSIGNMA       Brass   TARGET2
+ASSIGNMA       Brass   TARGET3
+ASSIGNMA       Brass   TARGET4
+ASSIGNMA       Brass   TARGET5
+ASSIGNMA       Brass   TARGET6
+ASSIGNMA       Brass   TARGET7
+ASSIGNMA       Brass   TARGET8
+ASSIGNMA       Brass   TARGET9
+ASSIGNMA       Brass  TARGET10
+ASSIGNMA       Brass  TARGET11
+ASSIGNMA       Brass  TARGET12
+ASSIGNMA       Brass  TARGET13
+ASSIGNMA       Brass  TARGET14
+ASSIGNMA       Brass  TARGET15
+ASSIGNMA       Brass  TARGET16
+ASSIGNMA       Brass  TARGET17
+ASSIGNMA       Brass  TARGET18
+PHYSICS           1.                                                  COALESCE
+PHYSICS           3.                                                  EVAPORAT
+PHYSICS        1000.     1000.     1000.     1000.     1000.     1000.PEATHRES
+USRBIN           10.      DOSE      -21.        5.        3.       20.Z_dose
+USRBIN           -5.       -3.       -1.        1.        1.     1050. &
+USRBIN           10.      DOSE      -22.        5.        3.       20.YZ_dose
+USRBIN           -5.       -3.       -1.        1.      200.     1050. &
+USRBIN           10.  ALL-PART      -23.        5.        3.       20.YZ_all
+USRBIN           -5.       -3.       -1.        1.      200.     1050. &
+RANDOMIZ          1.
+START       2000000.
+STOP

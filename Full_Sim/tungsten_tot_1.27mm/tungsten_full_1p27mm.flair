@@ -1,7 +1,7 @@
 #!/usr/local/flair/flair
 # FLUKA Project file
 Version: 2
-Title: tungsten127
+Title: My title
 Input: tungsten_full_1p27mm.inp
 Submit: *Default
 Tabs: 0.1 0.32 0.56 0.81 1.0
@@ -15,11 +15,432 @@ F77dline: False
 Run: <default>
 	Prev:     0
 	Last:     5
-	Status:   0
+	Status:   3
 	Pid:      0
-	StartRun: 0
+	StartRun: 1680245973
+
+	# USRxxx data file: tungsten_full_1p27mm_21.rnc
+	Data: \I_\U.\e
+		Unit: 21
+		Type: r
+		Rule: +,\I\d\d\d_fort\.\U
+		Rule: +,\I\d\d\d_ftn\.\U
+	End
+
+	# USRxxx data file: tungsten_full_1p27mm_22.rnc
+	Data: \I_\U.\e
+		Unit: 22
+		Type: r
+		Rule: +,\I\d\d\d_fort\.\U
+		Rule: +,\I\d\d\d_ftn\.\U
+	End
+
+	# USRxxx data file: tungsten_full_1p27mm_23.rnc
+	Data: \I_\U.\e
+		Unit: 23
+		Type: r
+		Rule: +,\I\d\d\d_fort\.\U
+		Rule: +,\I\d\d\d_ftn\.\U
+	End
+
+	# USRxxx data file: tungsten_full_1p27mm_24.rnc
+	Data: \I_\U.\e
+		Unit: 24
+		Type: r
+		Rule: +,\I\d\d\d_fort\.\U
+		Rule: +,\I\d\d\d_ftn\.\U
+	End
+
+	# USRxxx data file: tungsten_full_1p27mm_25.rnc
+	Data: \I_\U.\e
+		Unit: 25
+		Type: r
+		Rule: +,\I\d\d\d_fort\.\U
+		Rule: +,\I\d\d\d_ftn\.\U
+	End
+
+	# USRxxx data file: tungsten_full_1p27mm_26.rnc
+	Data: \I_\U.\e
+		Unit: 26
+		Type: r
+		Rule: +,\I\d\d\d_fort\.\U
+		Rule: +,\I\d\d\d_ftn\.\U
+	End
+
+	# USRxxx data file: tungsten_full_1p27mm_27.rnc
+	Data: \I_\U.\e
+		Unit: 27
+		Type: r
+		Rule: +,\I\d\d\d_fort\.\U
+		Rule: +,\I\d\d\d_ftn\.\U
+	End
+
+	# USRxxx data file: tungsten_full_1p27mm_28.rnc
+	Data: \I_\U.\e
+		Unit: 28
+		Type: r
+		Rule: +,\I\d\d\d_fort\.\U
+		Rule: +,\I\d\d\d_ftn\.\U
+	End
+
+	# USRxxx data file: tungsten_full_1p27mm_29.rnc
+	Data: \I_\U.\e
+		Unit: 29
+		Type: r
+		Rule: +,\I\d\d\d_fort\.\U
+		Rule: +,\I\d\d\d_ftn\.\U
+	End
+
+	# USRxxx data file: tungsten_full_1p27mm_30.rnc
+	Data: \I_\U.\e
+		Unit: 30
+		Type: r
+		Rule: +,\I\d\d\d_fort\.\U
+		Rule: +,\I\d\d\d_ftn\.\U
+	End
+
+	# USRxxx data file: tungsten_full_1p27mm_31.rnc
+	Data: \I_\U.\e
+		Unit: 31
+		Type: r
+		Rule: +,\I\d\d\d_fort\.\U
+		Rule: +,\I\d\d\d_ftn\.\U
+	End
+
+	# USRxxx data file: tungsten_full_1p27mm_32.rnc
+	Data: \I_\U.\e
+		Unit: 32
+		Type: r
+		Rule: +,\I\d\d\d_fort\.\U
+		Rule: +,\I\d\d\d_ftn\.\U
+	End
+
+	# USRxxx data file: tungsten_full_1p27mm_33.rnc
+	Data: \I_\U.\e
+		Unit: 33
+		Type: r
+		Rule: +,\I\d\d\d_fort\.\U
+		Rule: +,\I\d\d\d_ftn\.\U
+	End
+
+	# USRxxx data file: tungsten_full_1p27mm_34.rnc
+	Data: \I_\U.\e
+		Unit: 34
+		Type: r
+		Rule: +,\I\d\d\d_fort\.\U
+		Rule: +,\I\d\d\d_ftn\.\U
+	End
+
+	# USRxxx data file: tungsten_full_1p27mm_35.rnc
+	Data: \I_\U.\e
+		Unit: 35
+		Type: r
+		Rule: +,\I\d\d\d_fort\.\U
+		Rule: +,\I\d\d\d_ftn\.\U
+	End
+
+	# USRxxx data file: tungsten_full_1p27mm_36.rnc
+	Data: \I_\U.\e
+		Unit: 36
+		Type: r
+		Rule: +,\I\d\d\d_fort\.\U
+		Rule: +,\I\d\d\d_ftn\.\U
+	End
+
+	# USRxxx data file: tungsten_full_1p27mm_37.rnc
+	Data: \I_\U.\e
+		Unit: 37
+		Type: r
+		Rule: +,\I\d\d\d_fort\.\U
+		Rule: +,\I\d\d\d_ftn\.\U
+	End
+
+	# USRxxx data file: tungsten_full_1p27mm_38.rnc
+	Data: \I_\U.\e
+		Unit: 38
+		Type: r
+		Rule: +,\I\d\d\d_fort\.\U
+		Rule: +,\I\d\d\d_ftn\.\U
+	End
+
+	# USRxxx data file: tungsten_full_1p27mm_39.rnc
+	Data: \I_\U.\e
+		Unit: 39
+		Type: r
+		Rule: +,\I\d\d\d_fort\.\U
+		Rule: +,\I\d\d\d_ftn\.\U
+	End
+
+	# USRxxx data file: tungsten_full_1p27mm_40.rnc
+	Data: \I_\U.\e
+		Unit: 40
+		Type: r
+		Rule: +,\I\d\d\d_fort\.\U
+		Rule: +,\I\d\d\d_ftn\.\U
+	End
+
+	# USRxxx data file: tungsten_full_1p27mm_41.bnn
+	Data: \I_\U.\e
+		Unit: 41
+		Type: b
+		Rule: +,\I\d\d\d_fort\.\U
+		Rule: +,\I\d\d\d_ftn\.\U
+	End
 End
 
 # Geometry Information
 Geometry:
+End
+
+# Geometry plot "Geometry My title"
+Plot: tungsten_full_1p27mm_geometry
+	Format: .eps
+	Type:   Geometry
+	basisu: 1 0 0
+	basisv: 0 1 0
+	boundaries: 0
+	cbcolors: 0
+	cblog: False
+	cbpalette: FLUKA
+	cbround: 0
+	cbtics: 0
+	coord: U-V
+	cpd: 0
+	extends: 100 100
+	grid: 0
+	index: 0
+	labels: 0
+	origin: 0 0 0
+	subtype: Geometry
+	title: Geometry My title
+	x2log: False
+	x2tics: 0
+	xlog: False
+	y2log: False
+	y2tics: 0
+	ylog: False
+	zlog: False
+	ztics: 0
+End
+
+# RESNUCLE plot "RESNUCLE tungsten full 1p27mm 21"
+Plot: tungsten_full_1p27mm_21_plot
+	Format: .eps
+	Type:   RESNUCLE
+	datafile: tungsten_full_1p27mm_21.rnc
+	title: RESNUCLE tungsten full 1p27mm 21
+End
+
+# RESNUCLE plot "RESNUCLE tungsten full 1p27mm 22"
+Plot: tungsten_full_1p27mm_22_plot
+	Format: .eps
+	Type:   RESNUCLE
+	datafile: tungsten_full_1p27mm_22.rnc
+	title: RESNUCLE tungsten full 1p27mm 22
+End
+
+# RESNUCLE plot "RESNUCLE tungsten full 1p27mm 23"
+Plot: tungsten_full_1p27mm_23_plot
+	Format: .eps
+	Type:   RESNUCLE
+	datafile: tungsten_full_1p27mm_23.rnc
+	title: RESNUCLE tungsten full 1p27mm 23
+End
+
+# RESNUCLE plot "RESNUCLE tungsten full 1p27mm 24"
+Plot: tungsten_full_1p27mm_24_plot
+	Format: .eps
+	Type:   RESNUCLE
+	datafile: tungsten_full_1p27mm_24.rnc
+	title: RESNUCLE tungsten full 1p27mm 24
+End
+
+# RESNUCLE plot "RESNUCLE tungsten full 1p27mm 25"
+Plot: tungsten_full_1p27mm_25_plot
+	Format: .eps
+	Type:   RESNUCLE
+	datafile: tungsten_full_1p27mm_25.rnc
+	title: RESNUCLE tungsten full 1p27mm 25
+End
+
+# RESNUCLE plot "RESNUCLE tungsten full 1p27mm 26"
+Plot: tungsten_full_1p27mm_26_plot
+	Format: .eps
+	Type:   RESNUCLE
+	datafile: tungsten_full_1p27mm_26.rnc
+	title: RESNUCLE tungsten full 1p27mm 26
+End
+
+# RESNUCLE plot "RESNUCLE tungsten full 1p27mm 27"
+Plot: tungsten_full_1p27mm_27_plot
+	Format: .eps
+	Type:   RESNUCLE
+	datafile: tungsten_full_1p27mm_27.rnc
+	title: RESNUCLE tungsten full 1p27mm 27
+End
+
+# RESNUCLE plot "RESNUCLE tungsten full 1p27mm 28"
+Plot: tungsten_full_1p27mm_28_plot
+	Format: .eps
+	Type:   RESNUCLE
+	datafile: tungsten_full_1p27mm_28.rnc
+	title: RESNUCLE tungsten full 1p27mm 28
+End
+
+# RESNUCLE plot "RESNUCLE tungsten full 1p27mm 29"
+Plot: tungsten_full_1p27mm_29_plot
+	Format: .eps
+	Type:   RESNUCLE
+	datafile: tungsten_full_1p27mm_29.rnc
+	title: RESNUCLE tungsten full 1p27mm 29
+End
+
+# RESNUCLE plot "RESNUCLE tungsten full 1p27mm 30"
+Plot: tungsten_full_1p27mm_30_plot
+	Format: .eps
+	Type:   RESNUCLE
+	datafile: tungsten_full_1p27mm_30.rnc
+	title: RESNUCLE tungsten full 1p27mm 30
+End
+
+# RESNUCLE plot "RESNUCLE tungsten full 1p27mm 31"
+Plot: tungsten_full_1p27mm_31_plot
+	Format: .eps
+	Type:   RESNUCLE
+	datafile: tungsten_full_1p27mm_31.rnc
+	title: RESNUCLE tungsten full 1p27mm 31
+End
+
+# RESNUCLE plot "RESNUCLE tungsten full 1p27mm 32"
+Plot: tungsten_full_1p27mm_32_plot
+	Format: .eps
+	Type:   RESNUCLE
+	datafile: tungsten_full_1p27mm_32.rnc
+	title: RESNUCLE tungsten full 1p27mm 32
+End
+
+# RESNUCLE plot "RESNUCLE tungsten full 1p27mm 33"
+Plot: tungsten_full_1p27mm_33_plot
+	Format: .eps
+	Type:   RESNUCLE
+	datafile: tungsten_full_1p27mm_33.rnc
+	title: RESNUCLE tungsten full 1p27mm 33
+End
+
+# RESNUCLE plot "RESNUCLE tungsten full 1p27mm 34"
+Plot: tungsten_full_1p27mm_34_plot
+	Format: .eps
+	Type:   RESNUCLE
+	datafile: tungsten_full_1p27mm_34.rnc
+	title: RESNUCLE tungsten full 1p27mm 34
+End
+
+# RESNUCLE plot "RESNUCLE tungsten full 1p27mm 35"
+Plot: tungsten_full_1p27mm_35_plot
+	Format: .eps
+	Type:   RESNUCLE
+	datafile: tungsten_full_1p27mm_35.rnc
+	title: RESNUCLE tungsten full 1p27mm 35
+End
+
+# RESNUCLE plot "RESNUCLE tungsten full 1p27mm 36"
+Plot: tungsten_full_1p27mm_36_plot
+	Format: .eps
+	Type:   RESNUCLE
+	datafile: tungsten_full_1p27mm_36.rnc
+	title: RESNUCLE tungsten full 1p27mm 36
+End
+
+# RESNUCLE plot "RESNUCLE tungsten full 1p27mm 37"
+Plot: tungsten_full_1p27mm_37_plot
+	Format: .eps
+	Type:   RESNUCLE
+	datafile: tungsten_full_1p27mm_37.rnc
+	title: RESNUCLE tungsten full 1p27mm 37
+End
+
+# RESNUCLE plot "RESNUCLE tungsten full 1p27mm 38"
+Plot: tungsten_full_1p27mm_38_plot
+	Format: .eps
+	Type:   RESNUCLE
+	datafile: tungsten_full_1p27mm_38.rnc
+	title: RESNUCLE tungsten full 1p27mm 38
+End
+
+# RESNUCLE plot "RESNUCLE tungsten full 1p27mm 39"
+Plot: tungsten_full_1p27mm_39_plot
+	Format: .eps
+	Type:   RESNUCLE
+	datafile: tungsten_full_1p27mm_39.rnc
+	title: RESNUCLE tungsten full 1p27mm 39
+End
+
+# RESNUCLE plot "RESNUCLE tungsten full 1p27mm 40"
+Plot: tungsten_full_1p27mm_40_plot
+	Format: .eps
+	Type:   RESNUCLE
+	cbcolors: 0
+	cblog: True
+	cbpalette: FLUKA
+	cbround: 0
+	cbtics: 1
+	cpd: 0
+	datafile: tungsten_full_1p27mm_40.rnc
+	det: 1
+	grid: 0
+	index: 0
+	lw.0: 0
+	plot: Z/A
+	ps.0: 0
+	title: RESNUCLE tungsten full 1p27mm 40
+	with.0: errorbars
+	x2log: False
+	x2tics: 0
+	xlog: False
+	y2log: False
+	y2tics: 0
+	ylog: False
+	zlog: False
+	ztics: 0
+End
+
+# USRBIN plot "USRBIN tungsten full 1p27mm 41"
+Plot: tungsten_full_1p27mm_41_plot
+	Format: .eps
+	Type:   USRBIN
+	axes: Auto
+	cbcolors: 30
+	cblog: True
+	cbpalette: FLUKA
+	cbround: 0
+	cbtics: 1
+	cpd: 0
+	datafile: tungsten_full_1p27mm_41.bnn
+	det: 1
+	errors: 0
+	geo: -Auto-
+	grid: 0
+	hist: 2D Projection
+	index: 0
+	int: 1.3126223218162036E-002
+	lw.0: 0
+	max: 6.55133277E-03
+	min: 8.86583985E-06
+	proj: Y
+	ps.0: 0
+	pt.0: 0
+	swap: 0
+	title: USRBIN tungsten full 1p27mm 41
+	with.0: errorbars
+	x2log: False
+	x2tics: 0
+	xlog: False
+	xrebin: 1
+	y2log: False
+	y2tics: 0
+	ylog: False
+	yrebin: 1
+	zlog: False
+	zrebin: 1
+	ztics: 0
 End
