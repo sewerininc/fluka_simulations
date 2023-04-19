@@ -21,15 +21,25 @@
 !!
 !!  $FLUPRO/flutil/ldpm3qmd source_sampler.f -o flukadpm3_sobp
 !!
+!! IF the folder /flutil does not have ldpm3qmd use ldpmqmd
+!!
 !! Then get a file called sobp.dat and put it in the same directory as
 !! your Fluka input file. In the input file add a card called SOURCE
 !! to activate this custom source. To run it, call (or use Flair):
 !!
 !! rfluka -N0 -M1 -e flukadpm3_sobp your_input_file
 !!
+!! If Flair want to be used the command is:
 !!
+!! flair -e flukm3_sobp your_input_file.inp
 !!
 !! @details
+!!
+!! IF ERROR message sourounding line 430 and 431
+!! Change line 430 from LCHFLK (NPFLKA) = .FALSE. to KCHFLK (NPFLKA) = 0
+!! Change line 431 from DCHFLK (NPFLKA) = ZERZER
+!! to ECRFLK (NPFLKA) = ZERZER
+!!
 !!
 !! -------------------- SOBP CONFIG FILE -------------------------------------
 !! Input file (typically sobp.dat) is a text file.
