@@ -1,3 +1,5 @@
+all: tungsten brass
+
 tungsten:
 	python Tungsten_inp_maker.py
 

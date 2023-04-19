@@ -5,7 +5,7 @@ Title: My title
 Input: watertank.inp
 Submit: *Default
 Tabs: 0.1 0.32 0.56 0.81 1.0
-Page: Run
+Page: Plot
 DefMain: True
 LinkPrg: lfluka
 F77bound: True
@@ -149,7 +149,7 @@ Plot: Magenta
 	cbtics: 0
 	coord: X-Y
 	cpd: 0
-	extends: 144 108
+	extends: 144 63.9371
 	grid: 0
 	index: 0
 	labels: 1
@@ -185,16 +185,16 @@ Plot: watertank_21_plot
 	grid: 0
 	hist: 1D Projection
 	index: 0
-	int: 3.8560738884698124E-002
+	int: 3.8674803759848109E-002
 	lw.0: 0
-	max: 2.48841359E-04
-	min: 1.89640380E-16
+	max: 2.49053992E-04
+	min: 5.88179017E-09
 	proj: Z
 	ps.0: 0
 	pt.0: 0
 	swap: 0
 	title: USRBIN watertank 21
-	with.0: errorbars
+	with.0: lines
 	x2log: False
 	x2tics: 0
 	xlog: False
@@ -226,10 +226,10 @@ Plot: watertank_22_plot
 	grid: 0
 	hist: 2D Projection
 	index: 0
-	int: 3.8560738526603543E-002
+	int: 3.8674803326452172E-002
 	lw.0: 0
-	max: 7.13312824E-04
-	min: 2.16968654E-16
+	max: 6.26999885E-04
+	min: 1.29335694E-17
 	proj: X
 	ps.0: 0
 	pt.0: 0
@@ -267,10 +267,10 @@ Plot: watertank_23_plot
 	grid: 0
 	hist: 2D Projection
 	index: 0
-	int: 3.6501977949431135
+	int: 3.6557832865204141
 	lw.0: 0
-	max: 4.60269600E-02
-	min: 4.58823951E-10
+	max: 4.30567153E-02
+	min: 3.53386386E-05
 	proj: X
 	ps.0: 0
 	pt.0: 0
