@@ -1,0 +1,668 @@
+#!/usr/local/flair/flair
+# FLUKA Project file
+Version: 2
+Title: My title
+Input: 20tungsten1p27.inp
+Submit: *Default
+Tabs: 0.1 0.32 0.56 0.81 1.0
+Page: Run
+DefMain: True
+LinkPrg: lfluka
+F77bound: True
+F77dline: False
+
+# Run information
+Run: <default>
+	Prev:     0
+	Last:     5
+	Status:   3
+	Pid:      0
+	StartRun: 1681827709
+
+	# USRxxx data file: 20tungsten1p27_21.rnc
+	Data: \I_\U.\e
+		Unit: 21
+		Type: r
+		Rule: +,\I\d\d\d_fort\.\U
+		Rule: +,\I\d\d\d_ftn\.\U
+	End
+
+	# USRxxx data file: 20tungsten1p27_22.rnc
+	Data: \I_\U.\e
+		Unit: 22
+		Type: r
+		Rule: +,\I\d\d\d_fort\.\U
+		Rule: +,\I\d\d\d_ftn\.\U
+	End
+
+	# USRxxx data file: 20tungsten1p27_23.rnc
+	Data: \I_\U.\e
+		Unit: 23
+		Type: r
+		Rule: +,\I\d\d\d_fort\.\U
+		Rule: +,\I\d\d\d_ftn\.\U
+	End
+
+	# USRxxx data file: 20tungsten1p27_24.rnc
+	Data: \I_\U.\e
+		Unit: 24
+		Type: r
+		Rule: +,\I\d\d\d_fort\.\U
+		Rule: +,\I\d\d\d_ftn\.\U
+	End
+
+	# USRxxx data file: 20tungsten1p27_25.rnc
+	Data: \I_\U.\e
+		Unit: 25
+		Type: r
+		Rule: +,\I\d\d\d_fort\.\U
+		Rule: +,\I\d\d\d_ftn\.\U
+	End
+
+	# USRxxx data file: 20tungsten1p27_26.rnc
+	Data: \I_\U.\e
+		Unit: 26
+		Type: r
+		Rule: +,\I\d\d\d_fort\.\U
+		Rule: +,\I\d\d\d_ftn\.\U
+	End
+
+	# USRxxx data file: 20tungsten1p27_27.rnc
+	Data: \I_\U.\e
+		Unit: 27
+		Type: r
+		Rule: +,\I\d\d\d_fort\.\U
+		Rule: +,\I\d\d\d_ftn\.\U
+	End
+
+	# USRxxx data file: 20tungsten1p27_28.rnc
+	Data: \I_\U.\e
+		Unit: 28
+		Type: r
+		Rule: +,\I\d\d\d_fort\.\U
+		Rule: +,\I\d\d\d_ftn\.\U
+	End
+
+	# USRxxx data file: 20tungsten1p27_29.rnc
+	Data: \I_\U.\e
+		Unit: 29
+		Type: r
+		Rule: +,\I\d\d\d_fort\.\U
+		Rule: +,\I\d\d\d_ftn\.\U
+	End
+
+	# USRxxx data file: 20tungsten1p27_30.rnc
+	Data: \I_\U.\e
+		Unit: 30
+		Type: r
+		Rule: +,\I\d\d\d_fort\.\U
+		Rule: +,\I\d\d\d_ftn\.\U
+	End
+
+	# USRxxx data file: 20tungsten1p27_31.rnc
+	Data: \I_\U.\e
+		Unit: 31
+		Type: r
+		Rule: +,\I\d\d\d_fort\.\U
+		Rule: +,\I\d\d\d_ftn\.\U
+	End
+
+	# USRxxx data file: 20tungsten1p27_32.rnc
+	Data: \I_\U.\e
+		Unit: 32
+		Type: r
+		Rule: +,\I\d\d\d_fort\.\U
+		Rule: +,\I\d\d\d_ftn\.\U
+	End
+
+	# USRxxx data file: 20tungsten1p27_33.rnc
+	Data: \I_\U.\e
+		Unit: 33
+		Type: r
+		Rule: +,\I\d\d\d_fort\.\U
+		Rule: +,\I\d\d\d_ftn\.\U
+	End
+
+	# USRxxx data file: 20tungsten1p27_34.rnc
+	Data: \I_\U.\e
+		Unit: 34
+		Type: r
+		Rule: +,\I\d\d\d_fort\.\U
+		Rule: +,\I\d\d\d_ftn\.\U
+	End
+
+	# USRxxx data file: 20tungsten1p27_35.rnc
+	Data: \I_\U.\e
+		Unit: 35
+		Type: r
+		Rule: +,\I\d\d\d_fort\.\U
+		Rule: +,\I\d\d\d_ftn\.\U
+	End
+
+	# USRxxx data file: 20tungsten1p27_36.rnc
+	Data: \I_\U.\e
+		Unit: 36
+		Type: r
+		Rule: +,\I\d\d\d_fort\.\U
+		Rule: +,\I\d\d\d_ftn\.\U
+	End
+
+	# USRxxx data file: 20tungsten1p27_37.rnc
+	Data: \I_\U.\e
+		Unit: 37
+		Type: r
+		Rule: +,\I\d\d\d_fort\.\U
+		Rule: +,\I\d\d\d_ftn\.\U
+	End
+
+	# USRxxx data file: 20tungsten1p27_38.rnc
+	Data: \I_\U.\e
+		Unit: 38
+		Type: r
+		Rule: +,\I\d\d\d_fort\.\U
+		Rule: +,\I\d\d\d_ftn\.\U
+	End
+
+	# USRxxx data file: 20tungsten1p27_39.rnc
+	Data: \I_\U.\e
+		Unit: 39
+		Type: r
+		Rule: +,\I\d\d\d_fort\.\U
+		Rule: +,\I\d\d\d_ftn\.\U
+	End
+
+	# USRxxx data file: 20tungsten1p27_40.rnc
+	Data: \I_\U.\e
+		Unit: 40
+		Type: r
+		Rule: +,\I\d\d\d_fort\.\U
+		Rule: +,\I\d\d\d_ftn\.\U
+	End
+
+	# USRxxx data file: 20tungsten1p27_41.bnn
+	Data: \I_\U.\e
+		Unit: 41
+		Type: b
+		Rule: +,\I\d\d\d_fort\.\U
+		Rule: +,\I\d\d\d_ftn\.\U
+	End
+End
+
+# Geometry Information
+Geometry:
+End
+
+# Geometry plot "Geometry My title"
+Plot: 20tungsten1p27_geometry
+	Format: .eps
+	Type:   Geometry
+	basisu: 1 0 0
+	basisv: 0 1 0
+	boundaries: 0
+	cbcolors: 0
+	cblog: False
+	cbpalette: FLUKA
+	cbround: 0
+	cbtics: 0
+	coord: U-V
+	cpd: 0
+	extends: 100 100
+	grid: 0
+	index: 0
+	labels: 0
+	origin: 0 0 0
+	subtype: Geometry
+	title: Geometry My title
+	x2log: False
+	x2tics: 0
+	xlog: False
+	y2log: False
+	y2tics: 0
+	ylog: False
+	zlog: False
+	ztics: 0
+End
+
+# RESNUCLE plot "RESNUCLE 20tungsten1p27 21"
+Plot: 20tungsten1p27_21_plot
+	Format: .eps
+	Type:   RESNUCLE
+	cbcolors: 0
+	cblog: True
+	cbpalette: FLUKA
+	cbround: 0
+	cbtics: 1
+	cpd: 0
+	datafile: 20tungsten1p27_21.rnc
+	det: 1
+	grid: 0
+	index: 0
+	lw.0: 0
+	plot: Z/A
+	ps.0: 0
+	title: RESNUCLE 20tungsten1p27 21
+	with.0: errorbars
+	x2log: False
+	x2tics: 0
+	xlog: False
+	y2log: False
+	y2tics: 0
+	ylog: False
+	zlog: False
+	ztics: 0
+End
+
+# RESNUCLE plot "RESNUCLE 20tungsten1p27 22"
+Plot: 20tungsten1p27_22_plot
+	Format: .eps
+	Type:   RESNUCLE
+	datafile: 20tungsten1p27_22.rnc
+	title: RESNUCLE 20tungsten1p27 22
+End
+
+# RESNUCLE plot "RESNUCLE 20tungsten1p27 23"
+Plot: 20tungsten1p27_23_plot
+	Format: .eps
+	Type:   RESNUCLE
+	datafile: 20tungsten1p27_23.rnc
+	title: RESNUCLE 20tungsten1p27 23
+End
+
+# RESNUCLE plot "RESNUCLE 20tungsten1p27 24"
+Plot: 20tungsten1p27_24_plot
+	Format: .eps
+	Type:   RESNUCLE
+	datafile: 20tungsten1p27_24.rnc
+	title: RESNUCLE 20tungsten1p27 24
+End
+
+# RESNUCLE plot "RESNUCLE 20tungsten1p27 25"
+Plot: 20tungsten1p27_25_plot
+	Format: .eps
+	Type:   RESNUCLE
+	datafile: 20tungsten1p27_25.rnc
+	title: RESNUCLE 20tungsten1p27 25
+End
+
+# RESNUCLE plot "RESNUCLE 20tungsten1p27 26"
+Plot: 20tungsten1p27_26_plot
+	Format: .eps
+	Type:   RESNUCLE
+	datafile: 20tungsten1p27_26.rnc
+	title: RESNUCLE 20tungsten1p27 26
+End
+
+# RESNUCLE plot "RESNUCLE 20tungsten1p27 27"
+Plot: 20tungsten1p27_27_plot
+	Format: .eps
+	Type:   RESNUCLE
+	datafile: 20tungsten1p27_27.rnc
+	title: RESNUCLE 20tungsten1p27 27
+End
+
+# RESNUCLE plot "RESNUCLE 20tungsten1p27 28"
+Plot: 20tungsten1p27_28_plot
+	Format: .eps
+	Type:   RESNUCLE
+	datafile: 20tungsten1p27_28.rnc
+	title: RESNUCLE 20tungsten1p27 28
+End
+
+# RESNUCLE plot "RESNUCLE 20tungsten1p27 29"
+Plot: 20tungsten1p27_29_plot
+	Format: .eps
+	Type:   RESNUCLE
+	datafile: 20tungsten1p27_29.rnc
+	title: RESNUCLE 20tungsten1p27 29
+End
+
+# RESNUCLE plot "RESNUCLE 20tungsten1p27 30"
+Plot: 20tungsten1p27_30_plot
+	Format: .eps
+	Type:   RESNUCLE
+	datafile: 20tungsten1p27_30.rnc
+	title: RESNUCLE 20tungsten1p27 30
+End
+
+# RESNUCLE plot "RESNUCLE 20tungsten1p27 31"
+Plot: 20tungsten1p27_31_plot
+	Format: .eps
+	Type:   RESNUCLE
+	datafile: 20tungsten1p27_31.rnc
+	title: RESNUCLE 20tungsten1p27 31
+End
+
+# RESNUCLE plot "RESNUCLE 20tungsten1p27 32"
+Plot: 20tungsten1p27_32_plot
+	Format: .eps
+	Type:   RESNUCLE
+	datafile: 20tungsten1p27_32.rnc
+	title: RESNUCLE 20tungsten1p27 32
+End
+
+# RESNUCLE plot "RESNUCLE 20tungsten1p27 33"
+Plot: 20tungsten1p27_33_plot
+	Format: .eps
+	Type:   RESNUCLE
+	datafile: 20tungsten1p27_33.rnc
+	title: RESNUCLE 20tungsten1p27 33
+End
+
+# RESNUCLE plot "RESNUCLE 20tungsten1p27 34"
+Plot: 20tungsten1p27_34_plot
+	Format: .eps
+	Type:   RESNUCLE
+	datafile: 20tungsten1p27_34.rnc
+	title: RESNUCLE 20tungsten1p27 34
+End
+
+# RESNUCLE plot "RESNUCLE 20tungsten1p27 35"
+Plot: 20tungsten1p27_35_plot
+	Format: .eps
+	Type:   RESNUCLE
+	datafile: 20tungsten1p27_35.rnc
+	title: RESNUCLE 20tungsten1p27 35
+End
+
+# RESNUCLE plot "RESNUCLE 20tungsten1p27 36"
+Plot: 20tungsten1p27_36_plot
+	Format: .eps
+	Type:   RESNUCLE
+	datafile: 20tungsten1p27_36.rnc
+	title: RESNUCLE 20tungsten1p27 36
+End
+
+# RESNUCLE plot "RESNUCLE 20tungsten1p27 37"
+Plot: 20tungsten1p27_37_plot
+	Format: .eps
+	Type:   RESNUCLE
+	datafile: 20tungsten1p27_37.rnc
+	title: RESNUCLE 20tungsten1p27 37
+End
+
+# RESNUCLE plot "RESNUCLE 20tungsten1p27 38"
+Plot: 20tungsten1p27_38_plot
+	Format: .eps
+	Type:   RESNUCLE
+	datafile: 20tungsten1p27_38.rnc
+	title: RESNUCLE 20tungsten1p27 38
+End
+
+# RESNUCLE plot "RESNUCLE 20tungsten1p27 39"
+Plot: 20tungsten1p27_39_plot
+	Format: .eps
+	Type:   RESNUCLE
+	datafile: 20tungsten1p27_39.rnc
+	title: RESNUCLE 20tungsten1p27 39
+End
+
+# RESNUCLE plot "RESNUCLE 20tungsten1p27 40"
+Plot: 20tungsten1p27_40_plot
+	Format: .eps
+	Type:   RESNUCLE
+	cbcolors: 0
+	cblog: False
+	cbpalette: FLUKA
+	cbround: 0
+	cbtics: 0
+	cpd: 0
+	datafile: 20tungsten1p27_40.rnc
+	det: 1
+	grid: 0
+	index: 0
+	lw.0: 0
+	plot: Z/A
+	ps.0: 0
+	title: RESNUCLE 20tungsten1p27 40
+	with.0: errorbars
+	x2log: False
+	x2tics: 0
+	xlog: False
+	y2log: False
+	y2tics: 0
+	ylog: False
+	zlog: False
+	ztics: 0
+End
+
+# USRBIN plot "USRBIN 20tungsten1p27 41"
+Plot: 20tungsten1p27_41_plot
+	Format: .eps
+	Type:   USRBIN
+	axes: Auto
+	cbcolors: 30
+	cblog: True
+	cbpalette: FLUKA
+	cbround: 0
+	cbtics: 1
+	cpd: 0
+	datafile: 20tungsten1p27_41.bnn
+	det: 1
+	errors: 0
+	geo: -Auto-
+	grid: 0
+	hist: 2D Projection
+	index: 0
+	int: 1.3458513543416230E-002
+	lw.0: 0
+	max: 6.48378767E-03
+	min: 5.40870242E-05
+	proj: Y
+	ps.0: 0
+	pt.0: 0
+	swap: 0
+	title: USRBIN 20tungsten1p27 41
+	with.0: errorbars
+	x2log: False
+	x2tics: 0
+	xlog: False
+	xrebin: 1
+	y2log: False
+	y2tics: 0
+	ylog: False
+	yrebin: 1
+	zlog: False
+	zrebin: 1
+	ztics: 0
+End
+
+# RESNUCLE plot "RESNUCLE 20tungsten1p27 21"
+Plot: 20tungsten1p27_21_plot
+	Format: .eps
+	Type:   RESNUCLE
+	datafile: 20tungsten1p27_21.rnc
+	title: RESNUCLE 20tungsten1p27 21
+End
+
+# RESNUCLE plot "RESNUCLE 20tungsten1p27 22"
+Plot: 20tungsten1p27_22_plot
+	Format: .eps
+	Type:   RESNUCLE
+	datafile: 20tungsten1p27_22.rnc
+	title: RESNUCLE 20tungsten1p27 22
+End
+
+# RESNUCLE plot "RESNUCLE 20tungsten1p27 23"
+Plot: 20tungsten1p27_23_plot
+	Format: .eps
+	Type:   RESNUCLE
+	datafile: 20tungsten1p27_23.rnc
+	title: RESNUCLE 20tungsten1p27 23
+End
+
+# RESNUCLE plot "RESNUCLE 20tungsten1p27 24"
+Plot: 20tungsten1p27_24_plot
+	Format: .eps
+	Type:   RESNUCLE
+	datafile: 20tungsten1p27_24.rnc
+	title: RESNUCLE 20tungsten1p27 24
+End
+
+# RESNUCLE plot "RESNUCLE 20tungsten1p27 25"
+Plot: 20tungsten1p27_25_plot
+	Format: .eps
+	Type:   RESNUCLE
+	datafile: 20tungsten1p27_25.rnc
+	title: RESNUCLE 20tungsten1p27 25
+End
+
+# RESNUCLE plot "RESNUCLE 20tungsten1p27 26"
+Plot: 20tungsten1p27_26_plot
+	Format: .eps
+	Type:   RESNUCLE
+	datafile: 20tungsten1p27_26.rnc
+	title: RESNUCLE 20tungsten1p27 26
+End
+
+# RESNUCLE plot "RESNUCLE 20tungsten1p27 27"
+Plot: 20tungsten1p27_27_plot
+	Format: .eps
+	Type:   RESNUCLE
+	datafile: 20tungsten1p27_27.rnc
+	title: RESNUCLE 20tungsten1p27 27
+End
+
+# RESNUCLE plot "RESNUCLE 20tungsten1p27 28"
+Plot: 20tungsten1p27_28_plot
+	Format: .eps
+	Type:   RESNUCLE
+	datafile: 20tungsten1p27_28.rnc
+	title: RESNUCLE 20tungsten1p27 28
+End
+
+# RESNUCLE plot "RESNUCLE 20tungsten1p27 29"
+Plot: 20tungsten1p27_29_plot
+	Format: .eps
+	Type:   RESNUCLE
+	datafile: 20tungsten1p27_29.rnc
+	title: RESNUCLE 20tungsten1p27 29
+End
+
+# RESNUCLE plot "RESNUCLE 20tungsten1p27 30"
+Plot: 20tungsten1p27_30_plot
+	Format: .eps
+	Type:   RESNUCLE
+	datafile: 20tungsten1p27_30.rnc
+	title: RESNUCLE 20tungsten1p27 30
+End
+
+# RESNUCLE plot "RESNUCLE 20tungsten1p27 31"
+Plot: 20tungsten1p27_31_plot
+	Format: .eps
+	Type:   RESNUCLE
+	datafile: 20tungsten1p27_31.rnc
+	title: RESNUCLE 20tungsten1p27 31
+End
+
+# RESNUCLE plot "RESNUCLE 20tungsten1p27 32"
+Plot: 20tungsten1p27_32_plot
+	Format: .eps
+	Type:   RESNUCLE
+	datafile: 20tungsten1p27_32.rnc
+	title: RESNUCLE 20tungsten1p27 32
+End
+
+# RESNUCLE plot "RESNUCLE 20tungsten1p27 33"
+Plot: 20tungsten1p27_33_plot
+	Format: .eps
+	Type:   RESNUCLE
+	datafile: 20tungsten1p27_33.rnc
+	title: RESNUCLE 20tungsten1p27 33
+End
+
+# RESNUCLE plot "RESNUCLE 20tungsten1p27 34"
+Plot: 20tungsten1p27_34_plot
+	Format: .eps
+	Type:   RESNUCLE
+	datafile: 20tungsten1p27_34.rnc
+	title: RESNUCLE 20tungsten1p27 34
+End
+
+# RESNUCLE plot "RESNUCLE 20tungsten1p27 35"
+Plot: 20tungsten1p27_35_plot
+	Format: .eps
+	Type:   RESNUCLE
+	datafile: 20tungsten1p27_35.rnc
+	title: RESNUCLE 20tungsten1p27 35
+End
+
+# RESNUCLE plot "RESNUCLE 20tungsten1p27 36"
+Plot: 20tungsten1p27_36_plot
+	Format: .eps
+	Type:   RESNUCLE
+	datafile: 20tungsten1p27_36.rnc
+	title: RESNUCLE 20tungsten1p27 36
+End
+
+# RESNUCLE plot "RESNUCLE 20tungsten1p27 37"
+Plot: 20tungsten1p27_37_plot
+	Format: .eps
+	Type:   RESNUCLE
+	datafile: 20tungsten1p27_37.rnc
+	title: RESNUCLE 20tungsten1p27 37
+End
+
+# RESNUCLE plot "RESNUCLE 20tungsten1p27 38"
+Plot: 20tungsten1p27_38_plot
+	Format: .eps
+	Type:   RESNUCLE
+	datafile: 20tungsten1p27_38.rnc
+	title: RESNUCLE 20tungsten1p27 38
+End
+
+# RESNUCLE plot "RESNUCLE 20tungsten1p27 39"
+Plot: 20tungsten1p27_39_plot
+	Format: .eps
+	Type:   RESNUCLE
+	datafile: 20tungsten1p27_39.rnc
+	title: RESNUCLE 20tungsten1p27 39
+End
+
+# RESNUCLE plot "RESNUCLE 20tungsten1p27 40"
+Plot: 20tungsten1p27_40_plot
+	Format: .eps
+	Type:   RESNUCLE
+	datafile: 20tungsten1p27_40.rnc
+	title: RESNUCLE 20tungsten1p27 40
+End
+
+# USRBIN plot "USRBIN 20tungsten1p27 41"
+Plot: 20tungsten1p27_41_plot
+	Format: .eps
+	Type:   USRBIN
+	axes: Auto
+	cbcolors: 30
+	cblog: True
+	cbpalette: FLUKA
+	cbround: 0
+	cbtics: 1
+	cpd: 0
+	datafile: 20tungsten1p27_41.bnn
+	det: 1
+	errors: 0
+	geo: -Auto-
+	grid: 0
+	hist: 2D Projection
+	index: 0
+	int: 5.6994154986407974E-002
+	lw.0: 0
+	max: 8.87297839E-02
+	min: 1.67393159E-06
+	proj: Y
+	ps.0: 0
+	pt.0: 0
+	swap: 0
+	title: USRBIN 20tungsten1p27 41
+	with.0: errorbars
+	x2log: False
+	x2tics: 0
+	xlog: False
+	xrebin: 1
+	y2log: False
+	y2tics: 0
+	ylog: False
+	yrebin: 1
+	zlog: False
+	zrebin: 1
+	ztics: 0
+End

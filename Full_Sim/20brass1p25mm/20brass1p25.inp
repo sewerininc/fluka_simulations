@@ -1,0 +1,163 @@
+TITLE
+My title
+DEFAULTS                                                              HADROTHE
+BEAM          -0.100    -0.001                 10.       2.5        1.PROTON
+BEAMPOS          0.0       0.0      -15.       0.0       0.0
+GEOBEGIN                                                              COMBNAME
+    0    0          
+SPH blkbody    0.0 0.0 0.0 10000.
+SPH void       0.0 0.0 0.0 9900.
+RPP target1    -10. 10. -2.863 -2.738 -6. -4.
+RPP target2    -10. 10. -2.663 -2.538 -6. -4.
+RPP target3    -10. 10. -2.463 -2.338 -6. -4.
+RPP target4    -10. 10. -2.263 -2.138 -6. -4.
+RPP target5    -10. 10. -2.063 -1.938 -6. -4.
+RPP target6    -10. 10. -1.863 -1.738 -6. -4.
+RPP target7    -10. 10. -1.663 -1.538 -6. -4.
+RPP target8    -10. 10. -1.462 -1.337 -6. -4.
+RPP target9    -10. 10. -1.263 -1.138 -6. -4.
+RPP target10   -10. 10. -1.063 -0.938 -6. -4.
+RPP target11   -10. 10. -0.863 -0.738 -6. -4.
+RPP target12   -10. 10. -0.663 -0.538 -6. -4.
+RPP target13   -10. 10. -0.463 -0.338 -6. -4.
+RPP target14   -10. 10. -0.263 -0.138 -6. -4.
+RPP target15   -10. 10. -0.063 0.062 -6. -4.
+RPP target16   -10. 10. 0.137 0.262 -6. -4.
+RPP target17   -10. 10. 0.337 0.462 -6. -4.
+RPP target18   -10. 10. 0.537 0.662 -6. -4.
+RPP target19   -10. 10. 0.737 0.862 -6. -4.
+RPP target20   -10. 10. 0.937 1.062 -6. -4.
+RPP target21   -10. 10. 1.137 1.262 -6. -4.
+RPP target22   -10. 10. 1.337 1.462 -6. -4.
+RPP target23   -10. 10. 1.538 1.663 -6. -4.
+RPP target24   -10. 10. 1.738 1.863 -6. -4.
+RPP target25   -10. 10. 1.938 2.062 -6. -4.
+RPP target26   -10. 10. 2.137 2.262 -6. -4.
+RPP target27   -10. 10. 2.337 2.462 -6. -4.
+RPP target28   -10. 10. 2.538 2.663 -6. -4.
+RPP target29   -10. 10. 2.738 2.863 -6. -4.
+END
+BLKBODY     29 +blkbody -void
+VOID        29 +void -target1 -target2 -target3 -target4 -target5 -target6 -target7 -target8 -target9 -target10
+               -target11 -target12 -target13 -target14 -target15 -target16 -target17 -target18 -target19 
+               -target20 -target21 -target22 -target23 -target24 -target25 -target26 -target27 -target28 -target29
+TARGET1     29 +target1
+TARGET2     29 +target2
+TARGET3     29 +target3
+TARGET4     29 +target4
+TARGET5     29 +target5
+TARGET6     29 +target6
+TARGET7     29 +target7
+TARGET8     29 +target8
+TARGET9     29 +target9
+TARGET10    29 +target10
+TARGET11    29 +target11
+TARGET12    29 +target12
+TARGET13    29 +target13
+TARGET14    29 +target14
+TARGET15    29 +target15
+TARGET16    29 +target16
+TARGET17    29 +target17
+TARGET18    29 +target18
+TARGET19    29 +target19
+TARGET20    29 +target20
+TARGET21    29 +target21
+TARGET22    29 +target22
+TARGET23    29 +target23
+TARGET24    29 +target24
+TARGET25    29 +target25
+TARGET26    29 +target26
+TARGET27    29 +target27
+TARGET28    29 +target28
+TARGET29    29 +target29
+END
+GEOEND
+MATERIAL         30.     65.38      7.13                              Zink
+LOW-MAT         Zink       30.       -2.      296.                    ZINC
+MATERIAL                            8.73                              Brass
+COMPOUND        0.58    COPPER      0.39      Zink      0.03      LEADBrass
+ASSIGNMA    BLCKHOLE   BLKBODY
+ASSIGNMA         AIR      VOID
+ASSIGNMA       Brass   TARGET1
+ASSIGNMA       Brass   TARGET2
+ASSIGNMA       Brass   TARGET3
+ASSIGNMA       Brass   TARGET4
+ASSIGNMA       Brass   TARGET5
+ASSIGNMA       Brass   TARGET6
+ASSIGNMA       Brass   TARGET7
+ASSIGNMA       Brass   TARGET8
+ASSIGNMA       Brass   TARGET9
+ASSIGNMA       Brass  TARGET10
+ASSIGNMA       Brass  TARGET11
+ASSIGNMA       Brass  TARGET12
+ASSIGNMA       Brass  TARGET13
+ASSIGNMA       Brass  TARGET14
+ASSIGNMA       Brass  TARGET15
+ASSIGNMA       Brass  TARGET16
+ASSIGNMA       Brass  TARGET17
+ASSIGNMA       Brass  TARGET18
+ASSIGNMA       Brass  TARGET19
+ASSIGNMA       Brass  TARGET20
+ASSIGNMA       Brass  TARGET21
+ASSIGNMA       Brass  TARGET22
+ASSIGNMA       Brass  TARGET23
+ASSIGNMA       Brass  TARGET24
+ASSIGNMA       Brass  TARGET25
+ASSIGNMA       Brass  TARGET26
+ASSIGNMA       Brass  TARGET27
+ASSIGNMA       Brass  TARGET28
+ASSIGNMA       Brass  TARGET29
+PHYSICS           1.                                                  COALESCE
+PHYSICS           3.                                                  EVAPORAT
+PHYSICS        1000.     1000.     1000.     1000.     1000.     1000.PEATHRES
+IRRPROFI   15000000.      1E10
+RADDECAY          1.                  3.333333303.
+USRBIN           10.  ALL-PART      -41.       10.    0.0625       -4.1.xz_mid
+USRBIN          -10.   -0.0625       -6.      400.        1.       40. &
+DCYTIMES        300.      900.     3600.     7200.    14400.    28800.
+DCYTIMES      57600.    86400.   115200.   259200.      450.     1400.
+DCYTIMES       2500.     5400.    10800.   360000.    21600.    43200.
+DCYTIMES        150.      600.
+RESNUCLE          3.      -21.                      @ALLREGS      145.cool1
+RESNUCLE          3.      -22.                      @ALLREGS      145.cool2
+RESNUCLE          3.      -23.                      @ALLREGS      145.cool3
+RESNUCLE          3.      -24.                      @ALLREGS      145.cool4
+RESNUCLE          3.      -25.                      @ALLREGS      145.cool5
+RESNUCLE          3.      -26.                      @ALLREGS      145.cool6
+RESNUCLE          3.      -27.                      @ALLREGS      145.cool7
+RESNUCLE          3.      -28.                      @ALLREGS      145.cool8
+RESNUCLE          3.      -29.                      @ALLREGS      145.cool9
+RESNUCLE          3.      -30.                      @ALLREGS      145.cool10
+RESNUCLE          3.      -31.                      @ALLREGS      145.cool11
+RESNUCLE          3.      -32.                      @ALLREGS      145.cool12
+RESNUCLE          3.      -33.                      @ALLREGS      145.cool13
+RESNUCLE          3.      -34.                      @ALLREGS      145.cool14
+RESNUCLE          3.      -35.                      @ALLREGS      145.cool15
+RESNUCLE          3.      -36.                      @ALLREGS      145.cool16
+RESNUCLE          3.      -37.                      @ALLREGS      145.cool17
+RESNUCLE          3.      -38.                      @ALLREGS      145.cool18
+RESNUCLE          3.      -39.                      @ALLREGS      145.cool19
+RESNUCLE          3.      -40.                      @ALLREGS      145.cool20
+DCYSCORE          1.                         cool1     cool1          RESNUCLE
+DCYSCORE          2.                         cool2     cool2          RESNUCLE
+DCYSCORE          3.                         cool3     cool3          RESNUCLE
+DCYSCORE          4.                         cool4     cool4          RESNUCLE
+DCYSCORE          5.                         cool5     cool5          RESNUCLE
+DCYSCORE          6.                         cool6     cool6          RESNUCLE
+DCYSCORE          7.                         cool7     cool7          RESNUCLE
+DCYSCORE          8.                         cool8     cool8          RESNUCLE
+DCYSCORE          9.                         cool9     cool9          RESNUCLE
+DCYSCORE         10.                        cool10    cool10          RESNUCLE
+DCYSCORE         11.                        cool11    cool11          RESNUCLE
+DCYSCORE         12.                        cool12    cool12          RESNUCLE
+DCYSCORE         13.                        cool13    cool13          RESNUCLE
+DCYSCORE         14.                        cool14    cool14          RESNUCLE
+DCYSCORE         15.                        cool15    cool15          RESNUCLE
+DCYSCORE         16.                        cool16    cool16          RESNUCLE
+DCYSCORE         17.                        cool17    cool17          RESNUCLE
+DCYSCORE         18.                        cool18    cool18          RESNUCLE
+DCYSCORE         19.                        cool19    cool19          RESNUCLE
+DCYSCORE         20.                        cool20    cool20          RESNUCLE
+RANDOMIZ          1.
+START       2000000.
+STOP
