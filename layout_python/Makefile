@@ -1,4 +1,7 @@
-all: tungsten brass
+all: tungsten brass treat
+
+treat:
+	python Treatment_simulation.py
 
 tungsten:
 	python Tungsten_inp_maker.py

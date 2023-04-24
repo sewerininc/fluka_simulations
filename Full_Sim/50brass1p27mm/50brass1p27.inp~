@@ -39,7 +39,7 @@ RPP target29   -10. 10. 2.737 2.864 -6. -1.
 END
 BLKBODY     29 +blkbody -void
 VOID        29 +void -target1 -target2 -target3 -target4 -target5 -target6 -target7 -target8 -target9 -target10
-               -target11 -target12 -target13 -target14 -target15 -target16 -target17 -target18 -target19 
+               -target11 -target12 -target13 -target14 -target15 -target16 -target17 -target18 -target19
                -target20 -target21 -target22 -target23 -target24 -target25 -target26 -target27 -target28 -target29
 TARGET1     29 +target1
 TARGET2     29 +target2

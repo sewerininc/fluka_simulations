@@ -75,7 +75,7 @@ GEOEND
 MATERIAL         30.     65.38      7.13                              Zink
 LOW-MAT         Zink       30.       -2.      296.                    ZINC
 MATERIAL                            8.73                              Brass
-COMPOUND        0.58    COPPER      0.39      Zink      0.03      LEADBrass
+COMPOUND        0.63    COPPER      0.37      Zink                    Brass
 ASSIGNMA    BLCKHOLE   BLKBODY
 ASSIGNMA         AIR      VOID
 ASSIGNMA       Brass   TARGET1
