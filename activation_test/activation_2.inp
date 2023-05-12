@@ -1,0 +1,73 @@
+&INPUT
+ TITLE = 'Brass aperture activation in proton therapy'
+/
+&FLUKA
+ #
+ # Define the materials used in the simulation
+ #
+ MATERIAL 1 63.546 29 8.96 26.98
+ MATERIAL 2 70.90 35 4.51 23.51
+ MATERIAL 3 63.546 29 8.96 26.98
+ MATERIAL 4 1.008 1.0
+ MATERIAL 5 0.0001839 8.0
+ #
+ # Define the geometry of the simulation
+ #
+ ASSIGNMA 1 1
+ ASSIGNMA 2 2
+ ASSIGNMA 3 3
+ ASSIGNMA 4 4
+ ASSIGNMA 5 5
+ BEAM -1
+ START -1 0.0 0.0 -10.0
+ STOP -1 0.0 0.0 10.0
+ BOX 1 -2.0 -2.0 -2.0 2.0 2.0 2.0
+ BOX 2 -1.0 -1.0 -10.0 1.0 1.0 -2.0
+ ROT-DEF 0 0 0 0 0 0
+ ROT-MAT 1 0 0 0 0 0 0 0 0 0
+ ROT-MAT 2 0 0 0 0 0 0 0 0 0
+ PLACE 2 1 0.0 0.0 6.0
+ PLACE 3 2 0.0 0.0 -3.0
+ PLACE 4 3 0.0 0.0 4.0
+ PLACE 5 4 0.0 0.0 0.0
+ #
+ # Define the proton beam source and energy spectrum
+ #
+ PROTON 220.0
+ SPRITE -1 1.0 0.0 0.0 0.0 0.0
+ #
+ # Define the scoring regions for gamma-ray emission from the activated materials
+ #
+ USRBIN 2 0.0 0.0 -10.0 2.0 2.0 10.0
+ PGSCORE 2 28064000 0 0 0 0 0
+ #
+ # Define the physics models used in the simulation
+ #
+ PHYSICS 1.0 CAVEMODE 1
+ EMFCUT 0.01 0.01
+ MULSOPT 2
+ COALESCE 1.0E-5
+ LOW-NEUT 0.001
+ LOW-MU 0.001
+ HIGH-NEUT 0.1
+ HIGH-MU 0.1
+/
+&OUTPUT
+ #
+ # Define the output files for the simulation
+ #
+ USROBIN 1.0 0.0 0.0 0.0 0.0 0.0
+ USRTRACK -1
+ USRBDX -2
+ USRBIN -2
+/
+&RUN
+ #
+ # Define the run card settings
+ #
+ START 1
+ STOP 10
+ ERROR 0.001
+ OPTI 1
+ RUNOPT 1
+/
