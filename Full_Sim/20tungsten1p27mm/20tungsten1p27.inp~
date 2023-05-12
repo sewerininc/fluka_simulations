@@ -110,8 +110,8 @@ ASSIGNMA    TUNGSTEN  TARGET29
 PHYSICS           1.                                                  COALESCE
 PHYSICS           3.                                                  EVAPORAT
 PHYSICS        1000.     1000.     1000.     1000.     1000.     1000.PEATHRES
-IRRPROFI   15000000.      1E10
-RADDECAY          1.                  3.333333303.
+IRRPROFI        900.     2223.
+RADDECAY          1.        1.        3.333333303. 999909999        1.
 USRBIN           10.  ALL-PART      -41.       10.    0.0635       -4..xz_mid
 USRBIN          -10.   -0.0635       -6.      400.        1.       40. &
 DCYTIMES        300.      900.     3600.     7200.    14400.    28800.

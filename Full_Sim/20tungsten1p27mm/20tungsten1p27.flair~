@@ -5,7 +5,7 @@ Title: My title
 Input: 20tungsten1p27.inp
 Submit: *Default
 Tabs: 0.1 0.32 0.56 0.81 1.0
-Page: Run
+Page: Input
 DefMain: True
 LinkPrg: lfluka
 F77bound: True
@@ -227,8 +227,29 @@ End
 Plot: 20tungsten1p27_21_plot
 	Format: .eps
 	Type:   RESNUCLE
+	cbcolors: 0
+	cblog: False
+	cbpalette: FLUKA
+	cbround: 0
+	cbtics: 1
+	cpd: 0
 	datafile: 20tungsten1p27_21.rnc
+	det: 1
+	grid: 0
+	index: 0
+	lw.0: 0
+	plot: Z/A
+	ps.0: 0
 	title: RESNUCLE 20tungsten1p27 21
+	with.0: errorbars
+	x2log: False
+	x2tics: 0
+	xlog: False
+	y2log: False
+	y2tics: 0
+	ylog: False
+	zlog: False
+	ztics: 0
 End
 
 # RESNUCLE plot "RESNUCLE 20tungsten1p27 22"
@@ -347,8 +368,29 @@ End
 Plot: 20tungsten1p27_36_plot
 	Format: .eps
 	Type:   RESNUCLE
+	cbcolors: 0
+	cblog: False
+	cbpalette: FLUKA
+	cbround: 0
+	cbtics: 0
+	cpd: 0
 	datafile: 20tungsten1p27_36.rnc
+	det: 1
+	grid: 0
+	index: 0
+	lw.0: 0
+	plot: Z
+	ps.0: 0
 	title: RESNUCLE 20tungsten1p27 36
+	with.0: errorbars
+	x2log: False
+	x2tics: 0
+	xlog: False
+	y2log: False
+	y2tics: 0
+	ylog: False
+	zlog: False
+	ztics: 0
 End
 
 # RESNUCLE plot "RESNUCLE 20tungsten1p27 37"
@@ -389,7 +431,7 @@ Plot: 20tungsten1p27_41_plot
 	Type:   USRBIN
 	axes: Auto
 	cbcolors: 30
-	cblog: True
+	cblog: False
 	cbpalette: FLUKA
 	cbround: 0
 	cbtics: 1
@@ -401,10 +443,10 @@ Plot: 20tungsten1p27_41_plot
 	grid: 0
 	hist: 2D Projection
 	index: 0
-	int: 5.6061781280398966E-002
+	int: 4.8017093121408470E-002
 	lw.0: 0
-	max: 4.78506647E-02
-	min: 4.02900605E-06
+	max: 4.20793593E-02
+	min: 4.47428147E-06
 	proj: Y
 	ps.0: 0
 	pt.0: 0
