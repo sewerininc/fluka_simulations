@@ -15,9 +15,9 @@ F77dline: False
 Run: <default>
 	Prev:     0
 	Last:     5
-	Status:   3
+	Status:   1
 	Pid:      0
-	StartRun: 1683875287
+	StartRun: 1683879752
 
 	# USRxxx data file: 50brass1p27_21.rnc
 	Data: \I_\U.\e
@@ -246,6 +246,86 @@ Plot: 50brass1p27_geometry
 	ztics: 0
 End
 
+# Geometry plot "GeoViewer Red plot"
+Plot: Red
+	Format: .eps
+	Type:   Geometry
+	basisu: 1 0 0
+	basisv: 0 1 0
+	boundaries: 1
+	coord: X-Y
+	extends: 100 0.196464
+	labels: 1
+	layer: Media
+	origin: 0 0 0
+	subtype: Material
+	title: GeoViewer Red plot
+End
+
+# Geometry plot "GeoViewer Green plot"
+Plot: Green
+	Format: .eps
+	Type:   Geometry
+	basisu: 0 0 1
+	basisv: 1 0 0
+	boundaries: 1
+	coord: Z-X
+	extends: 100 0.196464
+	labels: 1
+	layer: Media
+	origin: 0 0 0
+	subtype: Material
+	title: GeoViewer Green plot
+End
+
+# Geometry plot "GeoViewer Blue plot"
+Plot: Blue
+	Format: .eps
+	Type:   Geometry
+	basisu: 0 0 1
+	basisv: 0 1 0
+	boundaries: 1
+	coord: Z-Y
+	extends: 100 47.2277
+	labels: 1
+	layer: Media
+	origin: 0 0 0
+	subtype: Material
+	title: GeoViewer Blue plot
+End
+
+# Geometry plot "GeoViewer Magenta plot"
+Plot: Magenta
+	Format: .eps
+	Type:   Geometry
+	basisu: -1 0 0
+	basisv: 0 1 0
+	boundaries: 1
+	cbcolors: 0
+	cblog: False
+	cbpalette: FLUKA
+	cbround: 0
+	cbtics: 0
+	coord: X-Y
+	cpd: 0
+	extends: 100 5962.5
+	grid: 0
+	index: 0
+	labels: 1
+	layer: Media
+	origin: 0 0 0
+	subtype: Material
+	title: GeoViewer Magenta plot
+	x2log: False
+	x2tics: 0
+	xlog: False
+	y2log: False
+	y2tics: 0
+	ylog: False
+	zlog: False
+	ztics: 0
+End
+
 # RESNUCLE plot "RESNUCLE 50brass1p27 21"
 Plot: 50brass1p27_21_plot
 	Format: .eps
@@ -359,8 +439,29 @@ End
 Plot: 50brass1p27_32_plot
 	Format: .eps
 	Type:   RESNUCLE
+	cbcolors: 0
+	cblog: False
+	cbpalette: FLUKA
+	cbround: 0
+	cbtics: 0
+	cpd: 0
 	datafile: 50brass1p27_32.rnc
+	det: 1
+	grid: 0
+	index: 0
+	lw.0: 0
+	plot: Z/A
+	ps.0: 0
 	title: RESNUCLE 50brass1p27 32
+	with.0: errorbars
+	x2log: False
+	x2tics: 0
+	xlog: False
+	y2log: False
+	y2tics: 0
+	ylog: False
+	zlog: False
+	ztics: 0
 End
 
 # RESNUCLE plot "RESNUCLE 50brass1p27 33"
@@ -407,8 +508,29 @@ End
 Plot: 50brass1p27_38_plot
 	Format: .eps
 	Type:   RESNUCLE
+	cbcolors: 0
+	cblog: False
+	cbpalette: FLUKA
+	cbround: 0
+	cbtics: 0
+	cpd: 0
 	datafile: 50brass1p27_38.rnc
+	det: 1
+	grid: 0
+	index: 0
+	lw.0: 0
+	plot: Z
+	ps.0: 0
 	title: RESNUCLE 50brass1p27 38
+	with.0: errorbars
+	x2log: False
+	x2tics: 0
+	xlog: False
+	y2log: False
+	y2tics: 0
+	ylog: False
+	zlog: False
+	ztics: 0
 End
 
 # RESNUCLE plot "RESNUCLE 50brass1p27 39"
@@ -423,8 +545,29 @@ End
 Plot: 50brass1p27_40_plot
 	Format: .eps
 	Type:   RESNUCLE
+	cbcolors: 0
+	cblog: False
+	cbpalette: FLUKA
+	cbround: 0
+	cbtics: 0
+	cpd: 0
 	datafile: 50brass1p27_40.rnc
+	det: 1
+	grid: 0
+	index: 0
+	lw.0: 0
+	plot: Z/A
+	ps.0: 0
 	title: RESNUCLE 50brass1p27 40
+	with.0: errorbars
+	x2log: False
+	x2tics: 0
+	xlog: False
+	y2log: False
+	y2tics: 0
+	ylog: False
+	zlog: False
+	ztics: 0
 End
 
 # USRBIN plot "USRBIN 50brass1p27 41"
@@ -437,68 +580,4 @@ Plot: 50brass1p27_41_plot
 	datafile: 50brass1p27_41.bnn
 	geo: -Auto-
 	title: USRBIN 50brass1p27 41
-End
-
-# Geometry plot "GeoViewer Red plot"
-Plot: Red
-	Format: .eps
-	Type:   Geometry
-	basisu: 1 0 0
-	basisv: 0 1 0
-	boundaries: 1
-	coord: X-Y
-	extends: 100 0.196464
-	labels: 1
-	layer: Media
-	origin: 0 0 0
-	subtype: Material
-	title: GeoViewer Red plot
-End
-
-# Geometry plot "GeoViewer Green plot"
-Plot: Green
-	Format: .eps
-	Type:   Geometry
-	basisu: 0 0 1
-	basisv: 1 0 0
-	boundaries: 1
-	coord: Z-X
-	extends: 100 0.196464
-	labels: 1
-	layer: Media
-	origin: 0 0 0
-	subtype: Material
-	title: GeoViewer Green plot
-End
-
-# Geometry plot "GeoViewer Blue plot"
-Plot: Blue
-	Format: .eps
-	Type:   Geometry
-	basisu: 0 0 1
-	basisv: 0 1 0
-	boundaries: 1
-	coord: Z-Y
-	extends: 100 47.2277
-	labels: 1
-	layer: Media
-	origin: 0 0 0
-	subtype: Material
-	title: GeoViewer Blue plot
-End
-
-# Geometry plot "GeoViewer Magenta plot"
-Plot: Magenta
-	Format: .eps
-	Type:   Geometry
-	basisu: -1 0 0
-	basisv: 0 1 0
-	boundaries: 1
-	coord: X-Y
-	extends: 100 5962.5
-	labels: 1
-	layer: Media
-	origin: 0 0 0
-	subtype: Material
-	title: GeoViewer Magenta plot
 End
