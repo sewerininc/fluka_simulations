@@ -17,7 +17,7 @@ Run: <default>
 	Last:     5
 	Status:   3
 	Pid:      0
-	StartRun: 1683889164
+	StartRun: 1683895917
 
 	# USRxxx data file: 20tungsten1p27_21.rnc
 	Data: \I_\U.\e
@@ -219,7 +219,7 @@ End
 Plot: 20tungsten1p27_geometry
 	Format: .eps
 	Type:   Geometry
-	basisu: 1 0 0
+	basisu: -1 0 0
 	basisv: 0 1 0
 	boundaries: 0
 	cbcolors: 0
@@ -229,7 +229,7 @@ Plot: 20tungsten1p27_geometry
 	cbtics: 0
 	coord: U-V
 	cpd: 0
-	extends: 100 100
+	extends: 100 5962.5
 	grid: 0
 	index: 0
 	labels: 0
@@ -254,7 +254,7 @@ Plot: 20tungsten1p27_21_plot
 	cblog: False
 	cbpalette: FLUKA
 	cbround: 0
-	cbtics: 1
+	cbtics: 0
 	cpd: 0
 	datafile: 20tungsten1p27_21.rnc
 	det: 1
@@ -279,8 +279,29 @@ End
 Plot: 20tungsten1p27_22_plot
 	Format: .eps
 	Type:   RESNUCLE
+	cbcolors: 0
+	cblog: False
+	cbpalette: FLUKA
+	cbround: 0
+	cbtics: 0
+	cpd: 0
 	datafile: 20tungsten1p27_22.rnc
+	det: 1
+	grid: 0
+	index: 0
+	lw.0: 0
+	plot: Z
+	ps.0: 0
 	title: RESNUCLE 20tungsten1p27 22
+	with.0: errorbars
+	x2log: False
+	x2tics: 0
+	xlog: False
+	y2log: False
+	y2tics: 0
+	ylog: False
+	zlog: False
+	ztics: 0
 End
 
 # RESNUCLE plot "RESNUCLE 20tungsten1p27 23"
@@ -391,29 +412,8 @@ End
 Plot: 20tungsten1p27_36_plot
 	Format: .eps
 	Type:   RESNUCLE
-	cbcolors: 0
-	cblog: False
-	cbpalette: FLUKA
-	cbround: 0
-	cbtics: 0
-	cpd: 0
 	datafile: 20tungsten1p27_36.rnc
-	det: 1
-	grid: 0
-	index: 0
-	lw.0: 0
-	plot: Z
-	ps.0: 0
 	title: RESNUCLE 20tungsten1p27 36
-	with.0: errorbars
-	x2log: False
-	x2tics: 0
-	xlog: False
-	y2log: False
-	y2tics: 0
-	ylog: False
-	zlog: False
-	ztics: 0
 End
 
 # RESNUCLE plot "RESNUCLE 20tungsten1p27 37"
@@ -452,41 +452,12 @@ End
 Plot: 20tungsten1p27_41_plot
 	Format: .eps
 	Type:   USRBIN
-	axes: Auto
 	cbcolors: 30
-	cblog: False
-	cbpalette: FLUKA
-	cbround: 0
+	cblog: 1
 	cbtics: 1
-	cpd: 0
 	datafile: 20tungsten1p27_41.bnn
-	det: 1
-	errors: 0
 	geo: -Auto-
-	grid: 0
-	hist: 2D Projection
-	index: 0
-	int: 4.8017093121408470E-002
-	lw.0: 0
-	max: 4.20793593E-02
-	min: 4.47428147E-06
-	proj: Y
-	ps.0: 0
-	pt.0: 0
-	swap: 0
 	title: USRBIN 20tungsten1p27 41
-	with.0: errorbars
-	x2log: False
-	x2tics: 0
-	xlog: False
-	xrebin: 1
-	y2log: False
-	y2tics: 0
-	ylog: False
-	yrebin: 1
-	zlog: False
-	zrebin: 1
-	ztics: 0
 End
 
 # Geometry plot "GeoViewer Red plot"
@@ -497,7 +468,7 @@ Plot: Red
 	basisv: 0 1 0
 	boundaries: 1
 	coord: X-Y
-	extends: 100 75
+	extends: 100 0.196464
 	labels: 1
 	layer: Media
 	origin: 0 0 0
@@ -513,7 +484,7 @@ Plot: Green
 	basisv: 1 0 0
 	boundaries: 1
 	coord: Z-X
-	extends: 100 75
+	extends: 100 0.196464
 	labels: 1
 	layer: Media
 	origin: 0 0 0
@@ -529,10 +500,10 @@ Plot: Blue
 	basisv: 0 1 0
 	boundaries: 1
 	coord: Z-Y
-	extends: 100 75
+	extends: 7.78866 3.67841
 	labels: 1
 	layer: Media
-	origin: 0 0 0
+	origin: 0 -0.441297 -5.28702
 	subtype: Material
 	title: GeoViewer Blue plot
 End
