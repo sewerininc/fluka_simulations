@@ -39,7 +39,7 @@ RPP target29   -10. 10. 2.738 2.863 -6. -4.
 END
 BLKBODY     29 +blkbody -void
 VOID        29 +void -target1 -target2 -target3 -target4 -target5 -target6 -target7 -target8 -target9 -target10
-               -target11 -target12 -target13 -target14 -target15 -target16 -target17 -target18 -target19 
+               -target11 -target12 -target13 -target14 -target15 -target16 -target17 -target18 -target19
                -target20 -target21 -target22 -target23 -target24 -target25 -target26 -target27 -target28 -target29
 TARGET1     29 +target1
 TARGET2     29 +target2
@@ -75,7 +75,7 @@ GEOEND
 MATERIAL         30.     65.38      7.13                              Zink
 LOW-MAT         Zink       30.       -2.      296.                    ZINC
 MATERIAL                            8.73                              Brass
-COMPOUND        0.58    COPPER      0.39      Zink      0.03      LEADBrass
+COMPOUND        0.63    COPPER      0.37      Zink                    Brass
 ASSIGNMA    BLCKHOLE   BLKBODY
 ASSIGNMA         AIR      VOID
 ASSIGNMA       Brass   TARGET1
@@ -110,8 +110,8 @@ ASSIGNMA       Brass  TARGET29
 PHYSICS           1.                                                  COALESCE
 PHYSICS           3.                                                  EVAPORAT
 PHYSICS        1000.     1000.     1000.     1000.     1000.     1000.PEATHRES
-IRRPROFI   15000000.      1E10
-RADDECAY          1.                  3.333333303.
+IRRPROFI        900.     2223.
+RADDECAY          1.        1.        3.333333303. 999909999        1.
 USRBIN           10.  ALL-PART      -41.       10.    0.0625       -4.1.xz_mid
 USRBIN          -10.   -0.0625       -6.      400.        1.       40. &
 DCYTIMES        300.      900.     3600.     7200.    14400.    28800.
