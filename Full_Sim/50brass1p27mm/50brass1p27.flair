@@ -516,10 +516,12 @@ Plot: 50brass1p27_41_plot
 	with.0: errorbars
 	x2log: False
 	x2tics: 0
+	xlabel: Z
 	xlog: False
 	xrebin: 1
 	y2log: False
 	y2tics: 0
+	ylabel: X
 	ylog: False
 	yrebin: 1
 	zlog: False

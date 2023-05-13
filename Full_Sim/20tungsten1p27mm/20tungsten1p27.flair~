@@ -17,7 +17,7 @@ Run: <default>
 	Last:     5
 	Status:   3
 	Pid:      0
-	StartRun: 1683898902
+	StartRun: 1683968936
 
 	# USRxxx data file: 20tungsten1p27_21.rnc
 	Data: \I_\U.\e
@@ -246,6 +246,38 @@ Plot: 20tungsten1p27_geometry
 	ztics: 0
 End
 
+# Geometry plot "GeoViewer Magenta plot"
+Plot: Magenta
+	Format: .eps
+	Type:   Geometry
+	basisu: -1 0 0
+	basisv: 0 1 0
+	boundaries: 1
+	cbcolors: 0
+	cblog: False
+	cbpalette: FLUKA
+	cbround: 0
+	cbtics: 0
+	coord: X-Y
+	cpd: 0
+	extends: 100 5962.5
+	grid: 0
+	index: 0
+	labels: 1
+	layer: Media
+	origin: 0 0 0
+	subtype: Material
+	title: GeoViewer Magenta plot
+	x2log: False
+	x2tics: 0
+	xlog: False
+	y2log: False
+	y2tics: 0
+	ylog: False
+	zlog: False
+	ztics: 0
+End
+
 # RESNUCLE plot "RESNUCLE 20tungsten1p27 21"
 Plot: 20tungsten1p27_21_plot
 	Format: .eps
@@ -254,7 +286,7 @@ Plot: 20tungsten1p27_21_plot
 	cblog: False
 	cbpalette: FLUKA
 	cbround: 0
-	cbtics: 1
+	cbtics: 0
 	cpd: 0
 	datafile: 20tungsten1p27_21.rnc
 	det: 1
@@ -437,68 +469,4 @@ Plot: 20tungsten1p27_41_plot
 	datafile: 20tungsten1p27_41.bnn
 	geo: -Auto-
 	title: USRBIN 20tungsten1p27 41
-End
-
-# Geometry plot "GeoViewer Red plot"
-Plot: Red
-	Format: .eps
-	Type:   Geometry
-	basisu: 1 0 0
-	basisv: 0 1 0
-	boundaries: 1
-	coord: X-Y
-	extends: 100 0.196464
-	labels: 1
-	layer: Media
-	origin: 0 0 0
-	subtype: Material
-	title: GeoViewer Red plot
-End
-
-# Geometry plot "GeoViewer Green plot"
-Plot: Green
-	Format: .eps
-	Type:   Geometry
-	basisu: 0 0 1
-	basisv: 1 0 0
-	boundaries: 1
-	coord: Z-X
-	extends: 100 0.196464
-	labels: 1
-	layer: Media
-	origin: 0 0 0
-	subtype: Material
-	title: GeoViewer Green plot
-End
-
-# Geometry plot "GeoViewer Blue plot"
-Plot: Blue
-	Format: .eps
-	Type:   Geometry
-	basisu: 0 0 1
-	basisv: 0 1 0
-	boundaries: 1
-	coord: Z-Y
-	extends: 7.78866 3.67841
-	labels: 1
-	layer: Media
-	origin: 0 -0.441297 -5.28702
-	subtype: Material
-	title: GeoViewer Blue plot
-End
-
-# Geometry plot "GeoViewer Magenta plot"
-Plot: Magenta
-	Format: .eps
-	Type:   Geometry
-	basisu: -1 0 0
-	basisv: 0 1 0
-	boundaries: 1
-	coord: X-Y
-	extends: 100 5962.5
-	labels: 1
-	layer: Media
-	origin: 0 0 0
-	subtype: Material
-	title: GeoViewer Magenta plot
 End
