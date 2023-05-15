@@ -252,10 +252,12 @@ Plot: treatment_simulation_24_plot
 	with.0: errorbars
 	x2log: False
 	x2tics: 0
+	xlabel: Z
 	xlog: False
 	xrebin: 1
 	y2log: False
 	y2tics: 0
+	ylabel: Dose
 	ylog: False
 	yrebin: 1
 	zlog: False

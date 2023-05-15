@@ -68,7 +68,7 @@ Geometry:
 	Frame.vsplit: 0.5
 End
 
-# Geometry plot "Geometry "
+# Geometry plot "Geometry"
 Plot: no_grid_geometry
 	Format: .eps
 	Type:   Geometry
@@ -88,7 +88,7 @@ Plot: no_grid_geometry
 	labels: 0
 	origin: 0 0 0
 	subtype: Geometry
-	title: Geometry 
+	title: Geometry
 	x2log: False
 	x2tics: 0
 	xlog: False
@@ -105,7 +105,7 @@ Plot: treatment_simulation_21_plot
 	Type:   USRBIN
 	axes: Auto
 	cbcolors: 30
-	cblog: True
+	cblog: False
 	cbpalette: FLUKA
 	cbround: 0
 	cbtics: 1
@@ -228,7 +228,7 @@ Plot: treatment_simulation_24_plot
 	Type:   USRBIN
 	axes: Auto
 	cbcolors: 30
-	cblog: True
+	cblog: False
 	cbpalette: FLUKA
 	cbround: 0
 	cbtics: 1
@@ -269,7 +269,7 @@ Plot: treatment_simulation_42_plot
 	Type:   USRBIN
 	axes: Auto
 	cbcolors: 30
-	cblog: True
+	cblog: False
 	cbpalette: FLUKA
 	cbround: 0
 	cbtics: 1
