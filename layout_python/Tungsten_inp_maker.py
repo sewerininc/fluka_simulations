@@ -5,10 +5,10 @@ Get the start and end of the scrip to input only geometry is created here.
 
 everything is centered arround 0 so x_len = 20 means it goes from x=-10 to x=10
 """
-output_name = "20tungsten1p0"
+output_name = "20tungsten1p27"
 
 x_len = 20  # X
-width = 0.1  # Y
+width = 0.127  # Y
 depth = 2.0  # Z
 btw = 0.2 - width  # Y - room between each line and material
 room_layer = 1  # Z

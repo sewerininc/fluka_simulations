@@ -72,6 +72,10 @@ TARGET28    29 +target28
 TARGET29    29 +target29
 END
 GEOEND
+MATERIAL         30.     65.38      7.13                              Zink
+LOW-MAT         Zink       30.       -2.      296.                    ZINC
+MATERIAL                            8.73                              Brass
+COMPOUND        0.58    COPPER      0.39      Zink      0.03      LEADBrass
 ASSIGNMA    BLCKHOLE   BLKBODY
 ASSIGNMA         AIR      VOID
 ASSIGNMA    TUNGSTEN   TARGET1
@@ -134,26 +138,26 @@ RESNUCLE          3.      -37.                      @ALLREGS     147.3cool17
 RESNUCLE          3.      -38.                      @ALLREGS     147.3cool18
 RESNUCLE          3.      -39.                      @ALLREGS     147.3cool19
 RESNUCLE          3.      -40.                      @ALLREGS     147.3cool20
-DCYSCORE          1.                         cool1     cool1          RESNUCLE
-DCYSCORE          2.                         cool2     cool2          RESNUCLE
-DCYSCORE          3.                         cool3     cool3          RESNUCLE
-DCYSCORE          4.                         cool4     cool4          RESNUCLE
-DCYSCORE          5.                         cool5     cool5          RESNUCLE
-DCYSCORE          6.                         cool6     cool6          RESNUCLE
-DCYSCORE          7.                         cool7     cool7          RESNUCLE
-DCYSCORE          8.                         cool8     cool8          RESNUCLE
-DCYSCORE          9.                         cool9     cool9          RESNUCLE
-DCYSCORE         10.                        cool10    cool10          RESNUCLE
-DCYSCORE         11.                        cool11    cool11          RESNUCLE
-DCYSCORE         12.                        cool12    cool12          RESNUCLE
-DCYSCORE         13.                        cool13    cool13          RESNUCLE
-DCYSCORE         14.                        cool14    cool14          RESNUCLE
-DCYSCORE         15.                        cool15    cool15          RESNUCLE
-DCYSCORE         16.                        cool16    cool16          RESNUCLE
-DCYSCORE         17.                        cool17    cool17          RESNUCLE
-DCYSCORE         18.                        cool18    cool18          RESNUCLE
-DCYSCORE         19.                        cool19    cool19          RESNUCLE
-DCYSCORE         20.                        cool20    cool20          RESNUCLE
+DCYSCORE          1.                         cool1     cool1        1.RESNUCLE
+DCYSCORE          2.                         cool2     cool2        2.RESNUCLE
+DCYSCORE          3.                         cool3     cool3        3.RESNUCLE
+DCYSCORE          4.                         cool4     cool4        4.RESNUCLE
+DCYSCORE          5.                         cool5     cool5        5.RESNUCLE
+DCYSCORE          6.                         cool6     cool6        6.RESNUCLE
+DCYSCORE          7.                         cool7     cool7        7.RESNUCLE
+DCYSCORE          8.                         cool8     cool8        8.RESNUCLE
+DCYSCORE          9.                         cool9     cool9        9.RESNUCLE
+DCYSCORE         10.                        cool10    cool10        0.RESNUCLE
+DCYSCORE         11.                        cool11    cool11        1.RESNUCLE
+DCYSCORE         12.                        cool12    cool12        2.RESNUCLE
+DCYSCORE         13.                        cool13    cool13        3.RESNUCLE
+DCYSCORE         14.                        cool14    cool14        4.RESNUCLE
+DCYSCORE         15.                        cool15    cool15        5.RESNUCLE
+DCYSCORE         16.                        cool16    cool16        6.RESNUCLE
+DCYSCORE         17.                        cool17    cool17        7.RESNUCLE
+DCYSCORE         18.                        cool18    cool18        8.RESNUCLE
+DCYSCORE         19.                        cool19    cool19        9.RESNUCLE
+DCYSCORE         20.                        cool20    cool20        0.RESNUCLE
 RANDOMIZ          1.
-START         20000.
+START       2000000.
 STOP
