@@ -5,7 +5,7 @@ Title: My title
 Input: recreation.inp
 Submit: *Default
 Tabs: 0.1 0.32 0.56 0.81 1.0
-Page: Run
+Page: Input
 DefMain: True
 LinkPrg: lfluka
 F77bound: True
@@ -278,29 +278,29 @@ Plot: Blue
 	basisu: 0 0 1
 	basisv: 0 1 0
 	boundaries: 1
+	cbcolors: 0
+	cblog: False
+	cbpalette: FLUKA
+	cbround: 0
+	cbtics: 0
 	coord: Z-Y
+	cpd: 0
 	extends: 100 44.4008
+	grid: 0
+	index: 0
 	labels: 1
 	layer: Media
 	origin: 0 0 0
 	subtype: Material
 	title: GeoViewer Blue plot
-End
-
-# Geometry plot "GeoViewer Magenta plot"
-Plot: Magenta
-	Format: .eps
-	Type:   Geometry
-	basisu: -1 0 0
-	basisv: 0 1 0
-	boundaries: 1
-	coord: X-Y
-	extends: 100 44.4008
-	labels: 1
-	layer: Media
-	origin: 0 0 0
-	subtype: Material
-	title: GeoViewer Magenta plot
+	x2log: False
+	x2tics: 0
+	xlog: False
+	y2log: False
+	y2tics: 0
+	ylog: False
+	zlog: False
+	ztics: 0
 End
 
 # RESNUCLE plot "RESNUCLE recreation 21"
@@ -480,109 +480,30 @@ End
 Plot: recreation_40_plot
 	Format: .eps
 	Type:   RESNUCLE
-	cbcolors: 0
-	cblog: False
-	cbpalette: FLUKA
-	cbround: 0
-	cbtics: 0
-	cpd: 0
 	datafile: recreation_40.rnc
-	det: 1
-	grid: 0
-	index: 0
-	lw.0: 0
-	plot: Z
-	ps.0: 0
 	title: RESNUCLE recreation 40
-	with.0: errorbars
-	x2log: False
-	x2tics: 0
-	xlog: False
-	y2log: False
-	y2tics: 0
-	ylog: False
-	zlog: False
-	ztics: 0
 End
 
 # USRBIN plot "USRBIN recreation 41"
 Plot: recreation_41_plot
 	Format: .eps
 	Type:   USRBIN
-	axes: Auto
 	cbcolors: 30
-	cblog: False
-	cbpalette: FLUKA
-	cbround: 0
+	cblog: 1
 	cbtics: 1
-	cpd: 0
 	datafile: recreation_41.bnn
-	det: 1
-	errors: 0
 	geo: -Auto-
-	grid: 0
-	hist: 2D Projection
-	index: 0
-	int: 28.963881589709096
-	lw.0: 0
-	max: 1.08406087E-02
-	min: 1.93079119E-04
-	proj: Z
-	ps.0: 0
-	pt.0: 0
-	swap: 0
 	title: USRBIN recreation 41
-	with.0: errorbars
-	x2log: False
-	x2tics: 0
-	xlog: False
-	xrebin: 1
-	y2log: False
-	y2tics: 0
-	ylog: False
-	yrebin: 1
-	zlog: False
-	zrebin: 1
-	ztics: 0
 End
 
 # USRBIN plot "USRBIN recreation 42"
 Plot: recreation_42_plot
 	Format: .eps
 	Type:   USRBIN
-	axes: Auto
 	cbcolors: 30
-	cblog: False
-	cbpalette: FLUKA
-	cbround: 0
+	cblog: 1
 	cbtics: 1
-	cpd: 0
 	datafile: recreation_42.bnn
-	det: 1
-	errors: 0
 	geo: -Auto-
-	grid: 0
-	hist: 2D Projection
-	index: 0
-	int: 28.963879430937226
-	lw.0: 0
-	max: 1.57646760E-02
-	min: 1.18362230E-04
-	proj: X
-	ps.0: 0
-	pt.0: 0
-	swap: 0
 	title: USRBIN recreation 42
-	with.0: errorbars
-	x2log: False
-	x2tics: 0
-	xlog: False
-	xrebin: 1
-	y2log: False
-	y2tics: 0
-	ylog: False
-	yrebin: 1
-	zlog: False
-	zrebin: 1
-	ztics: 0
 End

@@ -5,7 +5,7 @@ Title: My title
 Input: 20brass1p25.inp
 Submit: *Default
 Tabs: 0.1 0.32 0.56 0.81 1.0
-Page: Plot
+Page: Run
 DefMain: True
 LinkPrg: lfluka
 F77bound: True
@@ -17,7 +17,7 @@ Run: <default>
 	Last:     5
 	Status:   3
 	Pid:      0
-	StartRun: 1683963250
+	StartRun: 1684169731
 
 	# USRxxx data file: 20brass1p25_21.rnc
 	Data: \I_\U.\e
@@ -456,7 +456,9 @@ Plot: 20brass1p25_41_plot
 	cbcolors: 30
 	cblog: False
 	cbpalette: FLUKA
+	cbround: 0
 	cbtics: 1
+	cpd: 0
 	datafile: 20brass1p25_41.bnn
 	det: 1
 	errors: 0
@@ -476,10 +478,12 @@ Plot: 20brass1p25_41_plot
 	with.0: errorbars
 	x2log: False
 	x2tics: 0
+	xlabel: Z
 	xlog: False
 	xrebin: 1
 	y2log: False
 	y2tics: 0
+	ylabel: X
 	ylog: False
 	yrebin: 1
 	zlog: False
