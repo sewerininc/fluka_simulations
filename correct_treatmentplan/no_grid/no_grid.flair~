@@ -18,7 +18,7 @@ Run: <default>
 	Last:     5
 	Status:   3
 	Pid:      0
-	StartRun: 1682250798
+	StartRun: 1684406388
 
 	# USRxxx data file: treatment_simulation_21.bnn
 	Data: \I_\U.\e
@@ -63,32 +63,82 @@ End
 
 # Geometry Information
 Geometry:
-	Frame.bsplit: 0.5
+	Frame.bsplit: 0.99
 	Frame.tsplit: 0.5
-	Frame.vsplit: 0.5
+	Frame.vsplit: 0.01
 End
 
-# Geometry plot "Geometry"
-Plot: no_grid_geometry
+# Geometry plot "GeoViewer Red plot"
+Plot: Red
 	Format: .eps
 	Type:   Geometry
 	basisu: 1 0 0
 	basisv: 0 1 0
-	boundaries: 0
+	boundaries: 1
+	coord: X-Y
+	extends: 100 0.196464
+	labels: 1
+	layer: Media
+	origin: 0 0 0
+	subtype: Material
+	title: GeoViewer Red plot
+End
+
+# Geometry plot "GeoViewer Green plot"
+Plot: Green
+	Format: .eps
+	Type:   Geometry
+	basisu: 0 0 1
+	basisv: 1 0 0
+	boundaries: 1
+	coord: Z-X
+	extends: 100 0.196464
+	labels: 1
+	layer: Media
+	origin: 0 0 0
+	subtype: Material
+	title: GeoViewer Green plot
+End
+
+# Geometry plot "GeoViewer Blue plot"
+Plot: Blue
+	Format: .eps
+	Type:   Geometry
+	basisu: 0 0 1
+	basisv: 0 1 0
+	boundaries: 1
+	coord: Z-Y
+	extends: 100 47.2277
+	labels: 1
+	layer: Media
+	origin: 0 0 0
+	subtype: Material
+	title: GeoViewer Blue plot
+End
+
+# Geometry plot "GeoViewer Magenta plot"
+Plot: Magenta
+	Format: .eps
+	Type:   Geometry
+	basisu: -1 0 0
+	basisv: 0 1 0
+	boundaries: 1
 	cbcolors: 0
 	cblog: False
 	cbpalette: FLUKA
 	cbround: 0
 	cbtics: 0
-	coord: U-V
+	coord: X-Y
 	cpd: 0
-	extends: 100 100
+	extends: 100 5962.5
 	grid: 0
 	index: 0
-	labels: 0
+	labels: 1
+	layer: Media
 	origin: 0 0 0
-	subtype: Geometry
-	title: Geometry
+	proj: Z
+	subtype: Material
+	title: GeoViewer Magenta plot
 	x2log: False
 	x2tics: 0
 	xlog: False
@@ -117,10 +167,10 @@ Plot: treatment_simulation_21_plot
 	grid: 0
 	hist: 2D Projection
 	index: 0
-	int: 9.8733710712821471E-002
+	int: 9.6923409412084244E-002
 	lw.0: 0
-	max: 1.16462877E-04
-	min: 2.07689459E-18
+	max: 2.29682759E-04
+	min: 1.46823196E-16
 	proj: Z
 	ps.0: 0
 	pt.0: 0
@@ -158,10 +208,10 @@ Plot: treatment_simulation_22_plot
 	grid: 0
 	hist: 2D Projection
 	index: 0
-	int: 9.8733692335153972E-002
+	int: 9.6923391355615535E-002
 	lw.0: 0
-	max: 5.37474589E-05
-	min: 3.37708033E-17
+	max: 7.30233005E-05
+	min: 1.03383781E-10
 	proj: Y
 	ps.0: 0
 	pt.0: 0
@@ -199,10 +249,10 @@ Plot: treatment_simulation_23_plot
 	grid: 0
 	hist: 2D Projection
 	index: 0
-	int: 9.8733692295393916E-002
+	int: 9.6923391347744983E-002
 	lw.0: 0
-	max: 7.82659117E-05
-	min: 1.28027006E-10
+	max: 1.14742565E-04
+	min: 9.26859978E-10
 	proj: X
 	ps.0: 0
 	pt.0: 0
@@ -228,7 +278,7 @@ Plot: treatment_simulation_24_plot
 	Type:   USRBIN
 	axes: Auto
 	cbcolors: 30
-	cblog: False
+	cblog: True
 	cbpalette: FLUKA
 	cbround: 0
 	cbtics: 1
@@ -240,10 +290,10 @@ Plot: treatment_simulation_24_plot
 	grid: 0
 	hist: 1D Projection
 	index: 0
-	int: 9.8733694164891972E-002
+	int: 9.6923393331579177E-002
 	lw.0: 0
-	max: 1.91205127E-05
-	min: 1.24542607E-08
+	max: 2.03595409E-05
+	min: 1.28782309E-08
 	proj: Z
 	ps.0: 0
 	pt.0: 0
@@ -281,10 +331,10 @@ Plot: treatment_simulation_42_plot
 	grid: 0
 	hist: 2D Projection
 	index: 0
-	int: 1.0771581595149382
+	int: 1.0123170985048344
 	lw.0: 0
-	max: 3.66150998E-02
-	min: 3.24213252E-05
+	max: 3.32055353E-02
+	min: 4.23386664E-05
 	proj: Z
 	ps.0: 0
 	pt.0: 0

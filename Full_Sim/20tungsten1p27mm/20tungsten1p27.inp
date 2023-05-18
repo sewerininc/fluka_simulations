@@ -1,8 +1,9 @@
 TITLE
 My title
 DEFAULTS                                                              HADROTHE
-BEAM          -0.100    -0.001                 10.       2.5        1.PROTON
-BEAMPOS          0.0       0.0      -15.       0.0       0.0
+BEAM          -0.100     0.001                  1.        1.        1.PROTON
+BEAMPOS          0.0       0.0     -200.       0.0       0.0
+SOURCE         -205.                                                  sobp.dat
 GEOBEGIN                                                              COMBNAME
     0    0          
 SPH blkbody    0.0 0.0 0.0 10000.
@@ -36,40 +37,43 @@ RPP target26   -10. 10. 2.136 2.263 -6. -4.
 RPP target27   -10. 10. 2.337 2.463 -6. -4.
 RPP target28   -10. 10. 2.537 2.663 -6. -4.
 RPP target29   -10. 10. 2.737 2.864 -6. -4.
+RPP target30   -50. 50. -50. 50. 0.0 20.
 END
-BLKBODY     29 +blkbody -void
-VOID        29 +void -target1 -target2 -target3 -target4 -target5 -target6 -target7 -target8 -target9 -target10
+BLKBODY     30 +blkbody -void
+VOID        30 +void -target1 -target2 -target3 -target4 -target5 -target6 -target7 -target8 -target9 -target10
                -target11 -target12 -target13 -target14 -target15 -target16 -target17 -target18 -target19
-               -target20 -target21 -target22 -target23 -target24 -target25 -target26 -target27 -target28 -target29
-TARGET1     29 +target1
-TARGET2     29 +target2
-TARGET3     29 +target3
-TARGET4     29 +target4
-TARGET5     29 +target5
-TARGET6     29 +target6
-TARGET7     29 +target7
-TARGET8     29 +target8
-TARGET9     29 +target9
-TARGET10    29 +target10
-TARGET11    29 +target11
-TARGET12    29 +target12
-TARGET13    29 +target13
-TARGET14    29 +target14
-TARGET15    29 +target15
-TARGET16    29 +target16
-TARGET17    29 +target17
-TARGET18    29 +target18
-TARGET19    29 +target19
-TARGET20    29 +target20
-TARGET21    29 +target21
-TARGET22    29 +target22
-TARGET23    29 +target23
-TARGET24    29 +target24
-TARGET25    29 +target25
-TARGET26    29 +target26
-TARGET27    29 +target27
-TARGET28    29 +target28
-TARGET29    29 +target29
+               -target20 -target21 -target22 -target23 -target24 -target25 -target26 -target27 -target28
+               -target29 -target30
+TARGET1     30 +target1
+TARGET2     30 +target2
+TARGET3     30 +target3
+TARGET4     30 +target4
+TARGET5     30 +target5
+TARGET6     30 +target6
+TARGET7     30 +target7
+TARGET8     30 +target8
+TARGET9     30 +target9
+TARGET10    30 +target10
+TARGET11    30 +target11
+TARGET12    30 +target12
+TARGET13    30 +target13
+TARGET14    30 +target14
+TARGET15    30 +target15
+TARGET16    30 +target16
+TARGET17    30 +target17
+TARGET18    30 +target18
+TARGET19    30 +target19
+TARGET20    30 +target20
+TARGET21    30 +target21
+TARGET22    30 +target22
+TARGET23    30 +target23
+TARGET24    30 +target24
+TARGET25    30 +target25
+TARGET26    30 +target26
+TARGET27    30 +target27
+TARGET28    30 +target28
+TARGET29    30 +target29
+TARGET30    30 +target30
 END
 GEOEND
 MATERIAL         30.     65.38      7.13                              Zink
@@ -107,13 +111,26 @@ ASSIGNMA    TUNGSTEN  TARGET26
 ASSIGNMA    TUNGSTEN  TARGET27
 ASSIGNMA    TUNGSTEN  TARGET28
 ASSIGNMA    TUNGSTEN  TARGET29
+ASSIGNMA       WATER  TARGET30
 PHYSICS           1.                                                  COALESCE
 PHYSICS           3.                                                  EVAPORAT
 PHYSICS        1000.     1000.     1000.     1000.     1000.     1000.PEATHRES
-IRRPROFI        900.       1E9
+IRRPROFI        300.      1E15
 RADDECAY          1.        1.        3.333333303. 999909999        1.
 USRBIN           10.  ALL-PART      -41.       10.    0.0635       -4..xz_mid
 USRBIN          -10.   -0.0635       -6.      400.        1.       40. &
+USRBIN           10.      DOSE      -42.       10.        5.       0.0xy_before
+USRBIN          -10.       -5.       -1.      600.      300.        1. &
+USRBIN           10.      DOSE      -43.       10.        5.        8.xy_ptv
+USRBIN          -10.       -5.        6.      600.      300.        1. &
+USRBIN           10.      DOSE      -54.       10.        5.       12.xz_tank
+USRBIN          -10.       -5.       0.0      600.        1.      360. &
+USRBIN           10.      DOSE      -45.       10.        5.       12.yz_tank
+USRBIN          -10.       -5.       0.0        1.      300.      360. &
+USRBIN           10.      DOSE      -46.        4.       1.2       12.z_dose
+USRBIN           -4.      -0.8       0.0        1.        1.     1200. &
+USRBIN           10.      DOSE      -80.       20.       10.       -6.XY_dose1
+USRBIN          -20.      -10.      -10.      600.      600.        1. &
 DCYTIMES        300.      900.     3600.     7200.    14400.    28800.
 DCYTIMES      57600.    86400.   115200.   259200.      450.     1400.
 DCYTIMES       2500.     5400.    10800.   360000.    21600.    43200.
@@ -159,5 +176,5 @@ DCYSCORE         18.                        cool18    cool18          RESNUCLE
 DCYSCORE         19.                        cool19    cool19          RESNUCLE
 DCYSCORE         20.                        cool20    cool20          RESNUCLE
 RANDOMIZ          1.
-START       2000000.
+START       5000000.
 STOP
