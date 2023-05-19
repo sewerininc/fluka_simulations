@@ -19,7 +19,7 @@ Run: <default>
 	Last:     5
 	Status:   3
 	Pid:      0
-	StartRun: 1684426797
+	StartRun: 1684427180
 
 	# USRxxx data file: 20tungsten1p27_21.rnc
 	Data: \I_\U.\e
@@ -541,72 +541,235 @@ End
 Plot: 20tungsten1p27_41_plot
 	Format: .eps
 	Type:   USRBIN
+	axes: Auto
 	cbcolors: 30
-	cblog: 1
+	cblog: False
+	cbpalette: FLUKA
 	cbtics: 1
 	datafile: 20tungsten1p27_41.bnn
+	det: 1
+	errors: 0
 	geo: -Auto-
+	grid: 0
+	hist: 2D Projection
+	index: 0
+	int: 4.4965974355917870E-002
+	lw.0: 0
+	max: 3.60042788E-02
+	min: 6.86988642E-05
+	proj: Y
+	ps.0: 0
+	pt.0: 0
+	swap: 0
 	title: USRBIN 20tungsten1p27 41
+	with.0: errorbars
+	x2log: False
+	x2tics: 0
+	xlog: False
+	xrebin: 1
+	y2log: False
+	y2tics: 0
+	ylog: False
+	yrebin: 1
+	zlog: False
+	zrebin: 1
+	ztics: 0
 End
 
 # USRBIN plot "USRBIN 20tungsten1p27 42"
 Plot: 20tungsten1p27_42_plot
 	Format: .eps
 	Type:   USRBIN
+	axes: Auto
 	cbcolors: 30
-	cblog: 1
+	cblog: False
+	cbpalette: FLUKA
 	cbtics: 1
 	datafile: 20tungsten1p27_42.bnn
+	det: 1
+	errors: 0
 	geo: -Auto-
+	grid: 0
+	hist: 2D Projection
+	index: 0
+	int: 3.1654114413534290E-003
+	lw.0: 0
+	max: 8.99499049E-04
+	min: 1.44487490E-14
+	proj: Z
+	ps.0: 0
+	pt.0: 0
+	swap: 0
 	title: USRBIN 20tungsten1p27 42
+	with.0: errorbars
+	x2log: False
+	x2tics: 0
+	xlog: False
+	xrebin: 1
+	y2log: False
+	y2tics: 0
+	ylog: False
+	yrebin: 1
+	zlog: False
+	zrebin: 1
+	ztics: 0
 End
 
 # USRBIN plot "USRBIN 20tungsten1p27 43"
 Plot: 20tungsten1p27_43_plot
 	Format: .eps
 	Type:   USRBIN
+	axes: Auto
 	cbcolors: 30
-	cblog: 1
+	cblog: False
+	cbpalette: FLUKA
 	cbtics: 1
 	datafile: 20tungsten1p27_43.bnn
+	det: 1
+	errors: 0
 	geo: -Auto-
+	grid: 0
+	hist: 2D Projection
+	index: 0
+	int: 1.0119375521798462E-002
+	lw.0: 0
+	max: 1.58810930E-04
+	min: 1.88263639E-15
+	proj: Z
+	ps.0: 0
+	pt.0: 0
+	swap: 0
 	title: USRBIN 20tungsten1p27 43
+	with.0: errorbars
+	x2log: False
+	x2tics: 0
+	xlog: False
+	xrebin: 1
+	y2log: False
+	y2tics: 0
+	ylog: False
+	yrebin: 1
+	zlog: False
+	zrebin: 1
+	ztics: 0
 End
 
 # USRBIN plot "USRBIN 20tungsten1p27 45"
 Plot: 20tungsten1p27_45_plot
 	Format: .eps
 	Type:   USRBIN
+	axes: Auto
 	cbcolors: 30
-	cblog: 1
+	cblog: False
+	cbpalette: FLUKA
+	cbround: 0
 	cbtics: 1
+	cpd: 0
 	datafile: 20tungsten1p27_45.bnn
+	det: 1
+	errors: 0
 	geo: -Auto-
+	grid: 0
+	hist: 2D Projection
+	index: 0
+	int: 3.7113532417434654E-002
+	lw.0: 0
+	max: 1.25306964E-04
+	min: 1.93654606E-11
+	proj: X
+	ps.0: 0
+	pt.0: 0
+	swap: 0
 	title: USRBIN 20tungsten1p27 45
+	with.0: errorbars
+	x2log: False
+	x2tics: 0
+	xlog: False
+	xrebin: 1
+	y2log: False
+	y2tics: 0
+	ylog: False
+	yrebin: 1
+	zlog: False
+	zrebin: 1
+	ztics: 0
 End
 
 # USRBIN plot "USRBIN 20tungsten1p27 46"
 Plot: 20tungsten1p27_46_plot
 	Format: .eps
 	Type:   USRBIN
+	axes: Auto
 	cbcolors: 30
-	cblog: 1
+	cblog: True
+	cbpalette: FLUKA
+	cbround: 0
 	cbtics: 1
+	cpd: 0
 	datafile: 20tungsten1p27_46.bnn
+	det: 1
+	errors: 0
 	geo: -Auto-
+	grid: 0
+	hist: 2D Projection
+	index: 0
+	lw.0: 0
+	proj: X
+	ps.0: 0
+	pt.0: 0
+	swap: 0
 	title: USRBIN 20tungsten1p27 46
+	with.0: errorbars
+	x2log: False
+	x2tics: 0
+	xlog: False
+	xrebin: 1
+	y2log: False
+	y2tics: 0
+	ylog: False
+	yrebin: 1
+	zlog: False
+	zrebin: 1
+	ztics: 0
 End
 
 # USRBIN plot "USRBIN 20tungsten1p27 54"
 Plot: 20tungsten1p27_54_plot
 	Format: .eps
 	Type:   USRBIN
+	axes: Auto
 	cbcolors: 30
-	cblog: 1
+	cblog: False
+	cbpalette: FLUKA
 	cbtics: 1
 	datafile: 20tungsten1p27_54.bnn
+	det: 1
+	errors: 0
 	geo: -Auto-
+	grid: 0
+	hist: 2D Projection
+	index: 0
+	int: 3.7113532410403417E-002
+	lw.0: 0
+	max: 5.09255005E-05
+	min: 1.75647986E-14
+	proj: Y
+	ps.0: 0
+	pt.0: 0
+	swap: 0
 	title: USRBIN 20tungsten1p27 54
+	with.0: errorbars
+	x2log: False
+	x2tics: 0
+	xlog: False
+	xrebin: 1
+	y2log: False
+	y2tics: 0
+	ylog: False
+	yrebin: 1
+	zlog: False
+	zrebin: 1
+	ztics: 0
 End
 
 # USRBIN plot "USRBIN 20tungsten1p27 80"

@@ -176,5 +176,5 @@ DCYSCORE         18.                        cool18    cool18          RESNUCLE
 DCYSCORE         19.                        cool19    cool19          RESNUCLE
 DCYSCORE         20.                        cool20    cool20          RESNUCLE
 RANDOMIZ          1.
-START         50000.
+START       5000000.
 STOP
