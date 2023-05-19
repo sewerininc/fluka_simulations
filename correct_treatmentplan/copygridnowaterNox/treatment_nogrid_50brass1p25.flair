@@ -1,0 +1,613 @@
+#!/usr/local/flair/flair
+# FLUKA Project file
+Version: 2
+Title: My title
+Input: treatment_nogrid_50brass1p25.inp
+Exec: flukadpm3_sobp
+Submit: *Default
+Tabs: 0.1 0.32 0.56 0.81 1.0
+Page: Plot
+DefMain: True
+LinkPrg: lfluka
+F77bound: True
+F77dline: False
+
+# Run information
+Run: <default>
+	Exe:      flukadpm3_sobp
+	Prev:     0
+	Last:     5
+	Status:   3
+	Pid:      0
+	StartRun: 1684486525
+
+	# USRxxx data file: treatment_nogrid_50brass1p25_21.rnc
+	Data: \I_\U.\e
+		Unit: 21
+		Type: r
+		Rule: +,\I\d\d\d_fort\.\U
+		Rule: +,\I\d\d\d_ftn\.\U
+	End
+
+	# USRxxx data file: treatment_nogrid_50brass1p25_22.rnc
+	Data: \I_\U.\e
+		Unit: 22
+		Type: r
+		Rule: +,\I\d\d\d_fort\.\U
+		Rule: +,\I\d\d\d_ftn\.\U
+	End
+
+	# USRxxx data file: treatment_nogrid_50brass1p25_23.rnc
+	Data: \I_\U.\e
+		Unit: 23
+		Type: r
+		Rule: +,\I\d\d\d_fort\.\U
+		Rule: +,\I\d\d\d_ftn\.\U
+	End
+
+	# USRxxx data file: treatment_nogrid_50brass1p25_24.rnc
+	Data: \I_\U.\e
+		Unit: 24
+		Type: r
+		Rule: +,\I\d\d\d_fort\.\U
+		Rule: +,\I\d\d\d_ftn\.\U
+	End
+
+	# USRxxx data file: treatment_nogrid_50brass1p25_25.rnc
+	Data: \I_\U.\e
+		Unit: 25
+		Type: r
+		Rule: +,\I\d\d\d_fort\.\U
+		Rule: +,\I\d\d\d_ftn\.\U
+	End
+
+	# USRxxx data file: treatment_nogrid_50brass1p25_26.rnc
+	Data: \I_\U.\e
+		Unit: 26
+		Type: r
+		Rule: +,\I\d\d\d_fort\.\U
+		Rule: +,\I\d\d\d_ftn\.\U
+	End
+
+	# USRxxx data file: treatment_nogrid_50brass1p25_27.rnc
+	Data: \I_\U.\e
+		Unit: 27
+		Type: r
+		Rule: +,\I\d\d\d_fort\.\U
+		Rule: +,\I\d\d\d_ftn\.\U
+	End
+
+	# USRxxx data file: treatment_nogrid_50brass1p25_28.rnc
+	Data: \I_\U.\e
+		Unit: 28
+		Type: r
+		Rule: +,\I\d\d\d_fort\.\U
+		Rule: +,\I\d\d\d_ftn\.\U
+	End
+
+	# USRxxx data file: treatment_nogrid_50brass1p25_29.rnc
+	Data: \I_\U.\e
+		Unit: 29
+		Type: r
+		Rule: +,\I\d\d\d_fort\.\U
+		Rule: +,\I\d\d\d_ftn\.\U
+	End
+
+	# USRxxx data file: treatment_nogrid_50brass1p25_30.rnc
+	Data: \I_\U.\e
+		Unit: 30
+		Type: r
+		Rule: +,\I\d\d\d_fort\.\U
+		Rule: +,\I\d\d\d_ftn\.\U
+	End
+
+	# USRxxx data file: treatment_nogrid_50brass1p25_31.rnc
+	Data: \I_\U.\e
+		Unit: 31
+		Type: r
+		Rule: +,\I\d\d\d_fort\.\U
+		Rule: +,\I\d\d\d_ftn\.\U
+	End
+
+	# USRxxx data file: treatment_nogrid_50brass1p25_32.rnc
+	Data: \I_\U.\e
+		Unit: 32
+		Type: r
+		Rule: +,\I\d\d\d_fort\.\U
+		Rule: +,\I\d\d\d_ftn\.\U
+	End
+
+	# USRxxx data file: treatment_nogrid_50brass1p25_33.rnc
+	Data: \I_\U.\e
+		Unit: 33
+		Type: r
+		Rule: +,\I\d\d\d_fort\.\U
+		Rule: +,\I\d\d\d_ftn\.\U
+	End
+
+	# USRxxx data file: treatment_nogrid_50brass1p25_34.rnc
+	Data: \I_\U.\e
+		Unit: 34
+		Type: r
+		Rule: +,\I\d\d\d_fort\.\U
+		Rule: +,\I\d\d\d_ftn\.\U
+	End
+
+	# USRxxx data file: treatment_nogrid_50brass1p25_35.rnc
+	Data: \I_\U.\e
+		Unit: 35
+		Type: r
+		Rule: +,\I\d\d\d_fort\.\U
+		Rule: +,\I\d\d\d_ftn\.\U
+	End
+
+	# USRxxx data file: treatment_nogrid_50brass1p25_36.rnc
+	Data: \I_\U.\e
+		Unit: 36
+		Type: r
+		Rule: +,\I\d\d\d_fort\.\U
+		Rule: +,\I\d\d\d_ftn\.\U
+	End
+
+	# USRxxx data file: treatment_nogrid_50brass1p25_37.rnc
+	Data: \I_\U.\e
+		Unit: 37
+		Type: r
+		Rule: +,\I\d\d\d_fort\.\U
+		Rule: +,\I\d\d\d_ftn\.\U
+	End
+
+	# USRxxx data file: treatment_nogrid_50brass1p25_38.rnc
+	Data: \I_\U.\e
+		Unit: 38
+		Type: r
+		Rule: +,\I\d\d\d_fort\.\U
+		Rule: +,\I\d\d\d_ftn\.\U
+	End
+
+	# USRxxx data file: treatment_nogrid_50brass1p25_39.rnc
+	Data: \I_\U.\e
+		Unit: 39
+		Type: r
+		Rule: +,\I\d\d\d_fort\.\U
+		Rule: +,\I\d\d\d_ftn\.\U
+	End
+
+	# USRxxx data file: treatment_nogrid_50brass1p25_40.rnc
+	Data: \I_\U.\e
+		Unit: 40
+		Type: r
+		Rule: +,\I\d\d\d_fort\.\U
+		Rule: +,\I\d\d\d_ftn\.\U
+	End
+
+	# USRxxx data file: treatment_nogrid_50brass1p25_41.bnn
+	Data: \I_\U.\e
+		Unit: 41
+		Type: b
+		Rule: +,\I\d\d\d_fort\.\U
+		Rule: +,\I\d\d\d_ftn\.\U
+	End
+
+	# USRxxx data file: treatment_nogrid_50brass1p25_42.bnn
+	Data: \I_\U.\e
+		Unit: 42
+		Type: b
+		Rule: +,\I\d\d\d_fort\.\U
+		Rule: +,\I\d\d\d_ftn\.\U
+	End
+
+	# USRxxx data file: treatment_nogrid_50brass1p25_43.bnn
+	Data: \I_\U.\e
+		Unit: 43
+		Type: b
+		Rule: +,\I\d\d\d_fort\.\U
+		Rule: +,\I\d\d\d_ftn\.\U
+	End
+End
+
+# Material
+Material: Brass
+	alpha: 0
+	color: #10D050
+	fuzz: 0.0
+	ior: 1.0
+	shine: 10.0
+	specular: 0.0
+End
+
+# Material
+Material: Zink
+	alpha: 0
+	color: #B030B0
+	fuzz: 0.0
+	ior: 1.0
+	shine: 10.0
+	specular: 0.0
+End
+
+# Geometry Information
+Geometry:
+	Frame.bsplit: 0.99
+	Frame.tsplit: 0.5
+	Frame.vsplit: 0.01
+End
+
+# Geometry plot "GeoViewer Red plot"
+Plot: Red
+	Format: .eps
+	Type:   Geometry
+	basisu: 1 0 0
+	basisv: 0 1 0
+	boundaries: 1
+	cbcolors: 0
+	cblog: False
+	cbpalette: FLUKA
+	cbround: 0
+	cbtics: 0
+	coord: X-Y
+	cpd: 0
+	extends: 100 75
+	grid: 0
+	index: 0
+	labels: 1
+	layer: Media
+	origin: 0 0 0
+	subtype: Material
+	title: GeoViewer Red plot
+	x2log: False
+	x2tics: 0
+	xlog: False
+	y2log: False
+	y2tics: 0
+	ylog: False
+	zlog: False
+	ztics: 0
+End
+
+# Geometry plot "GeoViewer Green plot"
+Plot: Green
+	Format: .eps
+	Type:   Geometry
+	basisu: 0 0 1
+	basisv: 1 0 0
+	boundaries: 1
+	coord: Z-X
+	extends: 100 75
+	labels: 1
+	layer: Media
+	origin: 0 0 0
+	subtype: Material
+	title: GeoViewer Green plot
+End
+
+# Geometry plot "GeoViewer Blue plot"
+Plot: Blue
+	Format: .eps
+	Type:   Geometry
+	basisu: 0 0 1
+	basisv: 0 1 0
+	boundaries: 1
+	coord: Z-Y
+	extends: 100 75
+	labels: 1
+	layer: Media
+	origin: 0 0 0
+	subtype: Material
+	title: GeoViewer Blue plot
+End
+
+# Geometry plot "GeoViewer Magenta plot"
+Plot: Magenta
+	Format: .eps
+	Type:   Geometry
+	basisu: -1 0 0
+	basisv: 0 1 0
+	boundaries: 1
+	cbcolors: 0
+	cblog: False
+	cbpalette: FLUKA
+	cbround: 0
+	cbtics: 0
+	coord: X-Y
+	cpd: 0
+	extends: 100 5962.5
+	grid: 0
+	index: 0
+	labels: 1
+	layer: Media
+	origin: 0 0 0
+	subtype: Material
+	title: GeoViewer Magenta plot
+	x2log: False
+	x2tics: 0
+	xlog: False
+	y2log: False
+	y2tics: 0
+	ylog: False
+	zlog: False
+	ztics: 0
+End
+
+# RESNUCLE plot "RESNUCLE treatment nogrid 50brass1p25 21"
+Plot: treatment_nogrid_50brass1p25_21_plot
+	Format: .eps
+	Type:   RESNUCLE
+	datafile: treatment_nogrid_50brass1p25_21.rnc
+	title: RESNUCLE treatment nogrid 50brass1p25 21
+End
+
+# RESNUCLE plot "RESNUCLE treatment nogrid 50brass1p25 22"
+Plot: treatment_nogrid_50brass1p25_22_plot
+	Format: .eps
+	Type:   RESNUCLE
+	datafile: treatment_nogrid_50brass1p25_22.rnc
+	title: RESNUCLE treatment nogrid 50brass1p25 22
+End
+
+# RESNUCLE plot "RESNUCLE treatment nogrid 50brass1p25 23"
+Plot: treatment_nogrid_50brass1p25_23_plot
+	Format: .eps
+	Type:   RESNUCLE
+	datafile: treatment_nogrid_50brass1p25_23.rnc
+	title: RESNUCLE treatment nogrid 50brass1p25 23
+End
+
+# RESNUCLE plot "RESNUCLE treatment nogrid 50brass1p25 24"
+Plot: treatment_nogrid_50brass1p25_24_plot
+	Format: .eps
+	Type:   RESNUCLE
+	datafile: treatment_nogrid_50brass1p25_24.rnc
+	title: RESNUCLE treatment nogrid 50brass1p25 24
+End
+
+# RESNUCLE plot "RESNUCLE treatment nogrid 50brass1p25 25"
+Plot: treatment_nogrid_50brass1p25_25_plot
+	Format: .eps
+	Type:   RESNUCLE
+	datafile: treatment_nogrid_50brass1p25_25.rnc
+	title: RESNUCLE treatment nogrid 50brass1p25 25
+End
+
+# RESNUCLE plot "RESNUCLE treatment nogrid 50brass1p25 26"
+Plot: treatment_nogrid_50brass1p25_26_plot
+	Format: .eps
+	Type:   RESNUCLE
+	datafile: treatment_nogrid_50brass1p25_26.rnc
+	title: RESNUCLE treatment nogrid 50brass1p25 26
+End
+
+# RESNUCLE plot "RESNUCLE treatment nogrid 50brass1p25 27"
+Plot: treatment_nogrid_50brass1p25_27_plot
+	Format: .eps
+	Type:   RESNUCLE
+	datafile: treatment_nogrid_50brass1p25_27.rnc
+	title: RESNUCLE treatment nogrid 50brass1p25 27
+End
+
+# RESNUCLE plot "RESNUCLE treatment nogrid 50brass1p25 28"
+Plot: treatment_nogrid_50brass1p25_28_plot
+	Format: .eps
+	Type:   RESNUCLE
+	datafile: treatment_nogrid_50brass1p25_28.rnc
+	title: RESNUCLE treatment nogrid 50brass1p25 28
+End
+
+# RESNUCLE plot "RESNUCLE treatment nogrid 50brass1p25 29"
+Plot: treatment_nogrid_50brass1p25_29_plot
+	Format: .eps
+	Type:   RESNUCLE
+	datafile: treatment_nogrid_50brass1p25_29.rnc
+	title: RESNUCLE treatment nogrid 50brass1p25 29
+End
+
+# RESNUCLE plot "RESNUCLE treatment nogrid 50brass1p25 30"
+Plot: treatment_nogrid_50brass1p25_30_plot
+	Format: .eps
+	Type:   RESNUCLE
+	datafile: treatment_nogrid_50brass1p25_30.rnc
+	title: RESNUCLE treatment nogrid 50brass1p25 30
+End
+
+# RESNUCLE plot "RESNUCLE treatment nogrid 50brass1p25 31"
+Plot: treatment_nogrid_50brass1p25_31_plot
+	Format: .eps
+	Type:   RESNUCLE
+	datafile: treatment_nogrid_50brass1p25_31.rnc
+	title: RESNUCLE treatment nogrid 50brass1p25 31
+End
+
+# RESNUCLE plot "RESNUCLE treatment nogrid 50brass1p25 32"
+Plot: treatment_nogrid_50brass1p25_32_plot
+	Format: .eps
+	Type:   RESNUCLE
+	datafile: treatment_nogrid_50brass1p25_32.rnc
+	title: RESNUCLE treatment nogrid 50brass1p25 32
+End
+
+# RESNUCLE plot "RESNUCLE treatment nogrid 50brass1p25 33"
+Plot: treatment_nogrid_50brass1p25_33_plot
+	Format: .eps
+	Type:   RESNUCLE
+	datafile: treatment_nogrid_50brass1p25_33.rnc
+	title: RESNUCLE treatment nogrid 50brass1p25 33
+End
+
+# RESNUCLE plot "RESNUCLE treatment nogrid 50brass1p25 34"
+Plot: treatment_nogrid_50brass1p25_34_plot
+	Format: .eps
+	Type:   RESNUCLE
+	datafile: treatment_nogrid_50brass1p25_34.rnc
+	title: RESNUCLE treatment nogrid 50brass1p25 34
+End
+
+# RESNUCLE plot "RESNUCLE treatment nogrid 50brass1p25 35"
+Plot: treatment_nogrid_50brass1p25_35_plot
+	Format: .eps
+	Type:   RESNUCLE
+	datafile: treatment_nogrid_50brass1p25_35.rnc
+	title: RESNUCLE treatment nogrid 50brass1p25 35
+End
+
+# RESNUCLE plot "RESNUCLE treatment nogrid 50brass1p25 36"
+Plot: treatment_nogrid_50brass1p25_36_plot
+	Format: .eps
+	Type:   RESNUCLE
+	datafile: treatment_nogrid_50brass1p25_36.rnc
+	title: RESNUCLE treatment nogrid 50brass1p25 36
+End
+
+# RESNUCLE plot "RESNUCLE treatment nogrid 50brass1p25 37"
+Plot: treatment_nogrid_50brass1p25_37_plot
+	Format: .eps
+	Type:   RESNUCLE
+	datafile: treatment_nogrid_50brass1p25_37.rnc
+	title: RESNUCLE treatment nogrid 50brass1p25 37
+End
+
+# RESNUCLE plot "RESNUCLE treatment nogrid 50brass1p25 38"
+Plot: treatment_nogrid_50brass1p25_38_plot
+	Format: .eps
+	Type:   RESNUCLE
+	datafile: treatment_nogrid_50brass1p25_38.rnc
+	title: RESNUCLE treatment nogrid 50brass1p25 38
+End
+
+# RESNUCLE plot "RESNUCLE treatment nogrid 50brass1p25 39"
+Plot: treatment_nogrid_50brass1p25_39_plot
+	Format: .eps
+	Type:   RESNUCLE
+	datafile: treatment_nogrid_50brass1p25_39.rnc
+	title: RESNUCLE treatment nogrid 50brass1p25 39
+End
+
+# RESNUCLE plot "RESNUCLE treatment nogrid 50brass1p25 40"
+Plot: treatment_nogrid_50brass1p25_40_plot
+	Format: .eps
+	Type:   RESNUCLE
+	datafile: treatment_nogrid_50brass1p25_40.rnc
+	title: RESNUCLE treatment nogrid 50brass1p25 40
+End
+
+# USRBIN plot "USRBIN treatment nogrid 50brass1p25 41"
+Plot: treatment_nogrid_50brass1p25_41_plot
+	Format: .eps
+	Type:   USRBIN
+	axes: Auto
+	cbcolors: 30
+	cblog: False
+	cbpalette: FLUKA
+	cbround: 0
+	cbtics: 1
+	cpd: 0
+	datafile: treatment_nogrid_50brass1p25_41.bnn
+	det: 1
+	errors: 0
+	geo: -Auto-
+	grid: 0
+	hist: 2D Projection
+	index: 0
+	int: 5.9841699252751353E-002
+	lw.0: 0
+	max: 3.03993337E-02
+	min: 1.28839947E-05
+	proj: Y
+	ps.0: 0
+	pt.0: 0
+	swap: 0
+	title: USRBIN treatment nogrid 50brass1p25 41
+	with.0: errorbars
+	x2log: False
+	x2tics: 0
+	xlog: False
+	xrebin: 1
+	y2log: False
+	y2tics: 0
+	ylog: False
+	yrebin: 1
+	zlog: False
+	zrebin: 1
+	ztics: 0
+End
+
+# USRBIN plot "USRBIN treatment nogrid 50brass1p25 42"
+Plot: treatment_nogrid_50brass1p25_42_plot
+	Format: .eps
+	Type:   USRBIN
+	axes: Auto
+	cbcolors: 30
+	cblog: False
+	cbpalette: FLUKA
+	cbround: 0
+	cbtics: 1
+	cpd: 0
+	datafile: treatment_nogrid_50brass1p25_42.bnn
+	det: 1
+	errors: 0
+	geo: -Auto-
+	grid: 0
+	hist: 2D Projection
+	index: 0
+	int: 0.40289059577213282
+	lw.0: 0
+	max: 4.02600914E-02
+	min: 1.88008307E-05
+	proj: Z
+	ps.0: 0
+	pt.0: 0
+	swap: 0
+	title: USRBIN treatment nogrid 50brass1p25 42
+	with.0: errorbars
+	x2log: False
+	x2tics: 0
+	xlog: False
+	xrebin: 1
+	y2log: False
+	y2tics: 0
+	ylog: False
+	yrebin: 1
+	zlog: False
+	zrebin: 1
+	ztics: 0
+End
+
+# USRBIN plot "USRBIN treatment nogrid 50brass1p25 43"
+Plot: treatment_nogrid_50brass1p25_43_plot
+	Format: .eps
+	Type:   USRBIN
+	axes: Auto
+	cbcolors: 30
+	cblog: False
+	cbpalette: FLUKA
+	cbround: 0
+	cbtics: 1
+	cpd: 0
+	datafile: treatment_nogrid_50brass1p25_43.bnn
+	det: 1
+	errors: 0
+	geo: -Auto-
+	grid: 0
+	hist: 2D Projection
+	index: 0
+	int: 1.0902439863220328
+	lw.0: 0
+	max: 3.59836742E-02
+	min: 2.71223362E-05
+	proj: Z
+	ps.0: 0
+	pt.0: 0
+	swap: 0
+	title: USRBIN treatment nogrid 50brass1p25 43
+	with.0: errorbars
+	x2log: False
+	x2tics: 0
+	xlog: False
+	xrebin: 1
+	y2log: False
+	y2tics: 0
+	ylog: False
+	yrebin: 1
+	zlog: False
+	zrebin: 1
+	ztics: 0
+End
