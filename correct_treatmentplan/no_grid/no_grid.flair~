@@ -6,7 +6,7 @@ Input: treatment_simulation.inp
 Exec: flukadpm3_sobp
 Submit: *Default
 Tabs: 0.1 0.32 0.56 0.81 1.0
-Page: Plot
+Page: Input
 DefMain: True
 LinkPrg: lfluka
 F77bound: True
@@ -18,7 +18,7 @@ Run: <default>
 	Last:     5
 	Status:   3
 	Pid:      0
-	StartRun: 1684406388
+	StartRun: 1685623913
 
 	# USRxxx data file: treatment_simulation_21.bnn
 	Data: \I_\U.\e
@@ -52,6 +52,14 @@ Run: <default>
 		Rule: +,\I\d\d\d_ftn\.\U
 	End
 
+	# USRxxx data file: treatment_simulation_25.bnn
+	Data: \I_\U.\e
+		Unit: 25
+		Type: b
+		Rule: +,\I\d\d\d_fort\.\U
+		Rule: +,\I\d\d\d_ftn\.\U
+	End
+
 	# USRxxx data file: treatment_simulation_42.bnn
 	Data: \I_\U.\e
 		Unit: 42
@@ -75,13 +83,29 @@ Plot: Red
 	basisu: 1 0 0
 	basisv: 0 1 0
 	boundaries: 1
+	cbcolors: 0
+	cblog: False
+	cbpalette: FLUKA
+	cbround: 0
+	cbtics: 0
 	coord: X-Y
-	extends: 100 0.196464
+	cpd: 0
+	extends: 100 75
+	grid: 0
+	index: 0
 	labels: 1
 	layer: Media
 	origin: 0 0 0
 	subtype: Material
 	title: GeoViewer Red plot
+	x2log: False
+	x2tics: 0
+	xlog: False
+	y2log: False
+	y2tics: 0
+	ylog: False
+	zlog: False
+	ztics: 0
 End
 
 # Geometry plot "GeoViewer Green plot"
@@ -92,7 +116,7 @@ Plot: Green
 	basisv: 1 0 0
 	boundaries: 1
 	coord: Z-X
-	extends: 100 0.196464
+	extends: 100 75
 	labels: 1
 	layer: Media
 	origin: 0 0 0
@@ -107,13 +131,30 @@ Plot: Blue
 	basisu: 0 0 1
 	basisv: 0 1 0
 	boundaries: 1
+	cbcolors: 0
+	cblog: False
+	cbpalette: FLUKA
+	cbround: 0
+	cbtics: 0
 	coord: Z-Y
-	extends: 100 47.2277
+	cpd: 0
+	extends: 172.8 129.6
+	grid: 0
+	index: 0
 	labels: 1
 	layer: Media
-	origin: 0 0 0
+	origin: 0 2.2322 14.7738
+	proj: Z
 	subtype: Material
 	title: GeoViewer Blue plot
+	x2log: False
+	x2tics: 0
+	xlog: False
+	y2log: False
+	y2tics: 0
+	ylog: False
+	zlog: False
+	ztics: 0
 End
 
 # Geometry plot "GeoViewer Magenta plot"
@@ -153,123 +194,36 @@ End
 Plot: treatment_simulation_21_plot
 	Format: .eps
 	Type:   USRBIN
-	axes: Auto
 	cbcolors: 30
-	cblog: False
-	cbpalette: FLUKA
-	cbround: 0
+	cblog: 1
 	cbtics: 1
-	cpd: 0
 	datafile: treatment_simulation_21.bnn
-	det: 1
-	errors: 0
 	geo: -Auto-
-	grid: 0
-	hist: 2D Projection
-	index: 0
-	int: 9.6923409412084244E-002
-	lw.0: 0
-	max: 2.29682759E-04
-	min: 1.46823196E-16
-	proj: Z
-	ps.0: 0
-	pt.0: 0
-	swap: 0
 	title: USRBIN treatment simulation 21
-	with.0: errorbars
-	x2log: False
-	x2tics: 0
-	xlog: False
-	xrebin: 1
-	y2log: False
-	y2tics: 0
-	ylog: False
-	yrebin: 1
-	zlog: False
-	zrebin: 1
-	ztics: 0
 End
 
 # USRBIN plot "USRBIN treatment simulation 22"
 Plot: treatment_simulation_22_plot
 	Format: .eps
 	Type:   USRBIN
-	axes: Auto
 	cbcolors: 30
-	cblog: False
-	cbpalette: FLUKA
-	cbround: 0
+	cblog: 1
 	cbtics: 1
-	cpd: 0
 	datafile: treatment_simulation_22.bnn
-	det: 1
-	errors: 0
 	geo: -Auto-
-	grid: 0
-	hist: 2D Projection
-	index: 0
-	int: 9.6923391355615535E-002
-	lw.0: 0
-	max: 7.30233005E-05
-	min: 1.03383781E-10
-	proj: Y
-	ps.0: 0
-	pt.0: 0
-	swap: 0
 	title: USRBIN treatment simulation 22
-	with.0: errorbars
-	x2log: False
-	x2tics: 0
-	xlog: False
-	xrebin: 1
-	y2log: False
-	y2tics: 0
-	ylog: False
-	yrebin: 1
-	zlog: False
-	zrebin: 1
-	ztics: 0
 End
 
 # USRBIN plot "USRBIN treatment simulation 23"
 Plot: treatment_simulation_23_plot
 	Format: .eps
 	Type:   USRBIN
-	axes: Auto
 	cbcolors: 30
-	cblog: False
-	cbpalette: FLUKA
-	cbround: 0
+	cblog: 1
 	cbtics: 1
-	cpd: 0
 	datafile: treatment_simulation_23.bnn
-	det: 1
-	errors: 0
 	geo: -Auto-
-	grid: 0
-	hist: 2D Projection
-	index: 0
-	int: 9.6923391347744983E-002
-	lw.0: 0
-	max: 1.14742565E-04
-	min: 9.26859978E-10
-	proj: X
-	ps.0: 0
-	pt.0: 0
-	swap: 0
 	title: USRBIN treatment simulation 23
-	with.0: errorbars
-	x2log: False
-	x2tics: 0
-	xlog: False
-	xrebin: 1
-	y2log: False
-	y2tics: 0
-	ylog: False
-	yrebin: 1
-	zlog: False
-	zrebin: 1
-	ztics: 0
 End
 
 # USRBIN plot "USRBIN treatment simulation 24"
@@ -290,15 +244,56 @@ Plot: treatment_simulation_24_plot
 	grid: 0
 	hist: 1D Projection
 	index: 0
-	int: 9.6923393331579177E-002
+	int: 4.2763987976967448E-002
 	lw.0: 0
-	max: 2.03595409E-05
-	min: 1.28782309E-08
+	max: 3.04271671E-04
+	min: 5.00047719E-08
 	proj: Z
 	ps.0: 0
 	pt.0: 0
 	swap: 0
 	title: USRBIN treatment simulation 24
+	with.0: lines
+	x2log: False
+	x2tics: 0
+	xlog: False
+	xrebin: 1
+	y2log: False
+	y2tics: 0
+	ylog: False
+	yrebin: 1
+	zlog: False
+	zrebin: 1
+	ztics: 0
+End
+
+# USRBIN plot "USRBIN treatment simulation 25"
+Plot: treatment_simulation_25_plot
+	Format: .eps
+	Type:   USRBIN
+	axes: Auto
+	cbcolors: 30
+	cblog: False
+	cbpalette: FLUKA
+	cbround: 0
+	cbtics: 1
+	cpd: 0
+	datafile: treatment_simulation_25.bnn
+	det: 1
+	errors: 0
+	geo: -Auto-
+	grid: 0
+	hist: 2D Projection
+	index: 0
+	int: 1.0121055598542945
+	lw.0: 0
+	max: 3.28447744E-02
+	min: 3.94187882E-05
+	proj: Z
+	ps.0: 0
+	pt.0: 0
+	swap: 0
+	title: USRBIN treatment simulation 25
 	with.0: errorbars
 	x2log: False
 	x2tics: 0
@@ -319,7 +314,7 @@ Plot: treatment_simulation_42_plot
 	Type:   USRBIN
 	axes: Auto
 	cbcolors: 30
-	cblog: False
+	cblog: True
 	cbpalette: FLUKA
 	cbround: 0
 	cbtics: 1
@@ -331,10 +326,7 @@ Plot: treatment_simulation_42_plot
 	grid: 0
 	hist: 2D Projection
 	index: 0
-	int: 1.0123170985048344
 	lw.0: 0
-	max: 3.32055353E-02
-	min: 4.23386664E-05
 	proj: Z
 	ps.0: 0
 	pt.0: 0

@@ -305,7 +305,7 @@ Plot: Red
 	basisv: 0 1 0
 	boundaries: 1
 	coord: X-Y
-	extends: 100 0.196464
+	extends: 100 75
 	labels: 1
 	layer: Media
 	origin: 0 0 0
@@ -321,7 +321,7 @@ Plot: Green
 	basisv: 1 0 0
 	boundaries: 1
 	coord: Z-X
-	extends: 100 0.196464
+	extends: 100 75
 	labels: 1
 	layer: Media
 	origin: 0 0 0
@@ -337,7 +337,7 @@ Plot: Blue
 	basisv: 0 1 0
 	boundaries: 1
 	coord: Z-Y
-	extends: 100 47.2277
+	extends: 100 75
 	labels: 1
 	layer: Media
 	origin: 0 0 0
@@ -545,7 +545,9 @@ Plot: 20tungsten1p27_41_plot
 	cbcolors: 30
 	cblog: False
 	cbpalette: FLUKA
+	cbround: 0
 	cbtics: 1
+	cpd: 0
 	datafile: 20tungsten1p27_41.bnn
 	det: 1
 	errors: 0
@@ -584,7 +586,9 @@ Plot: 20tungsten1p27_42_plot
 	cbcolors: 30
 	cblog: False
 	cbpalette: FLUKA
+	cbround: 0
 	cbtics: 1
+	cpd: 0
 	datafile: 20tungsten1p27_42.bnn
 	det: 1
 	errors: 0
@@ -623,7 +627,9 @@ Plot: 20tungsten1p27_43_plot
 	cbcolors: 30
 	cblog: False
 	cbpalette: FLUKA
+	cbround: 0
 	cbtics: 1
+	cpd: 0
 	datafile: 20tungsten1p27_43.bnn
 	det: 1
 	errors: 0
@@ -701,7 +707,7 @@ Plot: 20tungsten1p27_46_plot
 	Type:   USRBIN
 	axes: Auto
 	cbcolors: 30
-	cblog: True
+	cblog: False
 	cbpalette: FLUKA
 	cbround: 0
 	cbtics: 1
@@ -711,10 +717,13 @@ Plot: 20tungsten1p27_46_plot
 	errors: 0
 	geo: -Auto-
 	grid: 0
-	hist: 2D Projection
+	hist: 1D Projection
 	index: 0
+	int: 1.3565307172874783E-002
 	lw.0: 0
-	proj: X
+	max: 1.26163912E-04
+	min: 2.00748076E-08
+	proj: Z
 	ps.0: 0
 	pt.0: 0
 	swap: 0
@@ -741,7 +750,9 @@ Plot: 20tungsten1p27_54_plot
 	cbcolors: 30
 	cblog: False
 	cbpalette: FLUKA
+	cbround: 0
 	cbtics: 1
+	cpd: 0
 	datafile: 20tungsten1p27_54.bnn
 	det: 1
 	errors: 0
@@ -776,10 +787,39 @@ End
 Plot: 20tungsten1p27_80_plot
 	Format: .eps
 	Type:   USRBIN
+	axes: Auto
 	cbcolors: 30
-	cblog: 1
+	cblog: False
+	cbpalette: FLUKA
+	cbround: 0
 	cbtics: 1
+	cpd: 0
 	datafile: 20tungsten1p27_80.bnn
+	det: 1
+	errors: 0
 	geo: -Auto-
+	grid: 0
+	hist: 2D Projection
+	index: 0
+	int: 2.6377640016658054E-002
+	lw.0: 0
+	max: 4.73878114E-04
+	min: 3.35405735E-15
+	proj: Z
+	ps.0: 0
+	pt.0: 0
+	swap: 0
 	title: USRBIN 20tungsten1p27 80
+	with.0: errorbars
+	x2log: False
+	x2tics: 0
+	xlog: False
+	xrebin: 1
+	y2log: False
+	y2tics: 0
+	ylog: False
+	yrebin: 1
+	zlog: False
+	zrebin: 1
+	ztics: 0
 End

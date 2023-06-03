@@ -1,0 +1,40 @@
+TITLE
+
+* Set the defaults for precision simulations
+DEFAULTS                                                              HADROTHE
+BEAM            -0.1 -0.001101                -1.7       -1.          PROTON
+BEAMPOS                            -205.
+SOURCE         -205.                                                  sobp.dat
+GEOBEGIN                                                              COMBNAME
+    0    0          
+* Black body
+SPH blkbody    0.0 0.0 0.0 100000.
+* Void sphere
+SPH void       0.0 0.0 0.0 10000.
+RPP target     -50. 50. -50. 50. 0.0 20.
+END
+* Black hole
+BLKBODY      5 +blkbody -void
+* Void around
+VOID         5 +void -target
+* Target
+TARGET       5 +target
+END
+GEOEND
+* ..+....1....+....2....+....3....+....4....+....5....+....6....+....7..
+ASSIGNMA    BLCKHOLE   BLKBODY
+ASSIGNMA         AIR      VOID
+ASSIGNMA       WATER    TARGET
+USRBIN           10.  ALL-PART      -42.       10.       2.5       0.01.xy_b
+USRBIN          -10.      -2.5       -1.      400.      100.        1. &
+USRBIN           10.      DOSE      -21.       20.       10.       12.XY_dose
+USRBIN          -20.      -10.       0.0      600.      600.        1. &
+USRBIN           10.      DOSE      -22.       20.       10.       12.XZ_dose
+USRBIN          -20.      -10.       0.0      600.        1.      200. &
+USRBIN           10.      DOSE      -23.       20.       10.       12.YZ_dose
+USRBIN          -20.      -10.       0.0        1.      600.      200. &
+USRBIN           10.      DOSE      -24.        5.      1.25       12.Z_dose
+USRBIN           -5.     -0.75       0.0        1.        1.      200. &
+RANDOMIZ          1.
+START        500000.
+STOP

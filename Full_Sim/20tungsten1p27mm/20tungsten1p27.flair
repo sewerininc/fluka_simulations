@@ -6,7 +6,7 @@ Input: 20tungsten1p27.inp
 Exec: flukadpm3_sobp
 Submit: *Default
 Tabs: 0.1 0.32 0.56 0.81 1.0
-Page: Plot
+Page: Input
 DefMain: True
 LinkPrg: lfluka
 F77bound: True
@@ -305,7 +305,7 @@ Plot: Red
 	basisv: 0 1 0
 	boundaries: 1
 	coord: X-Y
-	extends: 100 0.196464
+	extends: 100 75
 	labels: 1
 	layer: Media
 	origin: 0 0 0
@@ -321,7 +321,7 @@ Plot: Green
 	basisv: 1 0 0
 	boundaries: 1
 	coord: Z-X
-	extends: 100 0.196464
+	extends: 100 75
 	labels: 1
 	layer: Media
 	origin: 0 0 0
@@ -337,7 +337,7 @@ Plot: Blue
 	basisv: 0 1 0
 	boundaries: 1
 	coord: Z-Y
-	extends: 100 47.2277
+	extends: 100 75
 	labels: 1
 	layer: Media
 	origin: 0 0 0
@@ -728,7 +728,7 @@ Plot: 20tungsten1p27_46_plot
 	pt.0: 0
 	swap: 0
 	title: USRBIN 20tungsten1p27 46
-	with.0: errorbars
+	with.0: lines
 	x2log: False
 	x2tics: 0
 	xlog: False

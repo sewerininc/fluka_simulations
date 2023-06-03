@@ -5,7 +5,7 @@ Title: My title
 Input: recreation.inp
 Submit: *Default
 Tabs: 0.1 0.32 0.56 0.81 1.0
-Page: Input
+Page: Run
 DefMain: True
 LinkPrg: lfluka
 F77bound: True
@@ -17,7 +17,7 @@ Run: <default>
 	Last:     5
 	Status:   3
 	Pid:      0
-	StartRun: 1683972879
+	StartRun: 1684164514
 
 	# USRxxx data file: recreation_21.rnc
 	Data: \I_\U.\e

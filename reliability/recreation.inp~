@@ -24,7 +24,7 @@ ASSIGNMA       Brass   TARGET1
 PHYSICS           1.                                                  COALESCE
 PHYSICS           3.                                                  EVAPORAT
 PHYSICS        1000.     1000.     1000.     1000.     1000.     1000.PEATHRES
-IRRPROFI         11.      19E4
+IRRPROFI         11.      1E15
 RADDECAY          1.        1.        3.333333303. 999909999        1.
 USRBIN           10.  ALL-PART      -41.       10.       10.       20.1.xy_mid
 USRBIN          -10.      -10.       0.0      400.      400.        1. &

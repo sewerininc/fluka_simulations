@@ -1,7 +1,7 @@
 TITLE
 My title
 DEFAULTS                                                              HADROTHE
-BEAM         -0.2267   -0.0035                 10.       10.        1.PROTON
+BEAM         -0.2267   -0.0035                 5.0       5.0        1.PROTON
 BEAMPOS          0.0       0.0       -5.       0.0       0.0
 GEOBEGIN                                                              COMBNAME
     0    0          

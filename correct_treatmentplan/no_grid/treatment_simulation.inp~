@@ -2,8 +2,8 @@ TITLE
 
 * Set the defaults for precision simulations
 DEFAULTS                                                              HADROTHE
-BEAM            -0.1     0.001                  1.        1.          PROTON
-BEAMPOS                            -200.
+BEAM            -0.2   0.01101                -1.7       -1.          PROTON
+BEAMPOS                            -205.
 SOURCE         -205.                                                  sobp.dat
 GEOBEGIN                                                              COMBNAME
     0    0          
@@ -25,16 +25,16 @@ GEOEND
 ASSIGNMA    BLCKHOLE   BLKBODY
 ASSIGNMA         AIR      VOID
 ASSIGNMA       WATER    TARGET
-USRBIN           10.  ALL-PART      -42.       10.       2.5       0.01.xy_b
+USRBIN           10.      DOSE      -21.       20.       10.        8.XY_dosePTV
+USRBIN          -20.      -10.        6.      600.      600.        1. &
+USRBIN           10.      DOSE      -22.       10.      0.75       12.XZ_dosePTV
+USRBIN          -10.     -1.25       0.0      600.        1.      200. &
+USRBIN           10.      DOSE      -23.        5.        5.       12.YZ_dosePTV
+USRBIN           -5.       -5.       0.0        1.      600.      200. &
+USRBIN           10.      DOSE      -24.        5.      0.75       12.Z_dose
+USRBIN           -5.     -1.25       0.0        1.        1.      200. &
+USRBIN           10.  ALL-PART      -25.       10.       2.5       0.01.xy_bef
 USRBIN          -10.      -2.5       -1.      400.      100.        1. &
-USRBIN           10.      DOSE      -21.       20.       10.       12.XY_dose
-USRBIN          -20.      -0.8       0.0      600.      600.        1. &
-USRBIN           10.      DOSE      -22.       20.       10.       12.XZ_dose
-USRBIN          -20.      -10.       0.0      600.        1.      200. &
-USRBIN           10.      DOSE      -23.       20.       10.       12.YZ_dose
-USRBIN          -20.      -10.       0.0        1.      600.      200. &
-USRBIN           10.      DOSE      -24.       20.       10.       12.Z_dose
-USRBIN          -20.      -10.       0.0        1.        1.      200. &
 RANDOMIZ          1.
 START       5000000.
 STOP

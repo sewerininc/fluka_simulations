@@ -18,7 +18,7 @@ Run: <default>
 	Last:     5
 	Status:   3
 	Pid:      0
-	StartRun: 1684478164
+	StartRun: 1685731959
 
 	# USRxxx data file: treatment_grid_50brass1p25_21.rnc
 	Data: \I_\U.\e
@@ -188,41 +188,169 @@ Run: <default>
 		Rule: +,\I\d\d\d_ftn\.\U
 	End
 
-	# USRxxx data file: treatment_grid_50brass1p25_42.bnn
+	# USRxxx data file: treatment_grid_50brass1p25_51.rnc
 	Data: \I_\U.\e
-		Unit: 42
-		Type: b
+		Unit: 51
+		Type: r
 		Rule: +,\I\d\d\d_fort\.\U
 		Rule: +,\I\d\d\d_ftn\.\U
 	End
 
-	# USRxxx data file: treatment_grid_50brass1p25_70.bnn
+	# USRxxx data file: treatment_grid_50brass1p25_52.rnc
+	Data: \I_\U.\e
+		Unit: 52
+		Type: r
+		Rule: +,\I\d\d\d_fort\.\U
+		Rule: +,\I\d\d\d_ftn\.\U
+	End
+
+	# USRxxx data file: treatment_grid_50brass1p25_53.rnc
+	Data: \I_\U.\e
+		Unit: 53
+		Type: r
+		Rule: +,\I\d\d\d_fort\.\U
+		Rule: +,\I\d\d\d_ftn\.\U
+	End
+
+	# USRxxx data file: treatment_grid_50brass1p25_54.rnc
+	Data: \I_\U.\e
+		Unit: 54
+		Type: r
+		Rule: +,\I\d\d\d_fort\.\U
+		Rule: +,\I\d\d\d_ftn\.\U
+	End
+
+	# USRxxx data file: treatment_grid_50brass1p25_55.rnc
+	Data: \I_\U.\e
+		Unit: 55
+		Type: r
+		Rule: +,\I\d\d\d_fort\.\U
+		Rule: +,\I\d\d\d_ftn\.\U
+	End
+
+	# USRxxx data file: treatment_grid_50brass1p25_56.rnc
+	Data: \I_\U.\e
+		Unit: 56
+		Type: r
+		Rule: +,\I\d\d\d_fort\.\U
+		Rule: +,\I\d\d\d_ftn\.\U
+	End
+
+	# USRxxx data file: treatment_grid_50brass1p25_57.rnc
+	Data: \I_\U.\e
+		Unit: 57
+		Type: r
+		Rule: +,\I\d\d\d_fort\.\U
+		Rule: +,\I\d\d\d_ftn\.\U
+	End
+
+	# USRxxx data file: treatment_grid_50brass1p25_58.rnc
+	Data: \I_\U.\e
+		Unit: 58
+		Type: r
+		Rule: +,\I\d\d\d_fort\.\U
+		Rule: +,\I\d\d\d_ftn\.\U
+	End
+
+	# USRxxx data file: treatment_grid_50brass1p25_59.rnc
+	Data: \I_\U.\e
+		Unit: 59
+		Type: r
+		Rule: +,\I\d\d\d_fort\.\U
+		Rule: +,\I\d\d\d_ftn\.\U
+	End
+
+	# USRxxx data file: treatment_grid_50brass1p25_60.rnc
+	Data: \I_\U.\e
+		Unit: 60
+		Type: r
+		Rule: +,\I\d\d\d_fort\.\U
+		Rule: +,\I\d\d\d_ftn\.\U
+	End
+
+	# USRxxx data file: treatment_grid_50brass1p25_61.rnc
+	Data: \I_\U.\e
+		Unit: 61
+		Type: r
+		Rule: +,\I\d\d\d_fort\.\U
+		Rule: +,\I\d\d\d_ftn\.\U
+	End
+
+	# USRxxx data file: treatment_grid_50brass1p25_62.rnc
+	Data: \I_\U.\e
+		Unit: 62
+		Type: r
+		Rule: +,\I\d\d\d_fort\.\U
+		Rule: +,\I\d\d\d_ftn\.\U
+	End
+
+	# USRxxx data file: treatment_grid_50brass1p25_63.rnc
+	Data: \I_\U.\e
+		Unit: 63
+		Type: r
+		Rule: +,\I\d\d\d_fort\.\U
+		Rule: +,\I\d\d\d_ftn\.\U
+	End
+
+	# USRxxx data file: treatment_grid_50brass1p25_64.rnc
+	Data: \I_\U.\e
+		Unit: 64
+		Type: r
+		Rule: +,\I\d\d\d_fort\.\U
+		Rule: +,\I\d\d\d_ftn\.\U
+	End
+
+	# USRxxx data file: treatment_grid_50brass1p25_65.rnc
+	Data: \I_\U.\e
+		Unit: 65
+		Type: r
+		Rule: +,\I\d\d\d_fort\.\U
+		Rule: +,\I\d\d\d_ftn\.\U
+	End
+
+	# USRxxx data file: treatment_grid_50brass1p25_66.rnc
+	Data: \I_\U.\e
+		Unit: 66
+		Type: r
+		Rule: +,\I\d\d\d_fort\.\U
+		Rule: +,\I\d\d\d_ftn\.\U
+	End
+
+	# USRxxx data file: treatment_grid_50brass1p25_67.rnc
+	Data: \I_\U.\e
+		Unit: 67
+		Type: r
+		Rule: +,\I\d\d\d_fort\.\U
+		Rule: +,\I\d\d\d_ftn\.\U
+	End
+
+	# USRxxx data file: treatment_grid_50brass1p25_68.rnc
+	Data: \I_\U.\e
+		Unit: 68
+		Type: r
+		Rule: +,\I\d\d\d_fort\.\U
+		Rule: +,\I\d\d\d_ftn\.\U
+	End
+
+	# USRxxx data file: treatment_grid_50brass1p25_69.rnc
+	Data: \I_\U.\e
+		Unit: 69
+		Type: r
+		Rule: +,\I\d\d\d_fort\.\U
+		Rule: +,\I\d\d\d_ftn\.\U
+	End
+
+	# USRxxx data file: treatment_grid_50brass1p25_70.rnc
 	Data: \I_\U.\e
 		Unit: 70
-		Type: b
+		Type: r
 		Rule: +,\I\d\d\d_fort\.\U
 		Rule: +,\I\d\d\d_ftn\.\U
 	End
 
-	# USRxxx data file: treatment_grid_50brass1p25_71.bnn
+	# USRxxx data file: treatment_grid_50brass1p25_79.bnn
 	Data: \I_\U.\e
-		Unit: 71
-		Type: b
-		Rule: +,\I\d\d\d_fort\.\U
-		Rule: +,\I\d\d\d_ftn\.\U
-	End
-
-	# USRxxx data file: treatment_grid_50brass1p25_72.bnn
-	Data: \I_\U.\e
-		Unit: 72
-		Type: b
-		Rule: +,\I\d\d\d_fort\.\U
-		Rule: +,\I\d\d\d_ftn\.\U
-	End
-
-	# USRxxx data file: treatment_grid_50brass1p25_73.bnn
-	Data: \I_\U.\e
-		Unit: 73
+		Unit: 79
 		Type: b
 		Rule: +,\I\d\d\d_fort\.\U
 		Rule: +,\I\d\d\d_ftn\.\U
@@ -231,6 +359,54 @@ Run: <default>
 	# USRxxx data file: treatment_grid_50brass1p25_80.bnn
 	Data: \I_\U.\e
 		Unit: 80
+		Type: b
+		Rule: +,\I\d\d\d_fort\.\U
+		Rule: +,\I\d\d\d_ftn\.\U
+	End
+
+	# USRxxx data file: treatment_grid_50brass1p25_81.bnn
+	Data: \I_\U.\e
+		Unit: 81
+		Type: b
+		Rule: +,\I\d\d\d_fort\.\U
+		Rule: +,\I\d\d\d_ftn\.\U
+	End
+
+	# USRxxx data file: treatment_grid_50brass1p25_82.bnn
+	Data: \I_\U.\e
+		Unit: 82
+		Type: b
+		Rule: +,\I\d\d\d_fort\.\U
+		Rule: +,\I\d\d\d_ftn\.\U
+	End
+
+	# USRxxx data file: treatment_grid_50brass1p25_83.bnn
+	Data: \I_\U.\e
+		Unit: 83
+		Type: b
+		Rule: +,\I\d\d\d_fort\.\U
+		Rule: +,\I\d\d\d_ftn\.\U
+	End
+
+	# USRxxx data file: treatment_grid_50brass1p25_84.bnn
+	Data: \I_\U.\e
+		Unit: 84
+		Type: b
+		Rule: +,\I\d\d\d_fort\.\U
+		Rule: +,\I\d\d\d_ftn\.\U
+	End
+
+	# USRxxx data file: treatment_grid_50brass1p25_85.bnn
+	Data: \I_\U.\e
+		Unit: 85
+		Type: b
+		Rule: +,\I\d\d\d_fort\.\U
+		Rule: +,\I\d\d\d_ftn\.\U
+	End
+
+	# USRxxx data file: treatment_grid_50brass1p25_86.bnn
+	Data: \I_\U.\e
+		Unit: 86
 		Type: b
 		Rule: +,\I\d\d\d_fort\.\U
 		Rule: +,\I\d\d\d_ftn\.\U
@@ -326,7 +502,7 @@ Plot: Blue
 	cbtics: 0
 	coord: Z-Y
 	cpd: 0
-	extends: 11.2157 5.2969
+	extends: 11.2157 5.29692
 	grid: 0
 	index: 0
 	labels: 1
@@ -335,6 +511,39 @@ Plot: Blue
 	proj: Z
 	subtype: Material
 	title: GeoViewer Blue plot
+	x2log: False
+	x2tics: 0
+	xlog: False
+	y2log: False
+	y2tics: 0
+	ylog: False
+	zlog: False
+	ztics: 0
+End
+
+# Geometry plot "GeoViewer Magenta plot"
+Plot: Magenta
+	Format: .eps
+	Type:   Geometry
+	basisu: -1 0 0
+	basisv: 0 1 0
+	boundaries: 1
+	cbcolors: 0
+	cblog: False
+	cbpalette: FLUKA
+	cbround: 0
+	cbtics: 0
+	coord: X-Y
+	cpd: 0
+	extends: 100 5962.5
+	grid: 0
+	index: 0
+	labels: 1
+	layer: Media
+	origin: 0 0 0
+	proj: Z
+	subtype: Material
+	title: GeoViewer Magenta plot
 	x2log: False
 	x2tics: 0
 	xlog: False
@@ -509,252 +718,202 @@ End
 Plot: treatment_grid_50brass1p25_41_plot
 	Format: .eps
 	Type:   USRBIN
-	axes: Auto
 	cbcolors: 30
-	cblog: True
-	cbpalette: FLUKA
-	cbround: 0
+	cblog: 1
 	cbtics: 1
-	cpd: 0
 	datafile: treatment_grid_50brass1p25_41.bnn
-	det: 1
-	errors: 0
 	geo: -Auto-
-	grid: 0
-	hist: 2D Projection
-	index: 0
-	int: 5.8379185560698980E-002
-	lw.0: 0
-	max: 3.06851212E-02
-	min: 1.90430583E-05
-	proj: Y
-	ps.0: 0
-	pt.0: 0
-	swap: 0
 	title: USRBIN treatment grid 50brass1p25 41
-	with.0: errorbars
-	x2log: False
-	x2tics: 0
-	xlog: False
-	xrebin: 1
-	y2log: False
-	y2tics: 0
-	ylog: False
-	yrebin: 1
-	zlog: False
-	zrebin: 1
-	ztics: 0
 End
 
-# USRBIN plot "USRBIN treatment grid 50brass1p25 42"
-Plot: treatment_grid_50brass1p25_42_plot
+# RESNUCLE plot "RESNUCLE treatment grid 50brass1p25 51"
+Plot: treatment_grid_50brass1p25_51_plot
 	Format: .eps
-	Type:   USRBIN
-	axes: Auto
-	cbcolors: 30
-	cblog: True
-	cbpalette: FLUKA
-	cbround: 0
-	cbtics: 1
-	cpd: 0
-	datafile: treatment_grid_50brass1p25_42.bnn
-	det: 1
-	errors: 0
-	geo: -Auto-
-	grid: 0
-	hist: 2D Projection
-	index: 0
-	int: 0.41586802708061060
-	lw.0: 0
-	max: 3.88675481E-02
-	min: 4.24743739E-05
-	proj: Z
-	ps.0: 0
-	pt.0: 0
-	swap: 0
-	title: USRBIN treatment grid 50brass1p25 42
-	with.0: errorbars
-	x2log: False
-	x2tics: 0
-	xlog: False
-	xrebin: 1
-	y2log: False
-	y2tics: 0
-	ylog: False
-	yrebin: 1
-	zlog: False
-	zrebin: 1
-	ztics: 0
+	Type:   RESNUCLE
+	datafile: treatment_grid_50brass1p25_51.rnc
+	title: RESNUCLE treatment grid 50brass1p25 51
 End
 
-# USRBIN plot "USRBIN treatment grid 50brass1p25 70"
+# RESNUCLE plot "RESNUCLE treatment grid 50brass1p25 52"
+Plot: treatment_grid_50brass1p25_52_plot
+	Format: .eps
+	Type:   RESNUCLE
+	datafile: treatment_grid_50brass1p25_52.rnc
+	title: RESNUCLE treatment grid 50brass1p25 52
+End
+
+# RESNUCLE plot "RESNUCLE treatment grid 50brass1p25 53"
+Plot: treatment_grid_50brass1p25_53_plot
+	Format: .eps
+	Type:   RESNUCLE
+	datafile: treatment_grid_50brass1p25_53.rnc
+	title: RESNUCLE treatment grid 50brass1p25 53
+End
+
+# RESNUCLE plot "RESNUCLE treatment grid 50brass1p25 54"
+Plot: treatment_grid_50brass1p25_54_plot
+	Format: .eps
+	Type:   RESNUCLE
+	datafile: treatment_grid_50brass1p25_54.rnc
+	title: RESNUCLE treatment grid 50brass1p25 54
+End
+
+# RESNUCLE plot "RESNUCLE treatment grid 50brass1p25 55"
+Plot: treatment_grid_50brass1p25_55_plot
+	Format: .eps
+	Type:   RESNUCLE
+	datafile: treatment_grid_50brass1p25_55.rnc
+	title: RESNUCLE treatment grid 50brass1p25 55
+End
+
+# RESNUCLE plot "RESNUCLE treatment grid 50brass1p25 56"
+Plot: treatment_grid_50brass1p25_56_plot
+	Format: .eps
+	Type:   RESNUCLE
+	datafile: treatment_grid_50brass1p25_56.rnc
+	title: RESNUCLE treatment grid 50brass1p25 56
+End
+
+# RESNUCLE plot "RESNUCLE treatment grid 50brass1p25 57"
+Plot: treatment_grid_50brass1p25_57_plot
+	Format: .eps
+	Type:   RESNUCLE
+	datafile: treatment_grid_50brass1p25_57.rnc
+	title: RESNUCLE treatment grid 50brass1p25 57
+End
+
+# RESNUCLE plot "RESNUCLE treatment grid 50brass1p25 58"
+Plot: treatment_grid_50brass1p25_58_plot
+	Format: .eps
+	Type:   RESNUCLE
+	datafile: treatment_grid_50brass1p25_58.rnc
+	title: RESNUCLE treatment grid 50brass1p25 58
+End
+
+# RESNUCLE plot "RESNUCLE treatment grid 50brass1p25 59"
+Plot: treatment_grid_50brass1p25_59_plot
+	Format: .eps
+	Type:   RESNUCLE
+	datafile: treatment_grid_50brass1p25_59.rnc
+	title: RESNUCLE treatment grid 50brass1p25 59
+End
+
+# RESNUCLE plot "RESNUCLE treatment grid 50brass1p25 60"
+Plot: treatment_grid_50brass1p25_60_plot
+	Format: .eps
+	Type:   RESNUCLE
+	datafile: treatment_grid_50brass1p25_60.rnc
+	title: RESNUCLE treatment grid 50brass1p25 60
+End
+
+# RESNUCLE plot "RESNUCLE treatment grid 50brass1p25 61"
+Plot: treatment_grid_50brass1p25_61_plot
+	Format: .eps
+	Type:   RESNUCLE
+	datafile: treatment_grid_50brass1p25_61.rnc
+	title: RESNUCLE treatment grid 50brass1p25 61
+End
+
+# RESNUCLE plot "RESNUCLE treatment grid 50brass1p25 62"
+Plot: treatment_grid_50brass1p25_62_plot
+	Format: .eps
+	Type:   RESNUCLE
+	datafile: treatment_grid_50brass1p25_62.rnc
+	title: RESNUCLE treatment grid 50brass1p25 62
+End
+
+# RESNUCLE plot "RESNUCLE treatment grid 50brass1p25 63"
+Plot: treatment_grid_50brass1p25_63_plot
+	Format: .eps
+	Type:   RESNUCLE
+	datafile: treatment_grid_50brass1p25_63.rnc
+	title: RESNUCLE treatment grid 50brass1p25 63
+End
+
+# RESNUCLE plot "RESNUCLE treatment grid 50brass1p25 64"
+Plot: treatment_grid_50brass1p25_64_plot
+	Format: .eps
+	Type:   RESNUCLE
+	datafile: treatment_grid_50brass1p25_64.rnc
+	title: RESNUCLE treatment grid 50brass1p25 64
+End
+
+# RESNUCLE plot "RESNUCLE treatment grid 50brass1p25 65"
+Plot: treatment_grid_50brass1p25_65_plot
+	Format: .eps
+	Type:   RESNUCLE
+	datafile: treatment_grid_50brass1p25_65.rnc
+	title: RESNUCLE treatment grid 50brass1p25 65
+End
+
+# RESNUCLE plot "RESNUCLE treatment grid 50brass1p25 66"
+Plot: treatment_grid_50brass1p25_66_plot
+	Format: .eps
+	Type:   RESNUCLE
+	datafile: treatment_grid_50brass1p25_66.rnc
+	title: RESNUCLE treatment grid 50brass1p25 66
+End
+
+# RESNUCLE plot "RESNUCLE treatment grid 50brass1p25 67"
+Plot: treatment_grid_50brass1p25_67_plot
+	Format: .eps
+	Type:   RESNUCLE
+	datafile: treatment_grid_50brass1p25_67.rnc
+	title: RESNUCLE treatment grid 50brass1p25 67
+End
+
+# RESNUCLE plot "RESNUCLE treatment grid 50brass1p25 68"
+Plot: treatment_grid_50brass1p25_68_plot
+	Format: .eps
+	Type:   RESNUCLE
+	datafile: treatment_grid_50brass1p25_68.rnc
+	title: RESNUCLE treatment grid 50brass1p25 68
+End
+
+# RESNUCLE plot "RESNUCLE treatment grid 50brass1p25 69"
+Plot: treatment_grid_50brass1p25_69_plot
+	Format: .eps
+	Type:   RESNUCLE
+	datafile: treatment_grid_50brass1p25_69.rnc
+	title: RESNUCLE treatment grid 50brass1p25 69
+End
+
+# RESNUCLE plot "RESNUCLE treatment grid 50brass1p25 70"
 Plot: treatment_grid_50brass1p25_70_plot
 	Format: .eps
-	Type:   USRBIN
-	axes: Auto
-	cbcolors: 30
-	cblog: True
-	cbpalette: FLUKA
-	cbround: 0
-	cbtics: 1
-	cpd: 0
-	datafile: treatment_grid_50brass1p25_70.bnn
-	det: 1
-	errors: 0
-	geo: -Auto-
-	grid: 0
-	hist: 1D Projection
-	index: 0
-	int: 1.2717411184475676E-002
-	lw.0: 0
-	max: 1.17696181E-04
-	min: 1.46907846E-08
-	proj: Z
-	ps.0: 0
-	pt.0: 0
-	swap: 0
-	title: USRBIN treatment grid 50brass1p25 70
-	with.0: errorbars
-	x2log: False
-	x2tics: 0
-	xlog: False
-	xrebin: 1
-	y2log: False
-	y2tics: 0
-	ylog: False
-	yrebin: 1
-	zlog: False
-	zrebin: 1
-	ztics: 0
+	Type:   RESNUCLE
+	datafile: treatment_grid_50brass1p25_70.rnc
+	title: RESNUCLE treatment grid 50brass1p25 70
 End
 
-# USRBIN plot "USRBIN treatment grid 50brass1p25 71"
-Plot: treatment_grid_50brass1p25_71_plot
+# USRBIN plot "USRBIN treatment grid 50brass1p25 79"
+Plot: treatment_grid_50brass1p25_79_plot
 	Format: .eps
 	Type:   USRBIN
-	axes: Auto
 	cbcolors: 30
-	cblog: True
-	cbpalette: FLUKA
-	cbround: 0
+	cblog: 1
 	cbtics: 1
-	cpd: 0
-	datafile: treatment_grid_50brass1p25_71.bnn
-	det: 1
-	errors: 0
+	datafile: treatment_grid_50brass1p25_79.bnn
 	geo: -Auto-
-	grid: 0
-	hist: 2D Projection
-	index: 0
-	int: 3.3140211255486045E-002
-	lw.0: 0
-	max: 4.38863462E-05
-	min: 2.23547284E-15
-	proj: Y
-	ps.0: 0
-	pt.0: 0
-	swap: 0
-	title: USRBIN treatment grid 50brass1p25 71
-	with.0: errorbars
-	x2log: False
-	x2tics: 0
-	xlog: False
-	xrebin: 1
-	y2log: False
-	y2tics: 0
-	ylog: False
-	yrebin: 1
-	zlog: False
-	zrebin: 1
-	ztics: 0
-End
-
-# USRBIN plot "USRBIN treatment grid 50brass1p25 72"
-Plot: treatment_grid_50brass1p25_72_plot
-	Format: .eps
-	Type:   USRBIN
-	axes: Auto
-	cbcolors: 30
-	cblog: True
-	cbpalette: FLUKA
-	cbround: 0
-	cbtics: 1
-	cpd: 0
-	datafile: treatment_grid_50brass1p25_72.bnn
-	det: 1
-	errors: 0
-	geo: -Auto-
-	grid: 0
-	hist: 2D Projection
-	index: 0
-	int: 3.3140211253585405E-002
-	lw.0: 0
-	max: 1.36050454E-04
-	min: 9.60388778E-13
-	proj: X
-	ps.0: 0
-	pt.0: 0
-	swap: 0
-	title: USRBIN treatment grid 50brass1p25 72
-	with.0: errorbars
-	x2log: False
-	x2tics: 0
-	xlog: False
-	xrebin: 1
-	y2log: False
-	y2tics: 0
-	ylog: False
-	yrebin: 1
-	zlog: False
-	zrebin: 1
-	ztics: 0
-End
-
-# USRBIN plot "USRBIN treatment grid 50brass1p25 73"
-Plot: treatment_grid_50brass1p25_73_plot
-	Format: .eps
-	Type:   USRBIN
-	axes: Auto
-	cbcolors: 30
-	cblog: True
-	cbpalette: FLUKA
-	cbround: 0
-	cbtics: 1
-	cpd: 0
-	datafile: treatment_grid_50brass1p25_73.bnn
-	det: 1
-	errors: 0
-	geo: -Auto-
-	grid: 0
-	hist: 2D Projection
-	index: 0
-	int: 8.9836913413397085E-003
-	lw.0: 0
-	max: 1.54349109E-04
-	min: 3.48700634E-17
-	proj: Z
-	ps.0: 0
-	pt.0: 0
-	swap: 0
-	title: USRBIN treatment grid 50brass1p25 73
-	with.0: errorbars
-	x2log: False
-	x2tics: 0
-	xlog: False
-	xrebin: 1
-	y2log: False
-	y2tics: 0
-	ylog: False
-	yrebin: 1
-	zlog: False
-	zrebin: 1
-	ztics: 0
+	title: USRBIN treatment grid 50brass1p25 79
 End
 
 # USRBIN plot "USRBIN treatment grid 50brass1p25 80"
 Plot: treatment_grid_50brass1p25_80_plot
 	Format: .eps
 	Type:   USRBIN
+	cbcolors: 30
+	cblog: 1
+	cbtics: 1
+	datafile: treatment_grid_50brass1p25_80.bnn
+	geo: -Auto-
+	title: USRBIN treatment grid 50brass1p25 80
+End
+
+# USRBIN plot "USRBIN treatment grid 50brass1p25 81"
+Plot: treatment_grid_50brass1p25_81_plot
+	Format: .eps
+	Type:   USRBIN
 	axes: Auto
 	cbcolors: 30
 	cblog: True
@@ -762,22 +921,60 @@ Plot: treatment_grid_50brass1p25_80_plot
 	cbround: 0
 	cbtics: 1
 	cpd: 0
-	datafile: treatment_grid_50brass1p25_80.bnn
+	datafile: treatment_grid_50brass1p25_81.bnn
+	det: 1
+	errors: 0
+	geo: -Auto-
+	grid: 0
+	hist: 1D Projection
+	index: 0
+	int: 1.5930533777292272E-002
+	lw.0: 0
+	max: 1.11931164E-04
+	min: 2.07048068E-08
+	proj: Z
+	ps.0: 0
+	pt.0: 0
+	swap: 0
+	title: USRBIN treatment grid 50brass1p25 81
+	with.0: lines
+	x2log: False
+	x2tics: 0
+	xlog: False
+	xrebin: 1
+	y2log: False
+	y2tics: 0
+	ylog: False
+	yrebin: 1
+	zlog: False
+	zrebin: 1
+	ztics: 0
+End
+
+# USRBIN plot "USRBIN treatment grid 50brass1p25 82"
+Plot: treatment_grid_50brass1p25_82_plot
+	Format: .eps
+	Type:   USRBIN
+	axes: Auto
+	cbcolors: 30
+	cblog: True
+	cbpalette: FLUKA
+	cbround: 0
+	cbtics: 1
+	cpd: 0
+	datafile: treatment_grid_50brass1p25_82.bnn
 	det: 1
 	errors: 0
 	geo: -Auto-
 	grid: 0
 	hist: 2D Projection
 	index: 0
-	int: 2.6475022093624775E-002
 	lw.0: 0
-	max: 2.34089181E-04
-	min: 7.19199900E-16
 	proj: Z
 	ps.0: 0
 	pt.0: 0
 	swap: 0
-	title: USRBIN treatment grid 50brass1p25 80
+	title: USRBIN treatment grid 50brass1p25 82
 	with.0: errorbars
 	x2log: False
 	x2tics: 0
@@ -792,18 +989,103 @@ Plot: treatment_grid_50brass1p25_80_plot
 	ztics: 0
 End
 
-# Geometry plot "GeoViewer Magenta plot"
-Plot: Magenta
+# USRBIN plot "USRBIN treatment grid 50brass1p25 83"
+Plot: treatment_grid_50brass1p25_83_plot
 	Format: .eps
-	Type:   Geometry
-	basisu: -1 0 0
-	basisv: 0 1 0
-	boundaries: 1
-	coord: X-Y
-	extends: 100 5962.5
-	labels: 1
-	layer: Media
-	origin: 0 0 0
-	subtype: Material
-	title: GeoViewer Magenta plot
+	Type:   USRBIN
+	axes: Auto
+	cbcolors: 30
+	cblog: True
+	cbpalette: FLUKA
+	cbround: 0
+	cbtics: 1
+	cpd: 0
+	datafile: treatment_grid_50brass1p25_83.bnn
+	det: 1
+	errors: 0
+	geo: -Auto-
+	grid: 0
+	hist: 2D Projection
+	index: 0
+	lw.0: 0
+	proj: Y
+	ps.0: 0
+	pt.0: 0
+	swap: 0
+	title: USRBIN treatment grid 50brass1p25 83
+	with.0: errorbars
+	x2log: False
+	x2tics: 0
+	xlog: False
+	xrebin: 1
+	y2log: False
+	y2tics: 0
+	ylog: False
+	yrebin: 1
+	zlog: False
+	zrebin: 1
+	ztics: 0
+End
+
+# USRBIN plot "USRBIN treatment grid 50brass1p25 84"
+Plot: treatment_grid_50brass1p25_84_plot
+	Format: .eps
+	Type:   USRBIN
+	cbcolors: 30
+	cblog: 1
+	cbtics: 1
+	datafile: treatment_grid_50brass1p25_84.bnn
+	geo: -Auto-
+	title: USRBIN treatment grid 50brass1p25 84
+End
+
+# USRBIN plot "USRBIN treatment grid 50brass1p25 85"
+Plot: treatment_grid_50brass1p25_85_plot
+	Format: .eps
+	Type:   USRBIN
+	axes: Auto
+	cbcolors: 30
+	cblog: False
+	cbpalette: FLUKA
+	cbtics: 1
+	datafile: treatment_grid_50brass1p25_85.bnn
+	det: 1
+	errors: 0
+	geo: -Auto-
+	grid: 0
+	hist: 2D Projection
+	index: 0
+	int: 1.3295651907668951E-002
+	lw.0: 0
+	max: 1.39479409E-04
+	min: 1.72013567E-13
+	proj: Z
+	ps.0: 0
+	pt.0: 0
+	swap: 0
+	title: USRBIN treatment grid 50brass1p25 85
+	with.0: errorbars
+	x2log: False
+	x2tics: 0
+	xlog: False
+	xrebin: 1
+	y2log: False
+	y2tics: 0
+	ylog: False
+	yrebin: 1
+	zlog: False
+	zrebin: 1
+	ztics: 0
+End
+
+# USRBIN plot "USRBIN treatment grid 50brass1p25 86"
+Plot: treatment_grid_50brass1p25_86_plot
+	Format: .eps
+	Type:   USRBIN
+	cbcolors: 30
+	cblog: 1
+	cbtics: 1
+	datafile: treatment_grid_50brass1p25_86.bnn
+	geo: -Auto-
+	title: USRBIN treatment grid 50brass1p25 86
 End
