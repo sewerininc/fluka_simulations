@@ -2,7 +2,7 @@ TITLE
 
 * Set the defaults for precision simulations
 DEFAULTS                                                              HADROTHE
-BEAM            -0.2   0.01101                -1.7       -1.          PROTON
+BEAM            -0.2 .00615883                -1.7       -1.          PROTON
 BEAMPOS                            -205.
 SOURCE         -205.                                                  sobp.dat
 GEOBEGIN                                                              COMBNAME

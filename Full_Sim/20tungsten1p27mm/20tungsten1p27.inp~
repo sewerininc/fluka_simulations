@@ -1,8 +1,8 @@
 TITLE
 My title
 DEFAULTS                                                              HADROTHE
-BEAM          -0.100     0.001                  1.        1.        1.PROTON
-BEAMPOS          0.0       0.0     -200.       0.0       0.0
+BEAM           -0.12-.00615883                -1.7       -1.          PROTON
+BEAMPOS                            -205.
 SOURCE         -205.                                                  sobp.dat
 GEOBEGIN                                                              COMBNAME
     0    0          
@@ -117,24 +117,30 @@ PHYSICS           3.                                                  EVAPORAT
 PHYSICS        1000.     1000.     1000.     1000.     1000.     1000.PEATHRES
 IRRPROFI        300.      1E15
 RADDECAY          1.        1.        3.333333303. 999909999        1.
-USRBIN           10.  ALL-PART      -41.       10.    0.0635       -4..xz_mid
-USRBIN          -10.   -0.0635       -6.      400.        1.       40. &
-USRBIN           10.      DOSE      -42.       10.        5.       0.0xy_before
-USRBIN          -10.       -5.       -1.      600.      300.        1. &
-USRBIN           10.      DOSE      -43.       10.        5.        8.xy_ptv
-USRBIN          -10.       -5.        6.      600.      300.        1. &
-USRBIN           10.      DOSE      -54.       10.        5.       12.xz_tank
-USRBIN          -10.       -5.       0.0      600.        1.      360. &
-USRBIN           10.      DOSE      -45.       10.        5.       12.yz_tank
-USRBIN          -10.       -5.       0.0        1.      300.      360. &
-USRBIN           10.      DOSE      -46.        4.       1.2       12.z_dose
-USRBIN           -4.      -0.8       0.0        1.        1.     1200. &
-USRBIN           10.      DOSE      -80.       20.       10.       -6.XY_dose1
-USRBIN          -20.      -10.      -10.      600.      600.        1. &
 DCYTIMES        300.      900.     3600.     7200.    14400.    28800.
 DCYTIMES      57600.    86400.   115200.   259200.      450.     1400.
 DCYTIMES       2500.     5400.    10800.   360000.    21600.    43200.
 DCYTIMES        150.      600.
+RESNUCLE          3.      -51.                      TARGET16         5col1
+RESNUCLE          3.      -52.                      TARGET16         5col2
+RESNUCLE          3.      -53.                      TARGET16         5col3
+RESNUCLE          3.      -54.                      TARGET16         5col4
+RESNUCLE          3.      -55.                      TARGET16         5col5
+RESNUCLE          3.      -56.                      TARGET16         5col6
+RESNUCLE          3.      -57.                      TARGET16         5col7
+RESNUCLE          3.      -58.                      TARGET16         5col8
+RESNUCLE          3.      -59.                      TARGET16         5col9
+RESNUCLE          3.      -60.                      TARGET16         5col10
+RESNUCLE          3.      -61.                      TARGET16         5col11
+RESNUCLE          3.      -62.                      TARGET16         5col12
+RESNUCLE          3.      -63.                      TARGET16         5col13
+RESNUCLE          3.      -64.                      TARGET16         5col14
+RESNUCLE          3.      -65.                      TARGET16         5col15
+RESNUCLE          3.      -66.                      TARGET16         5col16
+RESNUCLE          3.      -67.                      TARGET16         5col17
+RESNUCLE          3.      -68.                      TARGET16         5col18
+RESNUCLE          3.      -69.                      TARGET16         5col19
+RESNUCLE          3.      -70.                      TARGET16         5col20
 RESNUCLE          3.      -21.                      @ALLREGS     147.3cool1
 RESNUCLE          3.      -22.                      @ALLREGS     147.3cool2
 RESNUCLE          3.      -23.                      @ALLREGS     147.3cool3
@@ -175,6 +181,40 @@ DCYSCORE         17.                        cool17    cool17          RESNUCLE
 DCYSCORE         18.                        cool18    cool18          RESNUCLE
 DCYSCORE         19.                        cool19    cool19          RESNUCLE
 DCYSCORE         20.                        cool20    cool20          RESNUCLE
+DCYSCORE          1.                          col1      col1          RESNUCLE
+DCYSCORE          2.                          col2      col2          RESNUCLE
+DCYSCORE          3.                          col3      col3          RESNUCLE
+DCYSCORE          4.                          col4      col4          RESNUCLE
+DCYSCORE          5.                          col5      col5          RESNUCLE
+DCYSCORE          6.                          col6      col6          RESNUCLE
+DCYSCORE          7.                          col7      col7          RESNUCLE
+DCYSCORE          8.                          col8      col8          RESNUCLE
+DCYSCORE          9.                          col9      col9          RESNUCLE
+DCYSCORE         10.                         col10     col10          RESNUCLE
+DCYSCORE         11.                         col11     col11          RESNUCLE
+DCYSCORE         12.                         col12     col12          RESNUCLE
+DCYSCORE         13.                         col13     col13          RESNUCLE
+DCYSCORE         14.                         col14     col14          RESNUCLE
+DCYSCORE         15.                         col15     col15          RESNUCLE
+DCYSCORE         16.                         col16     col16          RESNUCLE
+DCYSCORE         17.                         col17     col17          RESNUCLE
+DCYSCORE         18.                         col18     col18          RESNUCLE
+DCYSCORE         19.                         col19     col19          RESNUCLE
+DCYSCORE         20.                         col20     col20          RESNUCLE
+USRBIN           10.  ALL-PART      -80.       10.        5.       0.01.xy_allb
+USRBIN          -10.       -5.       -1.      600.      300.        1. &
+USRBIN           10.      DOSE      -81.        5.      0.75       12.Z_doPTV
+USRBIN           -5.     -1.25       0.0        1.        1.     1200. &
+USRBIN           10.  ALL-PART      -82.       20.       10.       -6.XY_bef
+USRBIN          -20.      -10.       -7.      600.      300.        1. &
+USRBIN           10.      DOSE      -83.       10.      0.75       12.XZ_doPTV
+USRBIN          -10.     -1.25       0.0      600.        1.      360. &
+USRBIN           10.      DOSE      -84.        5.        5.       12.YZ_doPTV
+USRBIN           -5.       -5.       0.0        1.      300.      360. &
+USRBIN           10.      DOSE      -85.       10.        5.       8.5XY_ptv
+USRBIN          -10.       -5.       5.5      600.      300.        1. &
+USRBIN           10.  ALL-PART      -86.       10.    0.0625       -1.1.xz_mid
+USRBIN          -10.   -0.0625       -6.      400.        1.      100. &
 RANDOMIZ          1.
 START       5000000.
 STOP

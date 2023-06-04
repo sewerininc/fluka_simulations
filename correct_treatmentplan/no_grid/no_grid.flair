@@ -18,7 +18,7 @@ Run: <default>
 	Last:     5
 	Status:   3
 	Pid:      0
-	StartRun: 1685623913
+	StartRun: 1685802488
 
 	# USRxxx data file: treatment_simulation_21.bnn
 	Data: \I_\U.\e
@@ -194,36 +194,117 @@ End
 Plot: treatment_simulation_21_plot
 	Format: .eps
 	Type:   USRBIN
+	axes: Auto
 	cbcolors: 30
-	cblog: 1
+	cblog: False
+	cbpalette: FLUKA
 	cbtics: 1
 	datafile: treatment_simulation_21.bnn
+	det: 1
+	errors: 0
 	geo: -Auto-
+	grid: 0
+	hist: 2D Projection
+	index: 0
+	int: 2.8513122348556581E-002
+	lw.0: 0
+	max: 3.87708686E-04
+	min: 1.29064226E-18
+	proj: Z
+	ps.0: 0
+	pt.0: 0
+	swap: 0
 	title: USRBIN treatment simulation 21
+	with.0: errorbars
+	x2log: False
+	x2tics: 0
+	xlog: False
+	xrebin: 1
+	y2log: False
+	y2tics: 0
+	ylog: False
+	yrebin: 1
+	zlog: False
+	zrebin: 1
+	ztics: 0
 End
 
 # USRBIN plot "USRBIN treatment simulation 22"
 Plot: treatment_simulation_22_plot
 	Format: .eps
 	Type:   USRBIN
+	axes: Auto
 	cbcolors: 30
-	cblog: 1
+	cblog: False
+	cbpalette: FLUKA
 	cbtics: 1
 	datafile: treatment_simulation_22.bnn
+	det: 1
+	errors: 0
 	geo: -Auto-
+	grid: 0
+	hist: 2D Projection
+	index: 0
+	int: 5.1523615144342894E-002
+	lw.0: 0
+	max: 3.53322277E-04
+	min: 9.96660976E-10
+	proj: Y
+	ps.0: 0
+	pt.0: 0
+	swap: 0
 	title: USRBIN treatment simulation 22
+	with.0: errorbars
+	x2log: False
+	x2tics: 0
+	xlog: False
+	xrebin: 1
+	y2log: False
+	y2tics: 0
+	ylog: False
+	yrebin: 1
+	zlog: False
+	zrebin: 1
+	ztics: 0
 End
 
 # USRBIN plot "USRBIN treatment simulation 23"
 Plot: treatment_simulation_23_plot
 	Format: .eps
 	Type:   USRBIN
+	axes: Auto
 	cbcolors: 30
-	cblog: 1
+	cblog: False
+	cbpalette: FLUKA
 	cbtics: 1
 	datafile: treatment_simulation_23.bnn
+	det: 1
+	errors: 0
 	geo: -Auto-
+	grid: 0
+	hist: 2D Projection
+	index: 0
+	int: 8.2032969681731918E-002
+	lw.0: 0
+	max: 3.27918417E-04
+	min: 7.09941084E-09
+	proj: X
+	ps.0: 0
+	pt.0: 0
+	swap: 0
 	title: USRBIN treatment simulation 23
+	with.0: errorbars
+	x2log: False
+	x2tics: 0
+	xlog: False
+	xrebin: 1
+	y2log: False
+	y2tics: 0
+	ylog: False
+	yrebin: 1
+	zlog: False
+	zrebin: 1
+	ztics: 0
 End
 
 # USRBIN plot "USRBIN treatment simulation 24"
@@ -244,10 +325,10 @@ Plot: treatment_simulation_24_plot
 	grid: 0
 	hist: 1D Projection
 	index: 0
-	int: 4.2763987976967448E-002
+	int: 4.2753649245839881E-002
 	lw.0: 0
-	max: 3.04271671E-04
-	min: 5.00047719E-08
+	max: 3.06929433E-04
+	min: 4.89618515E-08
 	proj: Z
 	ps.0: 0
 	pt.0: 0
@@ -285,10 +366,10 @@ Plot: treatment_simulation_25_plot
 	grid: 0
 	hist: 2D Projection
 	index: 0
-	int: 1.0121055598542945
+	int: 1.0120798271824327
 	lw.0: 0
-	max: 3.28447744E-02
-	min: 3.94187882E-05
+	max: 3.18150818E-02
+	min: 5.48479693E-05
 	proj: Z
 	ps.0: 0
 	pt.0: 0
@@ -314,7 +395,7 @@ Plot: treatment_simulation_42_plot
 	Type:   USRBIN
 	axes: Auto
 	cbcolors: 30
-	cblog: True
+	cblog: False
 	cbpalette: FLUKA
 	cbround: 0
 	cbtics: 1
@@ -326,7 +407,10 @@ Plot: treatment_simulation_42_plot
 	grid: 0
 	hist: 2D Projection
 	index: 0
+	int: 1.0111480748172548
 	lw.0: 0
+	max: 6.23566136E-02
+	min: 1.42283714E-08
 	proj: Z
 	ps.0: 0
 	pt.0: 0

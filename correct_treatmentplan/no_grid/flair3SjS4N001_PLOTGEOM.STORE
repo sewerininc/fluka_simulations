@@ -1,0 +1,47 @@
+1PLOTGEOM**USRBIN treatment simulation 21                                                  
+ Origin and axis parameters
+  X0PICT=  -0.20000E+02  Y0PICT=  -0.10000E+02  Z0PICT=   0.70000E+01
+  X1PICT=   0.20000E+02  Y1PICT=   0.10000E+02  Z1PICT=   0.70000E+01
+  TYX=   0.00000E+00 TYY=   0.10000E+01 TYZ=   0.00000E+00
+  TXX=   0.10000E+01 TXY=   0.00000E+00 TXZ=   0.00000E+00
+  XAXLEN=   0.40000E+02 YAXLEN=   0.20000E+02
+ Cold storage contains     0 worms of total length     0
+ Cold storage contains     0 worms of total length     0
+ ***MATERIAL***FIELD***                                                         
+#Grid:     2     2
+    3   27    0 0.00000E+00 0.00000E+00 0.00000E+00 TARGET   WATER   
+    3   27    0 0.00000E+00 0.00000E+00 0.00000E+00 TARGET   WATER   
+    3   27    0 0.00000E+00 0.00000E+00 0.00000E+00 TARGET   WATER   
+    3   27    0 0.00000E+00 0.00000E+00 0.00000E+00 TARGET   WATER   
+ ***MATERIAL***NAMES***                                                         
+      1 BLCKHOLE
+      2 VACUUM  
+      3 HYDROGEN
+      4 HELIUM  
+      5 BERYLLIU
+      6 CARBON  
+      7 NITROGEN
+      8 OXYGEN  
+      9 MAGNESIU
+     10 ALUMINUM
+     11 IRON    
+     12 COPPER  
+     13 SILVER  
+     14 SILICON 
+     15 GOLD    
+     16 MERCURY 
+     17 LEAD    
+     18 TANTALUM
+     19 SODIUM  
+     20 ARGON   
+     21 CALCIUM 
+     22 TIN     
+     23 TUNGSTEN
+     24 TITANIUM
+     25 NICKEL  
+     26 AIR     
+     27 WATER   
+ ***REGION***NAMES***                                                           
+      1 BLKBODY 
+      2 VOID    
+      3 TARGET  

@@ -6,7 +6,7 @@ Input: 20tungsten1p27.inp
 Exec: flukadpm3_sobp
 Submit: *Default
 Tabs: 0.1 0.32 0.56 0.81 1.0
-Page: Input
+Page: Plot
 DefMain: True
 LinkPrg: lfluka
 F77bound: True
@@ -19,7 +19,7 @@ Run: <default>
 	Last:     5
 	Status:   3
 	Pid:      0
-	StartRun: 1684427180
+	StartRun: 1685828664
 
 	# USRxxx data file: 20tungsten1p27_21.rnc
 	Data: \I_\U.\e
@@ -221,6 +221,30 @@ Run: <default>
 		Rule: +,\I\d\d\d_ftn\.\U
 	End
 
+	# USRxxx data file: 20tungsten1p27_51.rnc
+	Data: \I_\U.\e
+		Unit: 51
+		Type: r
+		Rule: +,\I\d\d\d_fort\.\U
+		Rule: +,\I\d\d\d_ftn\.\U
+	End
+
+	# USRxxx data file: 20tungsten1p27_52.rnc
+	Data: \I_\U.\e
+		Unit: 52
+		Type: r
+		Rule: +,\I\d\d\d_fort\.\U
+		Rule: +,\I\d\d\d_ftn\.\U
+	End
+
+	# USRxxx data file: 20tungsten1p27_53.rnc
+	Data: \I_\U.\e
+		Unit: 53
+		Type: r
+		Rule: +,\I\d\d\d_fort\.\U
+		Rule: +,\I\d\d\d_ftn\.\U
+	End
+
 	# USRxxx data file: 20tungsten1p27_54.bnn
 	Data: \I_\U.\e
 		Unit: 54
@@ -229,9 +253,185 @@ Run: <default>
 		Rule: +,\I\d\d\d_ftn\.\U
 	End
 
+	# USRxxx data file: 20tungsten1p27_55.rnc
+	Data: \I_\U.\e
+		Unit: 55
+		Type: r
+		Rule: +,\I\d\d\d_fort\.\U
+		Rule: +,\I\d\d\d_ftn\.\U
+	End
+
+	# USRxxx data file: 20tungsten1p27_56.rnc
+	Data: \I_\U.\e
+		Unit: 56
+		Type: r
+		Rule: +,\I\d\d\d_fort\.\U
+		Rule: +,\I\d\d\d_ftn\.\U
+	End
+
+	# USRxxx data file: 20tungsten1p27_57.rnc
+	Data: \I_\U.\e
+		Unit: 57
+		Type: r
+		Rule: +,\I\d\d\d_fort\.\U
+		Rule: +,\I\d\d\d_ftn\.\U
+	End
+
+	# USRxxx data file: 20tungsten1p27_58.rnc
+	Data: \I_\U.\e
+		Unit: 58
+		Type: r
+		Rule: +,\I\d\d\d_fort\.\U
+		Rule: +,\I\d\d\d_ftn\.\U
+	End
+
+	# USRxxx data file: 20tungsten1p27_59.rnc
+	Data: \I_\U.\e
+		Unit: 59
+		Type: r
+		Rule: +,\I\d\d\d_fort\.\U
+		Rule: +,\I\d\d\d_ftn\.\U
+	End
+
+	# USRxxx data file: 20tungsten1p27_60.rnc
+	Data: \I_\U.\e
+		Unit: 60
+		Type: r
+		Rule: +,\I\d\d\d_fort\.\U
+		Rule: +,\I\d\d\d_ftn\.\U
+	End
+
+	# USRxxx data file: 20tungsten1p27_61.rnc
+	Data: \I_\U.\e
+		Unit: 61
+		Type: r
+		Rule: +,\I\d\d\d_fort\.\U
+		Rule: +,\I\d\d\d_ftn\.\U
+	End
+
+	# USRxxx data file: 20tungsten1p27_62.rnc
+	Data: \I_\U.\e
+		Unit: 62
+		Type: r
+		Rule: +,\I\d\d\d_fort\.\U
+		Rule: +,\I\d\d\d_ftn\.\U
+	End
+
+	# USRxxx data file: 20tungsten1p27_63.rnc
+	Data: \I_\U.\e
+		Unit: 63
+		Type: r
+		Rule: +,\I\d\d\d_fort\.\U
+		Rule: +,\I\d\d\d_ftn\.\U
+	End
+
+	# USRxxx data file: 20tungsten1p27_64.rnc
+	Data: \I_\U.\e
+		Unit: 64
+		Type: r
+		Rule: +,\I\d\d\d_fort\.\U
+		Rule: +,\I\d\d\d_ftn\.\U
+	End
+
+	# USRxxx data file: 20tungsten1p27_65.rnc
+	Data: \I_\U.\e
+		Unit: 65
+		Type: r
+		Rule: +,\I\d\d\d_fort\.\U
+		Rule: +,\I\d\d\d_ftn\.\U
+	End
+
+	# USRxxx data file: 20tungsten1p27_66.rnc
+	Data: \I_\U.\e
+		Unit: 66
+		Type: r
+		Rule: +,\I\d\d\d_fort\.\U
+		Rule: +,\I\d\d\d_ftn\.\U
+	End
+
+	# USRxxx data file: 20tungsten1p27_67.rnc
+	Data: \I_\U.\e
+		Unit: 67
+		Type: r
+		Rule: +,\I\d\d\d_fort\.\U
+		Rule: +,\I\d\d\d_ftn\.\U
+	End
+
+	# USRxxx data file: 20tungsten1p27_68.rnc
+	Data: \I_\U.\e
+		Unit: 68
+		Type: r
+		Rule: +,\I\d\d\d_fort\.\U
+		Rule: +,\I\d\d\d_ftn\.\U
+	End
+
+	# USRxxx data file: 20tungsten1p27_69.rnc
+	Data: \I_\U.\e
+		Unit: 69
+		Type: r
+		Rule: +,\I\d\d\d_fort\.\U
+		Rule: +,\I\d\d\d_ftn\.\U
+	End
+
+	# USRxxx data file: 20tungsten1p27_70.rnc
+	Data: \I_\U.\e
+		Unit: 70
+		Type: r
+		Rule: +,\I\d\d\d_fort\.\U
+		Rule: +,\I\d\d\d_ftn\.\U
+	End
+
 	# USRxxx data file: 20tungsten1p27_80.bnn
 	Data: \I_\U.\e
 		Unit: 80
+		Type: b
+		Rule: +,\I\d\d\d_fort\.\U
+		Rule: +,\I\d\d\d_ftn\.\U
+	End
+
+	# USRxxx data file: 20tungsten1p27_81.bnn
+	Data: \I_\U.\e
+		Unit: 81
+		Type: b
+		Rule: +,\I\d\d\d_fort\.\U
+		Rule: +,\I\d\d\d_ftn\.\U
+	End
+
+	# USRxxx data file: 20tungsten1p27_82.bnn
+	Data: \I_\U.\e
+		Unit: 82
+		Type: b
+		Rule: +,\I\d\d\d_fort\.\U
+		Rule: +,\I\d\d\d_ftn\.\U
+	End
+
+	# USRxxx data file: 20tungsten1p27_83.bnn
+	Data: \I_\U.\e
+		Unit: 83
+		Type: b
+		Rule: +,\I\d\d\d_fort\.\U
+		Rule: +,\I\d\d\d_ftn\.\U
+	End
+
+	# USRxxx data file: 20tungsten1p27_84.bnn
+	Data: \I_\U.\e
+		Unit: 84
+		Type: b
+		Rule: +,\I\d\d\d_fort\.\U
+		Rule: +,\I\d\d\d_ftn\.\U
+	End
+
+	# USRxxx data file: 20tungsten1p27_85.bnn
+	Data: \I_\U.\e
+		Unit: 85
+		Type: b
+		Rule: +,\I\d\d\d_fort\.\U
+		Rule: +,\I\d\d\d_ftn\.\U
+	End
+
+	# USRxxx data file: 20tungsten1p27_86.bnn
+	Data: \I_\U.\e
+		Unit: 86
 		Type: b
 		Rule: +,\I\d\d\d_fort\.\U
 		Rule: +,\I\d\d\d_ftn\.\U
@@ -541,205 +741,84 @@ End
 Plot: 20tungsten1p27_41_plot
 	Format: .eps
 	Type:   USRBIN
-	axes: Auto
 	cbcolors: 30
-	cblog: False
-	cbpalette: FLUKA
-	cbround: 0
+	cblog: 1
 	cbtics: 1
-	cpd: 0
 	datafile: 20tungsten1p27_41.bnn
-	det: 1
-	errors: 0
 	geo: -Auto-
-	grid: 0
-	hist: 2D Projection
-	index: 0
-	int: 4.4965974355917870E-002
-	lw.0: 0
-	max: 3.60042788E-02
-	min: 6.86988642E-05
-	proj: Y
-	ps.0: 0
-	pt.0: 0
-	swap: 0
 	title: USRBIN 20tungsten1p27 41
-	with.0: errorbars
-	x2log: False
-	x2tics: 0
-	xlog: False
-	xrebin: 1
-	y2log: False
-	y2tics: 0
-	ylog: False
-	yrebin: 1
-	zlog: False
-	zrebin: 1
-	ztics: 0
 End
 
 # USRBIN plot "USRBIN 20tungsten1p27 42"
 Plot: 20tungsten1p27_42_plot
 	Format: .eps
 	Type:   USRBIN
-	axes: Auto
 	cbcolors: 30
-	cblog: False
-	cbpalette: FLUKA
-	cbround: 0
+	cblog: 1
 	cbtics: 1
-	cpd: 0
 	datafile: 20tungsten1p27_42.bnn
-	det: 1
-	errors: 0
 	geo: -Auto-
-	grid: 0
-	hist: 2D Projection
-	index: 0
-	int: 3.1654114413534290E-003
-	lw.0: 0
-	max: 8.99499049E-04
-	min: 1.44487490E-14
-	proj: Z
-	ps.0: 0
-	pt.0: 0
-	swap: 0
 	title: USRBIN 20tungsten1p27 42
-	with.0: errorbars
-	x2log: False
-	x2tics: 0
-	xlog: False
-	xrebin: 1
-	y2log: False
-	y2tics: 0
-	ylog: False
-	yrebin: 1
-	zlog: False
-	zrebin: 1
-	ztics: 0
 End
 
 # USRBIN plot "USRBIN 20tungsten1p27 43"
 Plot: 20tungsten1p27_43_plot
 	Format: .eps
 	Type:   USRBIN
-	axes: Auto
 	cbcolors: 30
-	cblog: False
-	cbpalette: FLUKA
-	cbround: 0
+	cblog: 1
 	cbtics: 1
-	cpd: 0
 	datafile: 20tungsten1p27_43.bnn
-	det: 1
-	errors: 0
 	geo: -Auto-
-	grid: 0
-	hist: 2D Projection
-	index: 0
-	int: 1.0119375521798462E-002
-	lw.0: 0
-	max: 1.58810930E-04
-	min: 1.88263639E-15
-	proj: Z
-	ps.0: 0
-	pt.0: 0
-	swap: 0
 	title: USRBIN 20tungsten1p27 43
-	with.0: errorbars
-	x2log: False
-	x2tics: 0
-	xlog: False
-	xrebin: 1
-	y2log: False
-	y2tics: 0
-	ylog: False
-	yrebin: 1
-	zlog: False
-	zrebin: 1
-	ztics: 0
 End
 
 # USRBIN plot "USRBIN 20tungsten1p27 45"
 Plot: 20tungsten1p27_45_plot
 	Format: .eps
 	Type:   USRBIN
-	axes: Auto
 	cbcolors: 30
-	cblog: False
-	cbpalette: FLUKA
-	cbround: 0
+	cblog: 1
 	cbtics: 1
-	cpd: 0
 	datafile: 20tungsten1p27_45.bnn
-	det: 1
-	errors: 0
 	geo: -Auto-
-	grid: 0
-	hist: 2D Projection
-	index: 0
-	int: 3.7113532417434654E-002
-	lw.0: 0
-	max: 1.25306964E-04
-	min: 1.93654606E-11
-	proj: X
-	ps.0: 0
-	pt.0: 0
-	swap: 0
 	title: USRBIN 20tungsten1p27 45
-	with.0: errorbars
-	x2log: False
-	x2tics: 0
-	xlog: False
-	xrebin: 1
-	y2log: False
-	y2tics: 0
-	ylog: False
-	yrebin: 1
-	zlog: False
-	zrebin: 1
-	ztics: 0
 End
 
 # USRBIN plot "USRBIN 20tungsten1p27 46"
 Plot: 20tungsten1p27_46_plot
 	Format: .eps
 	Type:   USRBIN
-	axes: Auto
 	cbcolors: 30
-	cblog: False
-	cbpalette: FLUKA
-	cbround: 0
+	cblog: 1
 	cbtics: 1
-	cpd: 0
 	datafile: 20tungsten1p27_46.bnn
-	det: 1
-	errors: 0
 	geo: -Auto-
-	grid: 0
-	hist: 1D Projection
-	index: 0
-	int: 1.3565307172874783E-002
-	lw.0: 0
-	max: 1.26163912E-04
-	min: 2.00748076E-08
-	proj: Z
-	ps.0: 0
-	pt.0: 0
-	swap: 0
 	title: USRBIN 20tungsten1p27 46
-	with.0: lines
-	x2log: False
-	x2tics: 0
-	xlog: False
-	xrebin: 1
-	y2log: False
-	y2tics: 0
-	ylog: False
-	yrebin: 1
-	zlog: False
-	zrebin: 1
-	ztics: 0
+End
+
+# RESNUCLE plot "RESNUCLE 20tungsten1p27 51"
+Plot: 20tungsten1p27_51_plot
+	Format: .eps
+	Type:   RESNUCLE
+	datafile: 20tungsten1p27_51.rnc
+	title: RESNUCLE 20tungsten1p27 51
+End
+
+# RESNUCLE plot "RESNUCLE 20tungsten1p27 52"
+Plot: 20tungsten1p27_52_plot
+	Format: .eps
+	Type:   RESNUCLE
+	datafile: 20tungsten1p27_52.rnc
+	title: RESNUCLE 20tungsten1p27 52
+End
+
+# RESNUCLE plot "RESNUCLE 20tungsten1p27 53"
+Plot: 20tungsten1p27_53_plot
+	Format: .eps
+	Type:   RESNUCLE
+	datafile: 20tungsten1p27_53.rnc
+	title: RESNUCLE 20tungsten1p27 53
 End
 
 # USRBIN plot "USRBIN 20tungsten1p27 54"
@@ -748,23 +827,19 @@ Plot: 20tungsten1p27_54_plot
 	Type:   USRBIN
 	axes: Auto
 	cbcolors: 30
-	cblog: False
+	cblog: True
 	cbpalette: FLUKA
 	cbround: 0
 	cbtics: 1
 	cpd: 0
 	datafile: 20tungsten1p27_54.bnn
-	det: 1
 	errors: 0
 	geo: -Auto-
 	grid: 0
 	hist: 2D Projection
 	index: 0
-	int: 3.7113532410403417E-002
 	lw.0: 0
-	max: 5.09255005E-05
-	min: 1.75647986E-14
-	proj: Y
+	proj: Z
 	ps.0: 0
 	pt.0: 0
 	swap: 0
@@ -783,8 +858,255 @@ Plot: 20tungsten1p27_54_plot
 	ztics: 0
 End
 
+# RESNUCLE plot "RESNUCLE 20tungsten1p27 55"
+Plot: 20tungsten1p27_55_plot
+	Format: .eps
+	Type:   RESNUCLE
+	datafile: 20tungsten1p27_55.rnc
+	title: RESNUCLE 20tungsten1p27 55
+End
+
+# RESNUCLE plot "RESNUCLE 20tungsten1p27 56"
+Plot: 20tungsten1p27_56_plot
+	Format: .eps
+	Type:   RESNUCLE
+	datafile: 20tungsten1p27_56.rnc
+	title: RESNUCLE 20tungsten1p27 56
+End
+
+# RESNUCLE plot "RESNUCLE 20tungsten1p27 57"
+Plot: 20tungsten1p27_57_plot
+	Format: .eps
+	Type:   RESNUCLE
+	datafile: 20tungsten1p27_57.rnc
+	title: RESNUCLE 20tungsten1p27 57
+End
+
+# RESNUCLE plot "RESNUCLE 20tungsten1p27 58"
+Plot: 20tungsten1p27_58_plot
+	Format: .eps
+	Type:   RESNUCLE
+	datafile: 20tungsten1p27_58.rnc
+	title: RESNUCLE 20tungsten1p27 58
+End
+
+# RESNUCLE plot "RESNUCLE 20tungsten1p27 59"
+Plot: 20tungsten1p27_59_plot
+	Format: .eps
+	Type:   RESNUCLE
+	datafile: 20tungsten1p27_59.rnc
+	title: RESNUCLE 20tungsten1p27 59
+End
+
+# RESNUCLE plot "RESNUCLE 20tungsten1p27 60"
+Plot: 20tungsten1p27_60_plot
+	Format: .eps
+	Type:   RESNUCLE
+	datafile: 20tungsten1p27_60.rnc
+	title: RESNUCLE 20tungsten1p27 60
+End
+
+# RESNUCLE plot "RESNUCLE 20tungsten1p27 61"
+Plot: 20tungsten1p27_61_plot
+	Format: .eps
+	Type:   RESNUCLE
+	datafile: 20tungsten1p27_61.rnc
+	title: RESNUCLE 20tungsten1p27 61
+End
+
+# RESNUCLE plot "RESNUCLE 20tungsten1p27 62"
+Plot: 20tungsten1p27_62_plot
+	Format: .eps
+	Type:   RESNUCLE
+	datafile: 20tungsten1p27_62.rnc
+	title: RESNUCLE 20tungsten1p27 62
+End
+
+# RESNUCLE plot "RESNUCLE 20tungsten1p27 63"
+Plot: 20tungsten1p27_63_plot
+	Format: .eps
+	Type:   RESNUCLE
+	datafile: 20tungsten1p27_63.rnc
+	title: RESNUCLE 20tungsten1p27 63
+End
+
+# RESNUCLE plot "RESNUCLE 20tungsten1p27 64"
+Plot: 20tungsten1p27_64_plot
+	Format: .eps
+	Type:   RESNUCLE
+	datafile: 20tungsten1p27_64.rnc
+	title: RESNUCLE 20tungsten1p27 64
+End
+
+# RESNUCLE plot "RESNUCLE 20tungsten1p27 65"
+Plot: 20tungsten1p27_65_plot
+	Format: .eps
+	Type:   RESNUCLE
+	datafile: 20tungsten1p27_65.rnc
+	title: RESNUCLE 20tungsten1p27 65
+End
+
+# RESNUCLE plot "RESNUCLE 20tungsten1p27 66"
+Plot: 20tungsten1p27_66_plot
+	Format: .eps
+	Type:   RESNUCLE
+	datafile: 20tungsten1p27_66.rnc
+	title: RESNUCLE 20tungsten1p27 66
+End
+
+# RESNUCLE plot "RESNUCLE 20tungsten1p27 67"
+Plot: 20tungsten1p27_67_plot
+	Format: .eps
+	Type:   RESNUCLE
+	datafile: 20tungsten1p27_67.rnc
+	title: RESNUCLE 20tungsten1p27 67
+End
+
+# RESNUCLE plot "RESNUCLE 20tungsten1p27 68"
+Plot: 20tungsten1p27_68_plot
+	Format: .eps
+	Type:   RESNUCLE
+	datafile: 20tungsten1p27_68.rnc
+	title: RESNUCLE 20tungsten1p27 68
+End
+
+# RESNUCLE plot "RESNUCLE 20tungsten1p27 69"
+Plot: 20tungsten1p27_69_plot
+	Format: .eps
+	Type:   RESNUCLE
+	datafile: 20tungsten1p27_69.rnc
+	title: RESNUCLE 20tungsten1p27 69
+End
+
+# RESNUCLE plot "RESNUCLE 20tungsten1p27 70"
+Plot: 20tungsten1p27_70_plot
+	Format: .eps
+	Type:   RESNUCLE
+	datafile: 20tungsten1p27_70.rnc
+	title: RESNUCLE 20tungsten1p27 70
+End
+
 # USRBIN plot "USRBIN 20tungsten1p27 80"
 Plot: 20tungsten1p27_80_plot
+	Format: .eps
+	Type:   USRBIN
+	axes: Auto
+	cbcolors: 30
+	cblog: False
+	cbpalette: FLUKA
+	cbtics: 1
+	datafile: 20tungsten1p27_80.bnn
+	det: 1
+	errors: 0
+	geo: -Auto-
+	grid: 0
+	hist: 2D Projection
+	index: 0
+	int: 0.51027750723706811
+	lw.0: 0
+	max: 3.52928489E-02
+	min: 1.70039595E-04
+	proj: Z
+	ps.0: 0
+	pt.0: 0
+	swap: 0
+	title: USRBIN 20tungsten1p27 80
+	with.0: errorbars
+	x2log: False
+	x2tics: 0
+	xlog: False
+	xrebin: 1
+	y2log: False
+	y2tics: 0
+	ylog: False
+	yrebin: 1
+	zlog: False
+	zrebin: 1
+	ztics: 0
+End
+
+# USRBIN plot "USRBIN 20tungsten1p27 81"
+Plot: 20tungsten1p27_81_plot
+	Format: .eps
+	Type:   USRBIN
+	axes: Auto
+	cbcolors: 30
+	cblog: True
+	cbpalette: FLUKA
+	cbround: 0
+	cbtics: 1
+	cpd: 0
+	datafile: 20tungsten1p27_81.bnn
+	det: 1
+	errors: 0
+	geo: -Auto-
+	grid: 0
+	hist: 1D Projection
+	index: 0
+	int: 1.6956884834257668E-002
+	lw.0: 0
+	max: 1.17236996E-04
+	min: 2.55023647E-08
+	proj: Z
+	ps.0: 0
+	pt.0: 0
+	swap: 0
+	title: USRBIN 20tungsten1p27 81
+	with.0: lines
+	x2log: False
+	x2tics: 0
+	xlog: False
+	xrebin: 1
+	y2log: False
+	y2tics: 0
+	ylog: False
+	yrebin: 1
+	zlog: False
+	zrebin: 1
+	ztics: 0
+End
+
+# USRBIN plot "USRBIN 20tungsten1p27 82"
+Plot: 20tungsten1p27_82_plot
+	Format: .eps
+	Type:   USRBIN
+	axes: Auto
+	cbcolors: 30
+	cblog: False
+	cbpalette: FLUKA
+	cbtics: 1
+	datafile: 20tungsten1p27_82.bnn
+	det: 1
+	errors: 0
+	geo: -Auto-
+	grid: 0
+	hist: 2D Projection
+	index: 0
+	int: 1.3395754249779965
+	lw.0: 0
+	max: 3.52936573E-02
+	min: 2.74150589E-05
+	proj: Z
+	ps.0: 0
+	pt.0: 0
+	swap: 0
+	title: USRBIN 20tungsten1p27 82
+	with.0: errorbars
+	x2log: False
+	x2tics: 0
+	xlog: False
+	xrebin: 1
+	y2log: False
+	y2tics: 0
+	ylog: False
+	yrebin: 1
+	zlog: False
+	zrebin: 1
+	ztics: 0
+End
+
+# USRBIN plot "USRBIN 20tungsten1p27 83"
+Plot: 20tungsten1p27_83_plot
 	Format: .eps
 	Type:   USRBIN
 	axes: Auto
@@ -794,22 +1116,139 @@ Plot: 20tungsten1p27_80_plot
 	cbround: 0
 	cbtics: 1
 	cpd: 0
-	datafile: 20tungsten1p27_80.bnn
+	datafile: 20tungsten1p27_83.bnn
 	det: 1
 	errors: 0
 	geo: -Auto-
 	grid: 0
 	hist: 2D Projection
 	index: 0
-	int: 2.6377640016658054E-002
+	int: 2.0412243682739337E-002
 	lw.0: 0
-	max: 4.73878114E-04
-	min: 3.35405735E-15
+	max: 1.34098605E-04
+	min: 5.70709497E-15
+	proj: Y
+	ps.0: 0
+	pt.0: 0
+	swap: 0
+	title: USRBIN 20tungsten1p27 83
+	with.0: errorbars
+	x2log: False
+	x2tics: 0
+	xlog: False
+	xrebin: 1
+	y2log: False
+	y2tics: 0
+	ylog: False
+	yrebin: 1
+	zlog: False
+	zrebin: 1
+	ztics: 0
+End
+
+# USRBIN plot "USRBIN 20tungsten1p27 84"
+Plot: 20tungsten1p27_84_plot
+	Format: .eps
+	Type:   USRBIN
+	axes: Auto
+	cbcolors: 30
+	cblog: False
+	cbpalette: FLUKA
+	cbtics: 1
+	datafile: 20tungsten1p27_84.bnn
+	det: 1
+	errors: 0
+	geo: -Auto-
+	grid: 0
+	hist: 2D Projection
+	index: 0
+	int: 3.1415070656397315E-002
+	lw.0: 0
+	max: 2.13977604E-04
+	min: 2.04943262E-09
+	proj: X
+	ps.0: 0
+	pt.0: 0
+	swap: 0
+	title: USRBIN 20tungsten1p27 84
+	with.0: errorbars
+	x2log: False
+	x2tics: 0
+	xlog: False
+	xrebin: 1
+	y2log: False
+	y2tics: 0
+	ylog: False
+	yrebin: 1
+	zlog: False
+	zrebin: 1
+	ztics: 0
+End
+
+# USRBIN plot "USRBIN 20tungsten1p27 85"
+Plot: 20tungsten1p27_85_plot
+	Format: .eps
+	Type:   USRBIN
+	axes: Auto
+	cbcolors: 30
+	cblog: False
+	cbpalette: FLUKA
+	cbtics: 1
+	datafile: 20tungsten1p27_85.bnn
+	det: 1
+	errors: 0
+	geo: -Auto-
+	grid: 0
+	hist: 2D Projection
+	index: 0
+	int: 1.4889849470126258E-002
+	lw.0: 0
+	max: 1.48532039E-04
+	min: 1.17358102E-11
 	proj: Z
 	ps.0: 0
 	pt.0: 0
 	swap: 0
-	title: USRBIN 20tungsten1p27 80
+	title: USRBIN 20tungsten1p27 85
+	with.0: errorbars
+	x2log: False
+	x2tics: 0
+	xlog: False
+	xrebin: 1
+	y2log: False
+	y2tics: 0
+	ylog: False
+	yrebin: 1
+	zlog: False
+	zrebin: 1
+	ztics: 0
+End
+
+# USRBIN plot "USRBIN 20tungsten1p27 86"
+Plot: 20tungsten1p27_86_plot
+	Format: .eps
+	Type:   USRBIN
+	axes: Auto
+	cbcolors: 30
+	cblog: False
+	cbpalette: FLUKA
+	cbtics: 1
+	datafile: 20tungsten1p27_86.bnn
+	det: 1
+	errors: 0
+	geo: -Auto-
+	grid: 0
+	hist: 2D Projection
+	index: 0
+	int: 4.4767145305372499E-002
+	lw.0: 0
+	max: 3.48995589E-02
+	min: 8.14789673E-05
+	proj: Y
+	ps.0: 0
+	pt.0: 0
+	swap: 0
+	title: USRBIN 20tungsten1p27 86
 	with.0: errorbars
 	x2log: False
 	x2tics: 0

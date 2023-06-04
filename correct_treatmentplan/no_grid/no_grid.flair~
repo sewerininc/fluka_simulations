@@ -6,7 +6,7 @@ Input: treatment_simulation.inp
 Exec: flukadpm3_sobp
 Submit: *Default
 Tabs: 0.1 0.32 0.56 0.81 1.0
-Page: Input
+Page: Run
 DefMain: True
 LinkPrg: lfluka
 F77bound: True
@@ -16,9 +16,9 @@ F77dline: False
 Run: <default>
 	Prev:     0
 	Last:     5
-	Status:   3
-	Pid:      0
-	StartRun: 1685623913
+	Status:   2
+	Pid:      9242
+	StartRun: 1685802488
 
 	# USRxxx data file: treatment_simulation_21.bnn
 	Data: \I_\U.\e

@@ -3,9 +3,10 @@
 Version: 2
 Title: My title
 Input: 20brass1p25.inp
+Exec: flukadpm3_sobp
 Submit: *Default
 Tabs: 0.1 0.32 0.56 0.81 1.0
-Page: Input
+Page: Plot
 DefMain: True
 LinkPrg: lfluka
 F77bound: True
@@ -17,7 +18,7 @@ Run: <default>
 	Last:     5
 	Status:   3
 	Pid:      0
-	StartRun: 1684169731
+	StartRun: 1685767984
 
 	# USRxxx data file: 20brass1p25_21.rnc
 	Data: \I_\U.\e
@@ -179,40 +180,225 @@ Run: <default>
 		Rule: +,\I\d\d\d_ftn\.\U
 	End
 
-	# USRxxx data file: 20brass1p25_41.bnn
+	# USRxxx data file: 20brass1p25_51.rnc
 	Data: \I_\U.\e
-		Unit: 41
+		Unit: 51
+		Type: r
+		Rule: +,\I\d\d\d_fort\.\U
+		Rule: +,\I\d\d\d_ftn\.\U
+	End
+
+	# USRxxx data file: 20brass1p25_52.rnc
+	Data: \I_\U.\e
+		Unit: 52
+		Type: r
+		Rule: +,\I\d\d\d_fort\.\U
+		Rule: +,\I\d\d\d_ftn\.\U
+	End
+
+	# USRxxx data file: 20brass1p25_53.rnc
+	Data: \I_\U.\e
+		Unit: 53
+		Type: r
+		Rule: +,\I\d\d\d_fort\.\U
+		Rule: +,\I\d\d\d_ftn\.\U
+	End
+
+	# USRxxx data file: 20brass1p25_54.rnc
+	Data: \I_\U.\e
+		Unit: 54
+		Type: r
+		Rule: +,\I\d\d\d_fort\.\U
+		Rule: +,\I\d\d\d_ftn\.\U
+	End
+
+	# USRxxx data file: 20brass1p25_55.rnc
+	Data: \I_\U.\e
+		Unit: 55
+		Type: r
+		Rule: +,\I\d\d\d_fort\.\U
+		Rule: +,\I\d\d\d_ftn\.\U
+	End
+
+	# USRxxx data file: 20brass1p25_56.rnc
+	Data: \I_\U.\e
+		Unit: 56
+		Type: r
+		Rule: +,\I\d\d\d_fort\.\U
+		Rule: +,\I\d\d\d_ftn\.\U
+	End
+
+	# USRxxx data file: 20brass1p25_57.rnc
+	Data: \I_\U.\e
+		Unit: 57
+		Type: r
+		Rule: +,\I\d\d\d_fort\.\U
+		Rule: +,\I\d\d\d_ftn\.\U
+	End
+
+	# USRxxx data file: 20brass1p25_58.rnc
+	Data: \I_\U.\e
+		Unit: 58
+		Type: r
+		Rule: +,\I\d\d\d_fort\.\U
+		Rule: +,\I\d\d\d_ftn\.\U
+	End
+
+	# USRxxx data file: 20brass1p25_59.rnc
+	Data: \I_\U.\e
+		Unit: 59
+		Type: r
+		Rule: +,\I\d\d\d_fort\.\U
+		Rule: +,\I\d\d\d_ftn\.\U
+	End
+
+	# USRxxx data file: 20brass1p25_60.rnc
+	Data: \I_\U.\e
+		Unit: 60
+		Type: r
+		Rule: +,\I\d\d\d_fort\.\U
+		Rule: +,\I\d\d\d_ftn\.\U
+	End
+
+	# USRxxx data file: 20brass1p25_61.rnc
+	Data: \I_\U.\e
+		Unit: 61
+		Type: r
+		Rule: +,\I\d\d\d_fort\.\U
+		Rule: +,\I\d\d\d_ftn\.\U
+	End
+
+	# USRxxx data file: 20brass1p25_62.rnc
+	Data: \I_\U.\e
+		Unit: 62
+		Type: r
+		Rule: +,\I\d\d\d_fort\.\U
+		Rule: +,\I\d\d\d_ftn\.\U
+	End
+
+	# USRxxx data file: 20brass1p25_63.rnc
+	Data: \I_\U.\e
+		Unit: 63
+		Type: r
+		Rule: +,\I\d\d\d_fort\.\U
+		Rule: +,\I\d\d\d_ftn\.\U
+	End
+
+	# USRxxx data file: 20brass1p25_64.rnc
+	Data: \I_\U.\e
+		Unit: 64
+		Type: r
+		Rule: +,\I\d\d\d_fort\.\U
+		Rule: +,\I\d\d\d_ftn\.\U
+	End
+
+	# USRxxx data file: 20brass1p25_65.rnc
+	Data: \I_\U.\e
+		Unit: 65
+		Type: r
+		Rule: +,\I\d\d\d_fort\.\U
+		Rule: +,\I\d\d\d_ftn\.\U
+	End
+
+	# USRxxx data file: 20brass1p25_66.rnc
+	Data: \I_\U.\e
+		Unit: 66
+		Type: r
+		Rule: +,\I\d\d\d_fort\.\U
+		Rule: +,\I\d\d\d_ftn\.\U
+	End
+
+	# USRxxx data file: 20brass1p25_67.rnc
+	Data: \I_\U.\e
+		Unit: 67
+		Type: r
+		Rule: +,\I\d\d\d_fort\.\U
+		Rule: +,\I\d\d\d_ftn\.\U
+	End
+
+	# USRxxx data file: 20brass1p25_68.rnc
+	Data: \I_\U.\e
+		Unit: 68
+		Type: r
+		Rule: +,\I\d\d\d_fort\.\U
+		Rule: +,\I\d\d\d_ftn\.\U
+	End
+
+	# USRxxx data file: 20brass1p25_69.rnc
+	Data: \I_\U.\e
+		Unit: 69
+		Type: r
+		Rule: +,\I\d\d\d_fort\.\U
+		Rule: +,\I\d\d\d_ftn\.\U
+	End
+
+	# USRxxx data file: 20brass1p25_70.rnc
+	Data: \I_\U.\e
+		Unit: 70
+		Type: r
+		Rule: +,\I\d\d\d_fort\.\U
+		Rule: +,\I\d\d\d_ftn\.\U
+	End
+
+	# USRxxx data file: 20brass1p25_80.bnn
+	Data: \I_\U.\e
+		Unit: 80
+		Type: b
+		Rule: +,\I\d\d\d_fort\.\U
+		Rule: +,\I\d\d\d_ftn\.\U
+	End
+
+	# USRxxx data file: 20brass1p25_81.bnn
+	Data: \I_\U.\e
+		Unit: 81
+		Type: b
+		Rule: +,\I\d\d\d_fort\.\U
+		Rule: +,\I\d\d\d_ftn\.\U
+	End
+
+	# USRxxx data file: 20brass1p25_82.bnn
+	Data: \I_\U.\e
+		Unit: 82
+		Type: b
+		Rule: +,\I\d\d\d_fort\.\U
+		Rule: +,\I\d\d\d_ftn\.\U
+	End
+
+	# USRxxx data file: 20brass1p25_83.bnn
+	Data: \I_\U.\e
+		Unit: 83
+		Type: b
+		Rule: +,\I\d\d\d_fort\.\U
+		Rule: +,\I\d\d\d_ftn\.\U
+	End
+
+	# USRxxx data file: 20brass1p25_84.bnn
+	Data: \I_\U.\e
+		Unit: 84
+		Type: b
+		Rule: +,\I\d\d\d_fort\.\U
+		Rule: +,\I\d\d\d_ftn\.\U
+	End
+
+	# USRxxx data file: 20brass1p25_85.bnn
+	Data: \I_\U.\e
+		Unit: 85
+		Type: b
+		Rule: +,\I\d\d\d_fort\.\U
+		Rule: +,\I\d\d\d_ftn\.\U
+	End
+
+	# USRxxx data file: 20brass1p25_86.bnn
+	Data: \I_\U.\e
+		Unit: 86
 		Type: b
 		Rule: +,\I\d\d\d_fort\.\U
 		Rule: +,\I\d\d\d_ftn\.\U
 	End
 End
 
-# Material
-Material: Brass
-	alpha: 0
-	color: #10D050
-	fuzz: 0.0
-	ior: 1.0
-	shine: 10.0
-	specular: 0.0
-End
-
-# Material
-Material: Zink
-	alpha: 0
-	color: #B030B0
-	fuzz: 0.0
-	ior: 1.0
-	shine: 10.0
-	specular: 0.0
-End
-
 # Geometry Information
 Geometry:
-	Frame.bsplit: 0.99
-	Frame.tsplit: 0.5
-	Frame.vsplit: 0.01
 End
 
 # Geometry plot "Geometry My title"
@@ -406,30 +592,433 @@ Plot: 20brass1p25_40_plot
 	title: RESNUCLE 20brass1p25 40
 End
 
-# USRBIN plot "USRBIN 20brass1p25 41"
-Plot: 20brass1p25_41_plot
+# RESNUCLE plot "RESNUCLE 20brass1p25 51"
+Plot: 20brass1p25_51_plot
+	Format: .eps
+	Type:   RESNUCLE
+	datafile: 20brass1p25_51.rnc
+	title: RESNUCLE 20brass1p25 51
+End
+
+# RESNUCLE plot "RESNUCLE 20brass1p25 52"
+Plot: 20brass1p25_52_plot
+	Format: .eps
+	Type:   RESNUCLE
+	datafile: 20brass1p25_52.rnc
+	title: RESNUCLE 20brass1p25 52
+End
+
+# RESNUCLE plot "RESNUCLE 20brass1p25 53"
+Plot: 20brass1p25_53_plot
+	Format: .eps
+	Type:   RESNUCLE
+	datafile: 20brass1p25_53.rnc
+	title: RESNUCLE 20brass1p25 53
+End
+
+# RESNUCLE plot "RESNUCLE 20brass1p25 54"
+Plot: 20brass1p25_54_plot
+	Format: .eps
+	Type:   RESNUCLE
+	datafile: 20brass1p25_54.rnc
+	title: RESNUCLE 20brass1p25 54
+End
+
+# RESNUCLE plot "RESNUCLE 20brass1p25 55"
+Plot: 20brass1p25_55_plot
+	Format: .eps
+	Type:   RESNUCLE
+	datafile: 20brass1p25_55.rnc
+	title: RESNUCLE 20brass1p25 55
+End
+
+# RESNUCLE plot "RESNUCLE 20brass1p25 56"
+Plot: 20brass1p25_56_plot
+	Format: .eps
+	Type:   RESNUCLE
+	datafile: 20brass1p25_56.rnc
+	title: RESNUCLE 20brass1p25 56
+End
+
+# RESNUCLE plot "RESNUCLE 20brass1p25 57"
+Plot: 20brass1p25_57_plot
+	Format: .eps
+	Type:   RESNUCLE
+	datafile: 20brass1p25_57.rnc
+	title: RESNUCLE 20brass1p25 57
+End
+
+# RESNUCLE plot "RESNUCLE 20brass1p25 58"
+Plot: 20brass1p25_58_plot
+	Format: .eps
+	Type:   RESNUCLE
+	datafile: 20brass1p25_58.rnc
+	title: RESNUCLE 20brass1p25 58
+End
+
+# RESNUCLE plot "RESNUCLE 20brass1p25 59"
+Plot: 20brass1p25_59_plot
+	Format: .eps
+	Type:   RESNUCLE
+	datafile: 20brass1p25_59.rnc
+	title: RESNUCLE 20brass1p25 59
+End
+
+# RESNUCLE plot "RESNUCLE 20brass1p25 60"
+Plot: 20brass1p25_60_plot
+	Format: .eps
+	Type:   RESNUCLE
+	datafile: 20brass1p25_60.rnc
+	title: RESNUCLE 20brass1p25 60
+End
+
+# RESNUCLE plot "RESNUCLE 20brass1p25 61"
+Plot: 20brass1p25_61_plot
+	Format: .eps
+	Type:   RESNUCLE
+	datafile: 20brass1p25_61.rnc
+	title: RESNUCLE 20brass1p25 61
+End
+
+# RESNUCLE plot "RESNUCLE 20brass1p25 62"
+Plot: 20brass1p25_62_plot
+	Format: .eps
+	Type:   RESNUCLE
+	datafile: 20brass1p25_62.rnc
+	title: RESNUCLE 20brass1p25 62
+End
+
+# RESNUCLE plot "RESNUCLE 20brass1p25 63"
+Plot: 20brass1p25_63_plot
+	Format: .eps
+	Type:   RESNUCLE
+	datafile: 20brass1p25_63.rnc
+	title: RESNUCLE 20brass1p25 63
+End
+
+# RESNUCLE plot "RESNUCLE 20brass1p25 64"
+Plot: 20brass1p25_64_plot
+	Format: .eps
+	Type:   RESNUCLE
+	datafile: 20brass1p25_64.rnc
+	title: RESNUCLE 20brass1p25 64
+End
+
+# RESNUCLE plot "RESNUCLE 20brass1p25 65"
+Plot: 20brass1p25_65_plot
+	Format: .eps
+	Type:   RESNUCLE
+	datafile: 20brass1p25_65.rnc
+	title: RESNUCLE 20brass1p25 65
+End
+
+# RESNUCLE plot "RESNUCLE 20brass1p25 66"
+Plot: 20brass1p25_66_plot
+	Format: .eps
+	Type:   RESNUCLE
+	datafile: 20brass1p25_66.rnc
+	title: RESNUCLE 20brass1p25 66
+End
+
+# RESNUCLE plot "RESNUCLE 20brass1p25 67"
+Plot: 20brass1p25_67_plot
+	Format: .eps
+	Type:   RESNUCLE
+	datafile: 20brass1p25_67.rnc
+	title: RESNUCLE 20brass1p25 67
+End
+
+# RESNUCLE plot "RESNUCLE 20brass1p25 68"
+Plot: 20brass1p25_68_plot
+	Format: .eps
+	Type:   RESNUCLE
+	datafile: 20brass1p25_68.rnc
+	title: RESNUCLE 20brass1p25 68
+End
+
+# RESNUCLE plot "RESNUCLE 20brass1p25 69"
+Plot: 20brass1p25_69_plot
+	Format: .eps
+	Type:   RESNUCLE
+	datafile: 20brass1p25_69.rnc
+	title: RESNUCLE 20brass1p25 69
+End
+
+# RESNUCLE plot "RESNUCLE 20brass1p25 70"
+Plot: 20brass1p25_70_plot
+	Format: .eps
+	Type:   RESNUCLE
+	datafile: 20brass1p25_70.rnc
+	title: RESNUCLE 20brass1p25 70
+End
+
+# USRBIN plot "USRBIN 20brass1p25 80"
+Plot: 20brass1p25_80_plot
 	Format: .eps
 	Type:   USRBIN
 	axes: Auto
 	cbcolors: 30
-	cblog: True
+	cblog: False
 	cbpalette: FLUKA
 	cbround: 0
 	cbtics: 1
 	cpd: 0
-	datafile: 20brass1p25_41.bnn
+	datafile: 20brass1p25_80.bnn
 	det: 1
 	errors: 0
 	geo: -Auto-
 	grid: 0
 	hist: 2D Projection
 	index: 0
+	int: 0.60263268251740998
 	lw.0: 0
+	max: 3.77580039E-02
+	min: 6.69535148E-05
+	proj: Z
+	ps.0: 0
+	pt.0: 0
+	swap: 0
+	title: USRBIN 20brass1p25 80
+	with.0: errorbars
+	x2log: False
+	x2tics: 0
+	xlog: False
+	xrebin: 1
+	y2log: False
+	y2tics: 0
+	ylog: False
+	yrebin: 1
+	zlog: False
+	zrebin: 1
+	ztics: 0
+End
+
+# USRBIN plot "USRBIN 20brass1p25 81"
+Plot: 20brass1p25_81_plot
+	Format: .eps
+	Type:   USRBIN
+	axes: Auto
+	cbcolors: 30
+	cblog: False
+	cbpalette: FLUKA
+	cbround: 0
+	cbtics: 1
+	cpd: 0
+	datafile: 20brass1p25_81.bnn
+	det: 1
+	errors: 0
+	geo: -Auto-
+	grid: 0
+	hist: 1D Projection
+	index: 0
+	int: 1.9953011084495348E-002
+	lw.0: 0
+	max: 1.40294011E-04
+	min: 2.33088358E-08
+	proj: Z
+	ps.0: 0
+	pt.0: 0
+	swap: 0
+	title: USRBIN 20brass1p25 81
+	with.0: lines
+	x2log: False
+	x2tics: 0
+	xlog: False
+	xrebin: 1
+	y2log: False
+	y2tics: 0
+	ylog: False
+	yrebin: 1
+	zlog: False
+	zrebin: 1
+	ztics: 0
+End
+
+# USRBIN plot "USRBIN 20brass1p25 82"
+Plot: 20brass1p25_82_plot
+	Format: .eps
+	Type:   USRBIN
+	axes: Auto
+	cbcolors: 30
+	cblog: False
+	cbpalette: FLUKA
+	cbround: 0
+	cbtics: 1
+	cpd: 0
+	datafile: 20brass1p25_82.bnn
+	det: 1
+	errors: 0
+	geo: -Auto-
+	grid: 0
+	hist: 2D Projection
+	index: 0
+	int: 1.1118570252986300
+	lw.0: 0
+	max: 3.31793390E-02
+	min: 1.00110619E-05
+	proj: Z
+	ps.0: 0
+	pt.0: 0
+	swap: 0
+	title: USRBIN 20brass1p25 82
+	with.0: errorbars
+	x2log: False
+	x2tics: 0
+	xlog: False
+	xrebin: 1
+	y2log: False
+	y2tics: 0
+	ylog: False
+	yrebin: 1
+	zlog: False
+	zrebin: 1
+	ztics: 0
+End
+
+# USRBIN plot "USRBIN 20brass1p25 83"
+Plot: 20brass1p25_83_plot
+	Format: .eps
+	Type:   USRBIN
+	axes: Auto
+	cbcolors: 30
+	cblog: False
+	cbpalette: FLUKA
+	cbtics: 1
+	datafile: 20brass1p25_83.bnn
+	det: 1
+	errors: 0
+	geo: -Auto-
+	grid: 0
+	hist: 2D Projection
+	index: 0
+	int: 2.3956132616221374E-002
+	lw.0: 0
+	max: 1.48623876E-04
+	min: 6.88502843E-16
 	proj: Y
 	ps.0: 0
 	pt.0: 0
 	swap: 0
-	title: USRBIN 20brass1p25 41
+	title: USRBIN 20brass1p25 83
+	with.0: errorbars
+	x2log: False
+	x2tics: 0
+	xlog: False
+	xrebin: 1
+	y2log: False
+	y2tics: 0
+	ylog: False
+	yrebin: 1
+	zlog: False
+	zrebin: 1
+	ztics: 0
+End
+
+# USRBIN plot "USRBIN 20brass1p25 84"
+Plot: 20brass1p25_84_plot
+	Format: .eps
+	Type:   USRBIN
+	axes: Auto
+	cbcolors: 30
+	cblog: False
+	cbpalette: FLUKA
+	cbtics: 1
+	datafile: 20brass1p25_84.bnn
+	det: 1
+	errors: 0
+	geo: -Auto-
+	grid: 0
+	hist: 2D Projection
+	index: 0
+	int: 3.7597780425517376E-002
+	lw.0: 0
+	max: 2.65888841E-04
+	min: 1.18833843E-09
+	proj: X
+	ps.0: 0
+	pt.0: 0
+	swap: 0
+	title: USRBIN 20brass1p25 84
+	with.0: errorbars
+	x2log: False
+	x2tics: 0
+	xlog: False
+	xrebin: 1
+	y2log: False
+	y2tics: 0
+	ylog: False
+	yrebin: 1
+	zlog: False
+	zrebin: 1
+	ztics: 0
+End
+
+# USRBIN plot "USRBIN 20brass1p25 85"
+Plot: 20brass1p25_85_plot
+	Format: .eps
+	Type:   USRBIN
+	axes: Auto
+	cbcolors: 30
+	cblog: False
+	cbpalette: FLUKA
+	cbtics: 1
+	datafile: 20brass1p25_85.bnn
+	det: 1
+	errors: 0
+	geo: -Auto-
+	grid: 0
+	hist: 2D Projection
+	index: 0
+	int: 1.5570782034596971E-002
+	lw.0: 0
+	max: 1.50266147E-04
+	min: 1.24012454E-13
+	proj: Z
+	ps.0: 0
+	pt.0: 0
+	swap: 0
+	title: USRBIN 20brass1p25 85
+	with.0: errorbars
+	x2log: False
+	x2tics: 0
+	xlog: False
+	xrebin: 1
+	y2log: False
+	y2tics: 0
+	ylog: False
+	yrebin: 1
+	zlog: False
+	zrebin: 1
+	ztics: 0
+End
+
+# USRBIN plot "USRBIN 20brass1p25 86"
+Plot: 20brass1p25_86_plot
+	Format: .eps
+	Type:   USRBIN
+	axes: Auto
+	cbcolors: 30
+	cblog: False
+	cbpalette: FLUKA
+	cbround: 0
+	cbtics: 1
+	cpd: 0
+	datafile: 20brass1p25_86.bnn
+	det: 1
+	errors: 0
+	geo: -Auto-
+	grid: 0
+	hist: 2D Projection
+	index: 0
+	int: 4.7476419798068534E-002
+	lw.0: 0
+	max: 2.95535736E-02
+	min: 2.47283151E-05
+	proj: Y
+	ps.0: 0
+	pt.0: 0
+	swap: 0
+	title: USRBIN 20brass1p25 86
 	with.0: errorbars
 	x2log: False
 	x2tics: 0
