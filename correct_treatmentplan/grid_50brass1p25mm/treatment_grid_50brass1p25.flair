@@ -6,7 +6,7 @@ Input: treatment_grid_50brass1p25.inp
 Exec: flukadpm3_sobp
 Submit: *Default
 Tabs: 0.1 0.32 0.56 0.81 1.0
-Page: Input
+Page: Plot
 DefMain: True
 LinkPrg: lfluka
 F77bound: True
@@ -18,7 +18,7 @@ Run: <default>
 	Last:     5
 	Status:   3
 	Pid:      0
-	StartRun: 1685731959
+	StartRun: 1685874340
 
 	# USRxxx data file: treatment_grid_50brass1p25_21.rnc
 	Data: \I_\U.\e
@@ -914,117 +914,36 @@ End
 Plot: treatment_grid_50brass1p25_81_plot
 	Format: .eps
 	Type:   USRBIN
-	axes: Auto
 	cbcolors: 30
-	cblog: True
-	cbpalette: FLUKA
-	cbround: 0
+	cblog: 1
 	cbtics: 1
-	cpd: 0
 	datafile: treatment_grid_50brass1p25_81.bnn
-	det: 1
-	errors: 0
 	geo: -Auto-
-	grid: 0
-	hist: 1D Projection
-	index: 0
-	int: 1.5930533777292272E-002
-	lw.0: 0
-	max: 1.11931164E-04
-	min: 2.07048068E-08
-	proj: Z
-	ps.0: 0
-	pt.0: 0
-	swap: 0
 	title: USRBIN treatment grid 50brass1p25 81
-	with.0: lines
-	x2log: False
-	x2tics: 0
-	xlog: False
-	xrebin: 1
-	y2log: False
-	y2tics: 0
-	ylog: False
-	yrebin: 1
-	zlog: False
-	zrebin: 1
-	ztics: 0
 End
 
 # USRBIN plot "USRBIN treatment grid 50brass1p25 82"
 Plot: treatment_grid_50brass1p25_82_plot
 	Format: .eps
 	Type:   USRBIN
-	axes: Auto
 	cbcolors: 30
-	cblog: True
-	cbpalette: FLUKA
-	cbround: 0
+	cblog: 1
 	cbtics: 1
-	cpd: 0
 	datafile: treatment_grid_50brass1p25_82.bnn
-	det: 1
-	errors: 0
 	geo: -Auto-
-	grid: 0
-	hist: 2D Projection
-	index: 0
-	lw.0: 0
-	proj: Z
-	ps.0: 0
-	pt.0: 0
-	swap: 0
 	title: USRBIN treatment grid 50brass1p25 82
-	with.0: errorbars
-	x2log: False
-	x2tics: 0
-	xlog: False
-	xrebin: 1
-	y2log: False
-	y2tics: 0
-	ylog: False
-	yrebin: 1
-	zlog: False
-	zrebin: 1
-	ztics: 0
 End
 
 # USRBIN plot "USRBIN treatment grid 50brass1p25 83"
 Plot: treatment_grid_50brass1p25_83_plot
 	Format: .eps
 	Type:   USRBIN
-	axes: Auto
 	cbcolors: 30
-	cblog: True
-	cbpalette: FLUKA
-	cbround: 0
+	cblog: 1
 	cbtics: 1
-	cpd: 0
 	datafile: treatment_grid_50brass1p25_83.bnn
-	det: 1
-	errors: 0
 	geo: -Auto-
-	grid: 0
-	hist: 2D Projection
-	index: 0
-	lw.0: 0
-	proj: Y
-	ps.0: 0
-	pt.0: 0
-	swap: 0
 	title: USRBIN treatment grid 50brass1p25 83
-	with.0: errorbars
-	x2log: False
-	x2tics: 0
-	xlog: False
-	xrebin: 1
-	y2log: False
-	y2tics: 0
-	ylog: False
-	yrebin: 1
-	zlog: False
-	zrebin: 1
-	ztics: 0
 End
 
 # USRBIN plot "USRBIN treatment grid 50brass1p25 84"
@@ -1043,39 +962,12 @@ End
 Plot: treatment_grid_50brass1p25_85_plot
 	Format: .eps
 	Type:   USRBIN
-	axes: Auto
 	cbcolors: 30
-	cblog: False
-	cbpalette: FLUKA
+	cblog: 1
 	cbtics: 1
 	datafile: treatment_grid_50brass1p25_85.bnn
-	det: 1
-	errors: 0
 	geo: -Auto-
-	grid: 0
-	hist: 2D Projection
-	index: 0
-	int: 1.3295651907668951E-002
-	lw.0: 0
-	max: 1.39479409E-04
-	min: 1.72013567E-13
-	proj: Z
-	ps.0: 0
-	pt.0: 0
-	swap: 0
 	title: USRBIN treatment grid 50brass1p25 85
-	with.0: errorbars
-	x2log: False
-	x2tics: 0
-	xlog: False
-	xrebin: 1
-	y2log: False
-	y2tics: 0
-	ylog: False
-	yrebin: 1
-	zlog: False
-	zrebin: 1
-	ztics: 0
 End
 
 # USRBIN plot "USRBIN treatment grid 50brass1p25 86"
@@ -1094,10 +986,10 @@ Plot: treatment_grid_50brass1p25_86_plot
 	grid: 0
 	hist: 2D Projection
 	index: 0
-	int: 5.8292700500406823E-002
+	int: 5.7431335173678807E-002
 	lw.0: 0
-	max: 2.96286698E-02
-	min: 4.96498651E-05
+	max: 3.89133543E-02
+	min: 1.23314550E-08
 	proj: Y
 	ps.0: 0
 	pt.0: 0
