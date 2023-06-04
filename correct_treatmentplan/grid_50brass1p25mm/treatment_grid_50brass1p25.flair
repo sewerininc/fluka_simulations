@@ -6,7 +6,7 @@ Input: treatment_grid_50brass1p25.inp
 Exec: flukadpm3_sobp
 Submit: *Default
 Tabs: 0.1 0.32 0.56 0.81 1.0
-Page: Plot
+Page: Input
 DefMain: True
 LinkPrg: lfluka
 F77bound: True
@@ -1082,10 +1082,37 @@ End
 Plot: treatment_grid_50brass1p25_86_plot
 	Format: .eps
 	Type:   USRBIN
+	axes: Auto
 	cbcolors: 30
-	cblog: 1
+	cblog: False
+	cbpalette: FLUKA
 	cbtics: 1
 	datafile: treatment_grid_50brass1p25_86.bnn
+	det: 1
+	errors: 0
 	geo: -Auto-
+	grid: 0
+	hist: 2D Projection
+	index: 0
+	int: 5.8292700500406823E-002
+	lw.0: 0
+	max: 2.96286698E-02
+	min: 4.96498651E-05
+	proj: Y
+	ps.0: 0
+	pt.0: 0
+	swap: 0
 	title: USRBIN treatment grid 50brass1p25 86
+	with.0: errorbars
+	x2log: False
+	x2tics: 0
+	xlog: False
+	xrebin: 1
+	y2log: False
+	y2tics: 0
+	ylog: False
+	yrebin: 1
+	zlog: False
+	zrebin: 1
+	ztics: 0
 End
