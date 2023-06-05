@@ -1,0 +1,116 @@
+* Temporary input file only for geometry checking
+*...+....1....+....2....+....3....+....4....+....5....+....6....+....7....+....
+GLOBAL                                         3.0       1.0
+GEOBEGIN   ,  ,  ,  ,  ,  ,  , COMBNAME
+0,0,USRBIN 20tungsten1p27 80
+SPH blkbody    0.0 0.0 0.0 10000.
+SPH void       0.0 0.0 0.0 9900.
+RPP target1    -10. 10. -2.864 -2.737 -6. -4.
+RPP target2    -10. 10. -2.663 -2.537 -6. -4.
+RPP target3    -10. 10. -2.464 -2.337 -6. -4.
+RPP target4    -10. 10. -2.264 -2.137 -6. -4.
+RPP target5    -10. 10. -2.064 -1.937 -6. -4.
+RPP target6    -10. 10. -1.864 -1.737 -6. -4.
+RPP target7    -10. 10. -1.664 -1.537 -6. -4.
+RPP target8    -10. 10. -1.464 -1.337 -6. -4.
+RPP target9    -10. 10. -1.264 -1.137 -6. -4.
+RPP target10   -10. 10. -1.064 -0.937 -6. -4.
+RPP target11   -10. 10. -0.864 -0.737 -6. -4.
+RPP target12   -10. 10. -0.664 -0.537 -6. -4.
+RPP target13   -10. 10. -0.464 -0.337 -6. -4.
+RPP target14   -10. 10. -0.264 -0.137 -6. -4.
+RPP target15   -10. 10. -0.064 0.063 -6. -4.
+RPP target16   -10. 10. 0.136 0.263 -6. -4.
+RPP target17   -10. 10. 0.336 0.463 -6. -4.
+RPP target18   -10. 10. 0.536 0.663 -6. -4.
+RPP target19   -10. 10. 0.736 0.863 -6. -4.
+RPP target20   -10. 10. 0.937 1.063 -6. -4.
+RPP target21   -10. 10. 1.136 1.263 -6. -4.
+RPP target22   -10. 10. 1.336 1.463 -6. -4.
+RPP target23   -10. 10. 1.536 1.663 -6. -4.
+RPP target24   -10. 10. 1.737 1.863 -6. -4.
+RPP target25   -10. 10. 1.936 2.063 -6. -4.
+RPP target26   -10. 10. 2.136 2.263 -6. -4.
+RPP target27   -10. 10. 2.337 2.463 -6. -4.
+RPP target28   -10. 10. 2.537 2.663 -6. -4.
+RPP target29   -10. 10. 2.737 2.864 -6. -4.
+RPP target30   -50. 50. -50. 50. 0.0 20.
+END
+BLKBODY     30 +blkbody -void
+VOID        30 +void -target1 -target2 -target3 -target4 -target5 -target6 -target7 -target8 -target9 -target10
+               -target11 -target12 -target13 -target14 -target15 -target16 -target17 -target18 -target19
+               -target20 -target21 -target22 -target23 -target24 -target25 -target26 -target27 -target28
+               -target29 -target30
+TARGET1     30 +target1
+TARGET2     30 +target2
+TARGET3     30 +target3
+TARGET4     30 +target4
+TARGET5     30 +target5
+TARGET6     30 +target6
+TARGET7     30 +target7
+TARGET8     30 +target8
+TARGET9     30 +target9
+TARGET10    30 +target10
+TARGET11    30 +target11
+TARGET12    30 +target12
+TARGET13    30 +target13
+TARGET14    30 +target14
+TARGET15    30 +target15
+TARGET16    30 +target16
+TARGET17    30 +target17
+TARGET18    30 +target18
+TARGET19    30 +target19
+TARGET20    30 +target20
+TARGET21    30 +target21
+TARGET22    30 +target22
+TARGET23    30 +target23
+TARGET24    30 +target24
+TARGET25    30 +target25
+TARGET26    30 +target26
+TARGET27    30 +target27
+TARGET28    30 +target28
+TARGET29    30 +target29
+TARGET30    30 +target30
+END
+GEOEND
+MATERIAL  , 30., 65.38, 7.13,  , , ,Zink
+MATERIAL  , , , 8.73,  , , ,Brass
+ASSIGNMA  , BLCKHOLE, BLKBODY
+ASSIGNMA  , AIR, VOID
+ASSIGNMA  , TUNGSTEN, TARGET1
+ASSIGNMA  , TUNGSTEN, TARGET2
+ASSIGNMA  , TUNGSTEN, TARGET3
+ASSIGNMA  , TUNGSTEN, TARGET4
+ASSIGNMA  , TUNGSTEN, TARGET5
+ASSIGNMA  , TUNGSTEN, TARGET6
+ASSIGNMA  , TUNGSTEN, TARGET7
+ASSIGNMA  , TUNGSTEN, TARGET8
+ASSIGNMA  , TUNGSTEN, TARGET9
+ASSIGNMA  , TUNGSTEN, TARGET10
+ASSIGNMA  , TUNGSTEN, TARGET11
+ASSIGNMA  , TUNGSTEN, TARGET12
+ASSIGNMA  , TUNGSTEN, TARGET13
+ASSIGNMA  , TUNGSTEN, TARGET14
+ASSIGNMA  , TUNGSTEN, TARGET15
+ASSIGNMA  , TUNGSTEN, TARGET16
+ASSIGNMA  , TUNGSTEN, TARGET17
+ASSIGNMA  , TUNGSTEN, TARGET18
+ASSIGNMA  , TUNGSTEN, TARGET19
+ASSIGNMA  , TUNGSTEN, TARGET20
+ASSIGNMA  , TUNGSTEN, TARGET21
+ASSIGNMA  , TUNGSTEN, TARGET22
+ASSIGNMA  , TUNGSTEN, TARGET23
+ASSIGNMA  , TUNGSTEN, TARGET24
+ASSIGNMA  , TUNGSTEN, TARGET25
+ASSIGNMA  , TUNGSTEN, TARGET26
+ASSIGNMA  , TUNGSTEN, TARGET27
+ASSIGNMA  , TUNGSTEN, TARGET28
+ASSIGNMA  , TUNGSTEN, TARGET29
+ASSIGNMA  , WATER, TARGET30
+* USRBIN 20tungsten1p27 80
+PLOTGEOM  , , 1.0, , , ,  ,FORMAT
+USRBIN 20tungsten1p27 80
+-10.000009 -5.000004 -.4999995 10.000011  5.000006 -.4999995
+       0.0       1.0       0.0       1.0       0.0       0.0
+       1.0       1.0       2.0       2.0
+STOP

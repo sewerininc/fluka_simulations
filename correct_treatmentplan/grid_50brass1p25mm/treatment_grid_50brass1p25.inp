@@ -216,5 +216,5 @@ USRBIN          -10.       -5.       5.5      600.      300.        1. &
 USRBIN           10.  ALL-PART      -86.       10.    0.0625       -1.1.xz_mid
 USRBIN          -10.   -0.0625       -6.      400.        1.      250. &
 RANDOMIZ          1.
-START        200000.
+START      20000000.
 STOP
