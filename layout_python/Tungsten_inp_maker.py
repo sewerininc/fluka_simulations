@@ -10,7 +10,7 @@ output_name = "20tungsten1p27"
 x_len = 20  # X
 width = 0.127  # Y
 depth = 2.0  # Z
-btw = 0.2 - width  # Y - room between each line and material
+btw = 0.2 # Y - room between each line and material
 room_layer = 1  # Z
 tot_layers = 1
 cube_pr_layer = 29
@@ -20,7 +20,7 @@ tot_vol = x_len*width*depth*cube_pr_layer
 tot_vol = round(tot_vol, 1)
 
 
-add_water_tank = False
+add_water_tank = True
 
 material = "TUNGSTEN"
 

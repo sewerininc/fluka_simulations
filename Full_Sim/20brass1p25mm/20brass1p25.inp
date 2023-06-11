@@ -9,40 +9,40 @@ GEOBEGIN                                                              COMBNAME
 SPH blkbody    0.0 0.0 0.0 10000.
 SPH void       0.0 0.0 0.0 9900.
 RPP target1    -50. 50. -50. 50. 0.0 20.
-RPP target2    -10. 10. -2.863 -2.738 -6. -4.
-RPP target3    -10. 10. -2.663 -2.538 -6. -4.
-RPP target4    -10. 10. -2.463 -2.338 -6. -4.
-RPP target5    -10. 10. -2.263 -2.138 -6. -4.
-RPP target6    -10. 10. -2.063 -1.938 -6. -4.
-RPP target7    -10. 10. -1.863 -1.738 -6. -4.
-RPP target8    -10. 10. -1.663 -1.538 -6. -4.
-RPP target9    -10. 10. -1.462 -1.337 -6. -4.
-RPP target10   -10. 10. -1.263 -1.138 -6. -4.
-RPP target11   -10. 10. -1.063 -0.938 -6. -4.
-RPP target12   -10. 10. -0.863 -0.738 -6. -4.
-RPP target13   -10. 10. -0.663 -0.538 -6. -4.
-RPP target14   -10. 10. -0.463 -0.338 -6. -4.
-RPP target15   -10. 10. -0.263 -0.138 -6. -4.
-RPP target16   -10. 10. -0.063 0.062 -6. -4.
-RPP target17   -10. 10. 0.137 0.262 -6. -4.
-RPP target18   -10. 10. 0.337 0.462 -6. -4.
-RPP target19   -10. 10. 0.537 0.662 -6. -4.
-RPP target20   -10. 10. 0.737 0.862 -6. -4.
-RPP target21   -10. 10. 0.937 1.062 -6. -4.
-RPP target22   -10. 10. 1.137 1.262 -6. -4.
-RPP target23   -10. 10. 1.337 1.462 -6. -4.
-RPP target24   -10. 10. 1.538 1.663 -6. -4.
-RPP target25   -10. 10. 1.738 1.863 -6. -4.
-RPP target26   -10. 10. 1.938 2.062 -6. -4.
-RPP target27   -10. 10. 2.137 2.262 -6. -4.
-RPP target28   -10. 10. 2.337 2.462 -6. -4.
-RPP target29   -10. 10. 2.538 2.663 -6. -4.
-RPP target30   -10. 10. 2.738 2.863 -6. -4.
+RPP target2    -10. 10. -4.25 -4.15 -6. -4.
+RPP target3    -10. 10. -3.95 -3.85 -6. -4.
+RPP target4    -10. 10. -3.65 -3.55 -6. -4.
+RPP target5    -10. 10. -3.35 -3.25 -6. -4.
+RPP target6    -10. 10. -3.05 -2.95 -6. -4.
+RPP target7    -10. 10. -2.75 -2.65 -6. -4.
+RPP target8    -10. 10. -2.45 -2.35 -6. -4.
+RPP target9    -10. 10. -2.15 -2.05 -6. -4.
+RPP target10   -10. 10. -1.85 -1.75 -6. -4.
+RPP target11   -10. 10. -1.55 -1.45 -6. -4.
+RPP target12   -10. 10. -1.25 -1.15 -6. -4.
+RPP target13   -10. 10. -0.95 -0.85 -6. -4.
+RPP target14   -10. 10. -0.65 -0.55 -6. -4.
+RPP target15   -10. 10. -0.35 -0.25 -6. -4.
+RPP target16   -10. 10. -0.05 0.05 -6. -4.
+RPP target17   -10. 10. 0.25 0.35 -6. -4.
+RPP target18   -10. 10. 0.55 0.65 -6. -4.
+RPP target19   -10. 10. 0.85 0.95 -6. -4.
+RPP target20   -10. 10. 1.15 1.25 -6. -4.
+RPP target21   -10. 10. 1.45 1.55 -6. -4.
+RPP target22   -10. 10. 1.75 1.85 -6. -4.
+RPP target23   -10. 10. 2.05 2.15 -6. -4.
+RPP target24   -10. 10. 2.35 2.45 -6. -4.
+RPP target25   -10. 10. 2.65 2.75 -6. -4.
+RPP target26   -10. 10. 2.95 3.05 -6. -4.
+RPP target27   -10. 10. 3.25 3.35 -6. -4.
+RPP target28   -10. 10. 3.55 3.65 -6. -4.
+RPP target29   -10. 10. 3.85 3.95 -6. -4.
+RPP target30   -10. 10. 4.15 4.25 -6. -4.
 END
 BLKBODY     30 +blkbody -void
 VOID        30 +void -target1 -target2 -target3 -target4 -target5 -target6 -target7 -target8 -target9 -target10
-               -target11 -target12 -target13 -target14 -target15 -target16 -target17 -target18 -target19 
-               -target20 -target21 -target22 -target23 -target24 -target25 -target26 -target27 -target28 
+               -target11 -target12 -target13 -target14 -target15 -target16 -target17 -target18 -target19
+               -target20 -target21 -target22 -target23 -target24 -target25 -target26 -target27 -target28
                -target29 -target30
 TARGET1     30 +target1
 TARGET2     30 +target2
@@ -141,26 +141,26 @@ RESNUCLE          3.      -67.                      TARGET16        5.col17
 RESNUCLE          3.      -68.                      TARGET16        5.col18
 RESNUCLE          3.      -69.                      TARGET16        5.col19
 RESNUCLE          3.      -70.                      TARGET16        5.col20
-RESNUCLE          3.      -21.                      @ALLREGS      145.cool1
-RESNUCLE          3.      -22.                      @ALLREGS      145.cool2
-RESNUCLE          3.      -23.                      @ALLREGS      145.cool3
+RESNUCLE          3.      -21.                      @ALLREGS      116.cool1
+RESNUCLE          3.      -22.                      @ALLREGS      116.cool2
+RESNUCLE          3.      -23.                      @ALLREGS      116.cool3
 RESNUCLE          3.      -24.                      @ALLREGS      145.cool4
-RESNUCLE          3.      -25.                      @ALLREGS      145.cool5
-RESNUCLE          3.      -26.                      @ALLREGS      145.cool6
-RESNUCLE          3.      -27.                      @ALLREGS      145.cool7
-RESNUCLE          3.      -28.                      @ALLREGS      145.cool8
-RESNUCLE          3.      -29.                      @ALLREGS      145.cool9
-RESNUCLE          3.      -30.                      @ALLREGS      145.cool10
-RESNUCLE          3.      -31.                      @ALLREGS      145.cool11
-RESNUCLE          3.      -32.                      @ALLREGS      145.cool12
-RESNUCLE          3.      -33.                      @ALLREGS      145.cool13
-RESNUCLE          3.      -34.                      @ALLREGS      145.cool14
-RESNUCLE          3.      -35.                      @ALLREGS      145.cool15
-RESNUCLE          3.      -36.                      @ALLREGS      145.cool16
-RESNUCLE          3.      -37.                      @ALLREGS      145.cool17
-RESNUCLE          3.      -38.                      @ALLREGS      145.cool18
-RESNUCLE          3.      -39.                      @ALLREGS      145.cool19
-RESNUCLE          3.      -40.                      @ALLREGS      145.cool20
+RESNUCLE          3.      -25.                      @ALLREGS      116.cool5
+RESNUCLE          3.      -26.                      @ALLREGS      116.cool6
+RESNUCLE          3.      -27.                      @ALLREGS      116.cool7
+RESNUCLE          3.      -28.                      @ALLREGS      116.cool8
+RESNUCLE          3.      -29.                      @ALLREGS      116.cool9
+RESNUCLE          3.      -30.                      @ALLREGS      116.cool10
+RESNUCLE          3.      -31.                      @ALLREGS      116.cool11
+RESNUCLE          3.      -32.                      @ALLREGS      116.cool12
+RESNUCLE          3.      -33.                      @ALLREGS      116.cool13
+RESNUCLE          3.      -34.                      @ALLREGS      116.cool14
+RESNUCLE          3.      -35.                      @ALLREGS      116.cool15
+RESNUCLE          3.      -36.                      @ALLREGS      116.cool16
+RESNUCLE          3.      -37.                      @ALLREGS      116.cool17
+RESNUCLE          3.      -38.                      @ALLREGS      116.cool18
+RESNUCLE          3.      -39.                      @ALLREGS      116.cool19
+RESNUCLE          3.      -40.                      @ALLREGS      116.cool20
 DCYSCORE          1.                         cool1     cool1          RESNUCLE
 DCYSCORE          2.                         cool2     cool2          RESNUCLE
 DCYSCORE          3.                         cool3     cool3          RESNUCLE
@@ -213,8 +213,8 @@ USRBIN           10.      DOSE      -84.        5.        5.       12.YZ_doPTV
 USRBIN           -5.       -5.       0.0        1.      300.      360. &
 USRBIN           10.      DOSE      -85.       10.        5.       8.5XY_ptv
 USRBIN          -10.       -5.       5.5      600.      300.        1. &
-USRBIN           10.  ALL-PART      -86.       10.     0.062       -4.1.xz_mid
-USRBIN          -10.    -0.063       -6.      400.        1.      100. &
+USRBIN           10.  ALL-PART      -86.       10.      0.05       -4.1.xz_mid
+USRBIN          -10.     -0.05       -6.      400.        1.      100. &
 RANDOMIZ          1.
 START      20000000.
 STOP

@@ -19,7 +19,7 @@ Run: <default>
 	Last:     5
 	Status:   3
 	Pid:      0
-	StartRun: 1685902418
+	StartRun: 1686403155
 
 	# USRxxx data file: 20tungsten1p27_21.rnc
 	Data: \I_\U.\e
@@ -967,9 +967,11 @@ Plot: 20tungsten1p27_80_plot
 	Type:   USRBIN
 	axes: Auto
 	cbcolors: 30
-	cblog: False
+	cblog: True
 	cbpalette: FLUKA
+	cbround: 0
 	cbtics: 1
+	cpd: 0
 	datafile: 20tungsten1p27_80.bnn
 	det: 1
 	errors: 0
@@ -977,10 +979,10 @@ Plot: 20tungsten1p27_80_plot
 	grid: 0
 	hist: 2D Projection
 	index: 0
-	int: 0.51027750723706811
+	int: 0.76780342998540241
 	lw.0: 0
-	max: 3.52928489E-02
-	min: 1.70039595E-04
+	max: 3.50184590E-02
+	min: 1.03262639E-04
 	proj: Z
 	ps.0: 0
 	pt.0: 0
@@ -1018,16 +1020,16 @@ Plot: 20tungsten1p27_81_plot
 	grid: 0
 	hist: 1D Projection
 	index: 0
-	int: 1.6956884834257668E-002
+	int: 2.8622719469877076E-002
 	lw.0: 0
-	max: 1.17236996E-04
-	min: 2.55023647E-08
+	max: 1.97503134E-04
+	min: 2.81874151E-08
 	proj: Z
 	ps.0: 0
 	pt.0: 0
 	swap: 0
 	title: USRBIN 20tungsten1p27 81
-	with.0: lines
+	with.0: errorbars
 	x2log: False
 	x2tics: 0
 	xlog: False
@@ -1047,9 +1049,11 @@ Plot: 20tungsten1p27_82_plot
 	Type:   USRBIN
 	axes: Auto
 	cbcolors: 30
-	cblog: False
+	cblog: True
 	cbpalette: FLUKA
+	cbround: 0
 	cbtics: 1
+	cpd: 0
 	datafile: 20tungsten1p27_82.bnn
 	det: 1
 	errors: 0
@@ -1057,10 +1061,10 @@ Plot: 20tungsten1p27_82_plot
 	grid: 0
 	hist: 2D Projection
 	index: 0
-	int: 1.3395754249779965
+	int: 1.1993872661010769
 	lw.0: 0
-	max: 3.52936573E-02
-	min: 2.74150589E-05
+	max: 3.41843404E-02
+	min: 1.66374848E-05
 	proj: Z
 	ps.0: 0
 	pt.0: 0
@@ -1086,9 +1090,11 @@ Plot: 20tungsten1p27_83_plot
 	Type:   USRBIN
 	axes: Auto
 	cbcolors: 30
-	cblog: False
+	cblog: True
 	cbpalette: FLUKA
+	cbround: 0
 	cbtics: 1
+	cpd: 0
 	datafile: 20tungsten1p27_83.bnn
 	det: 1
 	errors: 0
@@ -1096,10 +1102,10 @@ Plot: 20tungsten1p27_83_plot
 	grid: 0
 	hist: 2D Projection
 	index: 0
-	int: 2.0412243682739337E-002
+	int: 3.4455397920069374E-002
 	lw.0: 0
-	max: 1.34098605E-04
-	min: 5.70709497E-15
+	max: 2.25122451E-04
+	min: 2.78141988E-15
 	proj: Y
 	ps.0: 0
 	pt.0: 0
@@ -1125,9 +1131,11 @@ Plot: 20tungsten1p27_84_plot
 	Type:   USRBIN
 	axes: Auto
 	cbcolors: 30
-	cblog: False
+	cblog: True
 	cbpalette: FLUKA
+	cbround: 0
 	cbtics: 1
+	cpd: 0
 	datafile: 20tungsten1p27_84.bnn
 	det: 1
 	errors: 0
@@ -1135,10 +1143,10 @@ Plot: 20tungsten1p27_84_plot
 	grid: 0
 	hist: 2D Projection
 	index: 0
-	int: 3.1415070656397315E-002
+	int: 5.4562753312088257E-002
 	lw.0: 0
-	max: 2.13977604E-04
-	min: 2.04943262E-09
+	max: 2.41328991E-04
+	min: 1.85230153E-09
 	proj: X
 	ps.0: 0
 	pt.0: 0
@@ -1164,9 +1172,11 @@ Plot: 20tungsten1p27_85_plot
 	Type:   USRBIN
 	axes: Auto
 	cbcolors: 30
-	cblog: False
+	cblog: True
 	cbpalette: FLUKA
+	cbround: 0
 	cbtics: 1
+	cpd: 0
 	datafile: 20tungsten1p27_85.bnn
 	det: 1
 	errors: 0
@@ -1174,10 +1184,10 @@ Plot: 20tungsten1p27_85_plot
 	grid: 0
 	hist: 2D Projection
 	index: 0
-	int: 1.4889849470126258E-002
+	int: 2.5816703274226777E-002
 	lw.0: 0
-	max: 1.48532039E-04
-	min: 1.17358102E-11
+	max: 2.48403318E-04
+	min: 1.70146904E-12
 	proj: Z
 	ps.0: 0
 	pt.0: 0
@@ -1203,9 +1213,11 @@ Plot: 20tungsten1p27_86_plot
 	Type:   USRBIN
 	axes: Auto
 	cbcolors: 30
-	cblog: False
+	cblog: True
 	cbpalette: FLUKA
+	cbround: 0
 	cbtics: 1
+	cpd: 0
 	datafile: 20tungsten1p27_86.bnn
 	det: 1
 	errors: 0
@@ -1213,10 +1225,10 @@ Plot: 20tungsten1p27_86_plot
 	grid: 0
 	hist: 2D Projection
 	index: 0
-	int: 4.4767143256323541E-002
+	int: 3.4686313337964764E-002
 	lw.0: 0
-	max: 3.50901559E-02
-	min: 6.60624064E-05
+	max: 3.24431248E-02
+	min: 5.34134597E-05
 	proj: Y
 	ps.0: 0
 	pt.0: 0
