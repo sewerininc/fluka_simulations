@@ -18,7 +18,7 @@ Run: <default>
 	Last:     5
 	Status:   3
 	Pid:      0
-	StartRun: 1686376017
+	StartRun: 1686627365
 
 	# USRxxx data file: treatment_grid_50brass1p25_21.rnc
 	Data: \I_\U.\e
@@ -886,66 +886,20 @@ End
 Plot: treatment_grid_50brass1p25_70_plot
 	Format: .eps
 	Type:   RESNUCLE
-	cbcolors: 0
-	cblog: False
-	cbpalette: FLUKA
-	cbround: 0
-	cbtics: 0
-	cpd: 0
 	datafile: treatment_grid_50brass1p25_70.rnc
-	det: 1
-	grid: 0
-	index: 0
-	lw.0: 0
-	plot: Z
-	ps.0: 0
 	title: RESNUCLE treatment grid 50brass1p25 70
-	with.0: errorbars
-	x2log: False
-	x2tics: 0
-	xlog: False
-	y2log: False
-	y2tics: 0
-	ylog: False
-	zlog: False
-	ztics: 0
 End
 
 # USRBIN plot "USRBIN treatment grid 50brass1p25 79"
 Plot: treatment_grid_50brass1p25_79_plot
 	Format: .eps
 	Type:   USRBIN
-	axes: Auto
 	cbcolors: 30
-	cblog: True
-	cbpalette: FLUKA
-	cbround: 0
+	cblog: 1
 	cbtics: 1
-	cpd: 0
 	datafile: treatment_grid_50brass1p25_79.bnn
-	errors: 0
 	geo: -Auto-
-	grid: 0
-	hist: 2D Projection
-	index: 0
-	lw.0: 0
-	proj: Z
-	ps.0: 0
-	pt.0: 0
-	swap: 0
 	title: USRBIN treatment grid 50brass1p25 79
-	with.0: errorbars
-	x2log: False
-	x2tics: 0
-	xlog: False
-	xrebin: 1
-	y2log: False
-	y2tics: 0
-	ylog: False
-	yrebin: 1
-	zlog: False
-	zrebin: 1
-	ztics: 0
 End
 
 # USRBIN plot "USRBIN treatment grid 50brass1p25 80"
@@ -954,7 +908,7 @@ Plot: treatment_grid_50brass1p25_80_plot
 	Type:   USRBIN
 	axes: Auto
 	cbcolors: 30
-	cblog: False
+	cblog: True
 	cbpalette: FLUKA
 	cbround: 0
 	cbtics: 1
@@ -966,10 +920,10 @@ Plot: treatment_grid_50brass1p25_80_plot
 	grid: 0
 	hist: 2D Projection
 	index: 0
-	int: 0.68369795537235467
+	int: 0.49435942295762536
 	lw.0: 0
-	max: 3.68066914E-02
-	min: 3.90164532E-05
+	max: 3.76012288E-02
+	min: 5.69659278E-05
 	proj: Z
 	ps.0: 0
 	pt.0: 0
@@ -995,7 +949,7 @@ Plot: treatment_grid_50brass1p25_81_plot
 	Type:   USRBIN
 	axes: Auto
 	cbcolors: 30
-	cblog: False
+	cblog: True
 	cbpalette: FLUKA
 	cbround: 0
 	cbtics: 1
@@ -1007,10 +961,10 @@ Plot: treatment_grid_50brass1p25_81_plot
 	grid: 0
 	hist: 1D Projection
 	index: 0
-	int: 2.7438725128085074E-002
+	int: 1.9046490850240180E-002
 	lw.0: 0
-	max: 1.93144137E-04
-	min: 2.93060705E-08
+	max: 1.35633483E-04
+	min: 2.16196021E-08
 	proj: Z
 	ps.0: 0
 	pt.0: 0
@@ -1048,10 +1002,10 @@ Plot: treatment_grid_50brass1p25_82_plot
 	grid: 0
 	hist: 2D Projection
 	index: 0
-	int: 1.0758330482550151
+	int: 1.1112717773707934
 	lw.0: 0
-	max: 3.27823572E-02
-	min: 7.31925411E-06
+	max: 3.28568704E-02
+	min: 1.08163122E-05
 	proj: Z
 	ps.0: 0
 	pt.0: 0
@@ -1089,10 +1043,10 @@ Plot: treatment_grid_50brass1p25_83_plot
 	grid: 0
 	hist: 2D Projection
 	index: 0
-	int: 3.3032990088619776E-002
+	int: 2.2937466924912213E-002
 	lw.0: 0
-	max: 2.20593996E-04
-	min: 6.35971924E-16
+	max: 1.55951944E-04
+	min: 9.87605371E-16
 	proj: Y
 	ps.0: 0
 	pt.0: 0
@@ -1118,7 +1072,7 @@ Plot: treatment_grid_50brass1p25_84_plot
 	Type:   USRBIN
 	axes: Auto
 	cbcolors: 30
-	cblog: False
+	cblog: True
 	cbpalette: FLUKA
 	cbround: 0
 	cbtics: 1
@@ -1130,10 +1084,10 @@ Plot: treatment_grid_50brass1p25_84_plot
 	grid: 0
 	hist: 2D Projection
 	index: 0
-	int: 5.1079517449778775E-002
+	int: 3.4808444139677104E-002
 	lw.0: 0
-	max: 2.51935853E-04
-	min: 9.64420210E-10
+	max: 2.44385534E-04
+	min: 7.89697474E-10
 	proj: X
 	ps.0: 0
 	pt.0: 0
@@ -1159,7 +1113,7 @@ Plot: treatment_grid_50brass1p25_85_plot
 	Type:   USRBIN
 	axes: Auto
 	cbcolors: 30
-	cblog: False
+	cblog: True
 	cbpalette: FLUKA
 	cbround: 0
 	cbtics: 1
@@ -1171,10 +1125,10 @@ Plot: treatment_grid_50brass1p25_85_plot
 	grid: 0
 	hist: 2D Projection
 	index: 0
-	int: 2.4729989773539508E-002
+	int: 1.6635655957722276E-002
 	lw.0: 0
-	max: 2.41071190E-04
-	min: 8.02050416E-14
+	max: 1.68613391E-04
+	min: 2.03127445E-14
 	proj: Z
 	ps.0: 0
 	pt.0: 0
@@ -1200,7 +1154,7 @@ Plot: treatment_grid_50brass1p25_86_plot
 	Type:   USRBIN
 	axes: Auto
 	cbcolors: 30
-	cblog: False
+	cblog: True
 	cbpalette: FLUKA
 	cbround: 0
 	cbtics: 1
@@ -1212,10 +1166,10 @@ Plot: treatment_grid_50brass1p25_86_plot
 	grid: 0
 	hist: 2D Projection
 	index: 0
-	int: 5.0775749545935771E-002
+	int: 5.5720892242822319E-002
 	lw.0: 0
-	max: 2.90740337E-02
-	min: 2.04096305E-05
+	max: 2.92889811E-02
+	min: 3.00900174E-05
 	proj: Y
 	ps.0: 0
 	pt.0: 0

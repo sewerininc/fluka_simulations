@@ -19,7 +19,7 @@ Run: <default>
 	Last:     5
 	Status:   3
 	Pid:      0
-	StartRun: 1686403155
+	StartRun: 1686595111
 
 	# USRxxx data file: 20tungsten1p27_21.rnc
 	Data: \I_\U.\e
@@ -537,10 +537,10 @@ Plot: Blue
 	basisv: 0 1 0
 	boundaries: 1
 	coord: Z-Y
-	extends: 100 75
+	extends: 2.17367 1.02442
 	labels: 1
 	layer: Media
-	origin: 0 0 0
+	origin: 0 2.17931 -4.38432
 	subtype: Material
 	title: GeoViewer Blue plot
 End
@@ -559,7 +559,7 @@ Plot: Magenta
 	cbtics: 0
 	coord: X-Y
 	cpd: 0
-	extends: 100 5962.5
+	extends: 100 5950
 	grid: 0
 	index: 0
 	labels: 1

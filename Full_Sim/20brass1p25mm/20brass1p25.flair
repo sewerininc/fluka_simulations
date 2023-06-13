@@ -18,7 +18,7 @@ Run: <default>
 	Last:     5
 	Status:   3
 	Pid:      0
-	StartRun: 1686467128
+	StartRun: 1686554009
 
 	# USRxxx data file: 20brass1p25_21.rnc
 	Data: \I_\U.\e
@@ -397,8 +397,31 @@ Run: <default>
 	End
 End
 
+# Material
+Material: Brass
+	alpha: 0
+	color: #10D050
+	fuzz: 0.0
+	ior: 1.0
+	shine: 10.0
+	specular: 0.0
+End
+
+# Material
+Material: Zink
+	alpha: 0
+	color: #B030B0
+	fuzz: 0.0
+	ior: 1.0
+	shine: 10.0
+	specular: 0.0
+End
+
 # Geometry Information
 Geometry:
+	Frame.bsplit: 0.99
+	Frame.tsplit: 0.5
+	Frame.vsplit: 0.01
 End
 
 # Geometry plot "Geometry My title"
@@ -430,6 +453,70 @@ Plot: 20brass1p25_geometry
 	ylog: False
 	zlog: False
 	ztics: 0
+End
+
+# Geometry plot "GeoViewer Red plot"
+Plot: Red
+	Format: .eps
+	Type:   Geometry
+	basisu: 1 0 0
+	basisv: 0 1 0
+	boundaries: 1
+	coord: X-Y
+	extends: 100 75
+	labels: 1
+	layer: Media
+	origin: 0 0 0
+	subtype: Material
+	title: GeoViewer Red plot
+End
+
+# Geometry plot "GeoViewer Green plot"
+Plot: Green
+	Format: .eps
+	Type:   Geometry
+	basisu: 0 0 1
+	basisv: 1 0 0
+	boundaries: 1
+	coord: Z-X
+	extends: 100 75
+	labels: 1
+	layer: Media
+	origin: 0 0 0
+	subtype: Material
+	title: GeoViewer Green plot
+End
+
+# Geometry plot "GeoViewer Blue plot"
+Plot: Blue
+	Format: .eps
+	Type:   Geometry
+	basisu: 0 0 1
+	basisv: 0 1 0
+	boundaries: 1
+	coord: Z-Y
+	extends: 16.1506 7.61155
+	labels: 1
+	layer: Media
+	origin: 0 0.176687 2.32008
+	subtype: Material
+	title: GeoViewer Blue plot
+End
+
+# Geometry plot "GeoViewer Magenta plot"
+Plot: Magenta
+	Format: .eps
+	Type:   Geometry
+	basisu: -1 0 0
+	basisv: 0 1 0
+	boundaries: 1
+	coord: X-Y
+	extends: 100 5950
+	labels: 1
+	layer: Media
+	origin: 0 0 0
+	subtype: Material
+	title: GeoViewer Magenta plot
 End
 
 # RESNUCLE plot "RESNUCLE 20brass1p25 21"
@@ -770,10 +857,10 @@ Plot: 20brass1p25_80_plot
 	grid: 0
 	hist: 2D Projection
 	index: 0
-	int: 0.86875449387448989
+	int: 0.75521810320096538
 	lw.0: 0
-	max: 3.76443155E-02
-	min: 3.17715785E-05
+	max: 3.83289866E-02
+	min: 5.28671553E-05
 	proj: Z
 	ps.0: 0
 	pt.0: 0
@@ -811,16 +898,16 @@ Plot: 20brass1p25_81_plot
 	grid: 0
 	hist: 1D Projection
 	index: 0
-	int: 3.2375426190238782E-002
+	int: 2.6240136297161005E-002
 	lw.0: 0
-	max: 2.16540517E-04
-	min: 3.20982920E-08
+	max: 1.68959174E-04
+	min: 2.57747033E-08
 	proj: Z
 	ps.0: 0
 	pt.0: 0
 	swap: 0
 	title: USRBIN 20brass1p25 81
-	with.0: lines
+	with.0: errorbars
 	x2log: False
 	x2tics: 0
 	xlog: False
@@ -852,10 +939,10 @@ Plot: 20brass1p25_82_plot
 	grid: 0
 	hist: 2D Projection
 	index: 0
-	int: 1.0570380164408559
+	int: 1.0864620733805028
 	lw.0: 0
-	max: 3.31603736E-02
-	min: 4.91865376E-06
+	max: 3.34318765E-02
+	min: 7.68014979E-06
 	proj: Z
 	ps.0: 0
 	pt.0: 0
@@ -881,11 +968,9 @@ Plot: 20brass1p25_83_plot
 	Type:   USRBIN
 	axes: Auto
 	cbcolors: 30
-	cblog: True
+	cblog: False
 	cbpalette: FLUKA
-	cbround: 0
 	cbtics: 1
-	cpd: 0
 	datafile: 20brass1p25_83.bnn
 	det: 1
 	errors: 0
@@ -893,10 +978,10 @@ Plot: 20brass1p25_83_plot
 	grid: 0
 	hist: 2D Projection
 	index: 0
-	int: 3.8936826110897119E-002
+	int: 3.1519779530092391E-002
 	lw.0: 0
-	max: 2.47497228E-04
-	min: 4.89619137E-16
+	max: 1.89659200E-04
+	min: 7.35903707E-16
 	proj: Y
 	ps.0: 0
 	pt.0: 0
@@ -922,11 +1007,9 @@ Plot: 20brass1p25_84_plot
 	Type:   USRBIN
 	axes: Auto
 	cbcolors: 30
-	cblog: True
+	cblog: False
 	cbpalette: FLUKA
-	cbround: 0
 	cbtics: 1
-	cpd: 0
 	datafile: 20brass1p25_84.bnn
 	det: 1
 	errors: 0
@@ -934,10 +1017,10 @@ Plot: 20brass1p25_84_plot
 	grid: 0
 	hist: 2D Projection
 	index: 0
-	int: 6.2510954435430643E-002
+	int: 4.9906792816410854E-002
 	lw.0: 0
-	max: 2.58149899E-04
-	min: 1.49534862E-09
+	max: 2.77523650E-04
+	min: 1.04301745E-09
 	proj: X
 	ps.0: 0
 	pt.0: 0
@@ -963,11 +1046,9 @@ Plot: 20brass1p25_85_plot
 	Type:   USRBIN
 	axes: Auto
 	cbcolors: 30
-	cblog: True
+	cblog: False
 	cbpalette: FLUKA
-	cbround: 0
 	cbtics: 1
-	cpd: 0
 	datafile: 20brass1p25_85.bnn
 	det: 1
 	errors: 0
@@ -975,10 +1056,10 @@ Plot: 20brass1p25_85_plot
 	grid: 0
 	hist: 2D Projection
 	index: 0
-	int: 2.8150047948125933E-002
+	int: 2.0987077593399621E-002
 	lw.0: 0
-	max: 2.63373484E-04
-	min: 1.10372806E-14
+	max: 1.98114460E-04
+	min: 2.46369070E-14
 	proj: Z
 	ps.0: 0
 	pt.0: 0
@@ -1004,11 +1085,9 @@ Plot: 20brass1p25_86_plot
 	Type:   USRBIN
 	axes: Auto
 	cbcolors: 30
-	cblog: True
+	cblog: False
 	cbpalette: FLUKA
-	cbround: 0
 	cbtics: 1
-	cpd: 0
 	datafile: 20brass1p25_86.bnn
 	det: 1
 	errors: 0
@@ -1016,10 +1095,10 @@ Plot: 20brass1p25_86_plot
 	grid: 0
 	hist: 2D Projection
 	index: 0
-	int: 3.1274252092423592E-002
+	int: 3.4536824016696006E-002
 	lw.0: 0
-	max: 2.89824568E-02
-	min: 9.77094805E-06
+	max: 2.90863272E-02
+	min: 1.16884621E-05
 	proj: Y
 	ps.0: 0
 	pt.0: 0

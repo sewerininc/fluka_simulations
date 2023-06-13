@@ -19,7 +19,7 @@ Run: <default>
 	Last:     5
 	Status:   3
 	Pid:      0
-	StartRun: 1686403155
+	StartRun: 1686595111
 
 	# USRxxx data file: 20tungsten1p27_21.rnc
 	Data: \I_\U.\e
@@ -537,10 +537,10 @@ Plot: Blue
 	basisv: 0 1 0
 	boundaries: 1
 	coord: Z-Y
-	extends: 100 75
+	extends: 2.17367 1.02442
 	labels: 1
 	layer: Media
-	origin: 0 0 0
+	origin: 0 2.17931 -4.38432
 	subtype: Material
 	title: GeoViewer Blue plot
 End
@@ -979,10 +979,10 @@ Plot: 20tungsten1p27_80_plot
 	grid: 0
 	hist: 2D Projection
 	index: 0
-	int: 0.76780342998540241
+	int: 0.59201924871368072
 	lw.0: 0
-	max: 3.50184590E-02
-	min: 1.03262639E-04
+	max: 3.45712267E-02
+	min: 1.56958879E-04
 	proj: Z
 	ps.0: 0
 	pt.0: 0
@@ -1020,10 +1020,10 @@ Plot: 20tungsten1p27_81_plot
 	grid: 0
 	hist: 1D Projection
 	index: 0
-	int: 2.8622719469877076E-002
+	int: 2.0394136802597402E-002
 	lw.0: 0
-	max: 1.97503134E-04
-	min: 2.81874151E-08
+	max: 1.43067373E-04
+	min: 2.50394248E-08
 	proj: Z
 	ps.0: 0
 	pt.0: 0
@@ -1049,11 +1049,9 @@ Plot: 20tungsten1p27_82_plot
 	Type:   USRBIN
 	axes: Auto
 	cbcolors: 30
-	cblog: True
+	cblog: False
 	cbpalette: FLUKA
-	cbround: 0
 	cbtics: 1
-	cpd: 0
 	datafile: 20tungsten1p27_82.bnn
 	det: 1
 	errors: 0
@@ -1061,10 +1059,10 @@ Plot: 20tungsten1p27_82_plot
 	grid: 0
 	hist: 2D Projection
 	index: 0
-	int: 1.1993872661010769
+	int: 1.2953329284543289
 	lw.0: 0
-	max: 3.41843404E-02
-	min: 1.66374848E-05
+	max: 3.53871174E-02
+	min: 2.32203474E-05
 	proj: Z
 	ps.0: 0
 	pt.0: 0
@@ -1102,10 +1100,10 @@ Plot: 20tungsten1p27_83_plot
 	grid: 0
 	hist: 2D Projection
 	index: 0
-	int: 3.4455397920069374E-002
+	int: 2.4560817953843819E-002
 	lw.0: 0
-	max: 2.25122451E-04
-	min: 2.78141988E-15
+	max: 1.62368000E-04
+	min: 1.05188278E-14
 	proj: Y
 	ps.0: 0
 	pt.0: 0
@@ -1131,7 +1129,7 @@ Plot: 20tungsten1p27_84_plot
 	Type:   USRBIN
 	axes: Auto
 	cbcolors: 30
-	cblog: True
+	cblog: False
 	cbpalette: FLUKA
 	cbround: 0
 	cbtics: 1
@@ -1143,10 +1141,10 @@ Plot: 20tungsten1p27_84_plot
 	grid: 0
 	hist: 2D Projection
 	index: 0
-	int: 5.4562753312088257E-002
+	int: 3.8692664808924859E-002
 	lw.0: 0
-	max: 2.41328991E-04
-	min: 1.85230153E-09
+	max: 2.28221339E-04
+	min: 1.97448724E-09
 	proj: X
 	ps.0: 0
 	pt.0: 0
@@ -1172,7 +1170,7 @@ Plot: 20tungsten1p27_85_plot
 	Type:   USRBIN
 	axes: Auto
 	cbcolors: 30
-	cblog: True
+	cblog: False
 	cbpalette: FLUKA
 	cbround: 0
 	cbtics: 1
@@ -1184,10 +1182,10 @@ Plot: 20tungsten1p27_85_plot
 	grid: 0
 	hist: 2D Projection
 	index: 0
-	int: 2.5816703274226777E-002
+	int: 1.8351607392576120E-002
 	lw.0: 0
-	max: 2.48403318E-04
-	min: 1.70146904E-12
+	max: 1.74778092E-04
+	min: 6.92811130E-12
 	proj: Z
 	ps.0: 0
 	pt.0: 0
@@ -1225,10 +1223,10 @@ Plot: 20tungsten1p27_86_plot
 	grid: 0
 	hist: 2D Projection
 	index: 0
-	int: 3.4686313337964764E-002
+	int: 4.1475389547218695E-002
 	lw.0: 0
-	max: 3.24431248E-02
-	min: 5.34134597E-05
+	max: 3.44698876E-02
+	min: 6.84827755E-05
 	proj: Y
 	ps.0: 0
 	pt.0: 0
